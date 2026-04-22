@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>DKRYPT Token Snapshots</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f5f5f5;
+      color: #222;
+    }
+    h1 {
+      margin-bottom: 8px;
+    }
+    .generated {
+      color: #666;
+      margin-bottom: 24px;
+    }
+    .snapshot {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 18px;
+      margin-bottom: 20px;
+    }
+    .token {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .section-title {
+      font-weight: bold;
+      margin-top: 14px;
+      margin-bottom: 6px;
+    }
+    .small {
+      color: #666;
+      font-size: 13px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 8px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 6px 8px;
+      text-align: left;
+      font-size: 13px;
+    }
+    th {
+      background: #f0f0f0;
+    }
+    .highlight {
+      font-weight: bold;
+      background: #fff8dc;
+    }
+  </style>
+</head>
+<body>
+  <h1>DKRYPT Token Snapshots</h1>
+  <div id="generated" class="generated">Loading...</div>
+  <div id="snapshots"></div>
+
+  <script>
+    const URL = "https://vcraignou.github.io/dkrypt-gov/snapshots.json?v=" + Date.now();
+
+    function fmtNumber(x) {
+      if (x === null || x === undefined || x === "") return "n/a";
+      const n = Number(x);
+      if (Number.isNaN(n)) return x;
+      return n.toLocaleString(undefined, { maximumFractionDigits: 2 });
+    }
+
+    function renderPeerTable(peerTable) {
+      if (!peerTable || peerTable.length === 0) return "<div class='small'>No peer table available.</div>";
+
+      let html = "<table><thead><tr><th>Name</th><th>FDV / Fees (90d)</th><th>FDV / Revenues (90d)</th></tr></thead><tbody>";
+      peerTable.forEach(row => {
+        html += `
+          <tr class="${row.highlight ? "highlight" : ""}">
+            <td>${row.name ?? "n/a"}</td>
+            <td>${fmtNumber(row.fdv_fees_90d)}</td>
+            <td>${fmtNumber(row.fdv_revenues_90d)}</td>
+          </tr>
+        `;
+      });
+      html += "</tbody></table>";
+      return html;
+    }
+
+    async function load() {
+      try {
+        const res = await fetch(URL, { cache: "no-store" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+
+        const data = await res.json();
+
+        document.getElementById("generated").innerText =
+          `Generated: ${data.generated_at || "n/a"} | Count: ${data.count || 0}`;
+
+        const container = document.getElementById("snapshots");
+        container.innerHTML = "";
+
+        (data.snapshots || []).forEach(s => {
+          const div = document.createElement("div");
+          div.className = "snapshot";
+
+          div.innerHTML = `
+            <div class="token">${s.token} — ${s.protocol}</div>
+
+            <div class="section-title">Overview</div>
+            <div>${s.overview || "n/a"}</div>
+
+            <div class="section-title">Team</div>
+            <div>${s.team || "n/a"}</div>
+
+            <div class="section-title">Product / market fit</div>
+            <div>${s.product_market_fit || "n/a"}</div>
+
+            <div class="section-title">Governance</div>
+            <div class="small">
+              Score: ${s.governance?.score || "n/a"} |
+              Dual structure: ${s.governance?.dual_lab_dao_structure} |
+              DAO decentralised: ${s.governance?.dao_decentralised_enough} |
+              Direct accrual: ${s.governance?.direct_revenue_accrual_to_protocol}
+            </div>
+            <div>${s.governance?.notes || ""}</div>
+
+            <div class="section-title">Tokenomics</div>
+            <div class="small">
+              Market cap: ${fmtNumber(s.tokenomics?.market_cap)} |
+              FDV: ${fmtNumber(s.tokenomics?.fdv)} |
+              MC / FDV: ${fmtNumber(s.tokenomics?.mc_fdv)} |
+              Unlocked %: ${fmtNumber(s.tokenomics?.unlocked_pct)} |
+              Unlock next 12m %: ${fmtNumber(s.tokenomics?.unlock_12m_pct)}
+            </div>
+
+            <div class="section-title">Financials</div>
+            <div class="small">
+              Fees (90d ARR): ${fmtNumber(s.financials?.fees_90d_arr)} |
+              Fees (1y): ${fmtNumber(s.financials?.fees_1y)} |
+              Revenues (90d ARR): ${fmtNumber(s.financials?.revenues_90d_arr)} |
+              Revenues (1y): ${fmtNumber(s.financials?.revenues_1y)}
+            </div>
+
+            <div class="section-title">Valuation</div>
+            <div class="small">
+              FDV / Fees (90d): ${fmtNumber(s.valuation?.fdv_fees_90d)} |
+              FDV / Revenues (90d): ${fmtNumber(s.valuation?.fdv_revenues_90d)}
+            </div>
+            ${renderPeerTable(s.valuation?.peer_table)}
+
+            <div class="section-title">Conclusion</div>
+            <div>${s.conclusion || "n/a"}</div>
+          `;
+
+          container.appendChild(div);
+        });
+
+      } catch (err) {
+        document.getElementById("generated").innerText = "Could not load token snapshots: " + err.message;
+      }
+    }
+
+    load();
+  </script>
+</body>
+</html>

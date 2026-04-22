@@ -1,0 +1,320 @@
+{
+  "generated_at": "2026-04-22T11:09:19.594793+00:00",
+  "count": 2,
+  "snapshots": [
+    {
+      "protocol": "Aave",
+      "token": "AAVE",
+      "overview": "Aave is a decentralised lending protocol enabling overcollateralised borrowing and lending across multiple chains.",
+      "team": "Founded by Stani Kulechov. Core development has historically involved Aave Labs and a broader ecosystem of contributors.",
+      "product_market_fit": "Aave is one of the leading DeFi lending protocols by scale, liquidity, integrations, and brand recognition.",
+      "governance": {
+        "dual_lab_dao_structure": true,
+        "dao_decentralised_enough": true,
+        "direct_revenue_accrual_to_protocol": true,
+        "revenue_accrual_type": "buyback",
+        "score": "orange",
+        "notes": "Dual structure risk remains.",
+        "updated_at": "2026-04-01"
+      },
+      "tokenomics": {
+        "market_cap": 1418343264,
+        "fdv": 1495443032,
+        "mc_fdv": 0.9484435272021783,
+        "unlocked_pct": 92,
+        "unlock_12m_pct": 3
+      },
+      "financials": {
+        "fees_90d_arr": 781815732.56,
+        "fees_1y": 929557669.0,
+        "revenues_90d_arr": 101295148.78,
+        "revenues_1y": 124357025.0
+      },
+      "valuation": {
+        "fdv_fees_90d": 1.91,
+        "fdv_revenues_90d": 14.75,
+        "peer_table": [
+          {
+            "name": "Aave",
+            "fdv_fees_90d": 1.91,
+            "fdv_revenues_90d": 14.75,
+            "highlight": true
+          },
+          {
+            "name": "CME",
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 15.86,
+            "highlight": false
+          },
+          {
+            "name": "Circle",
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.3,
+            "highlight": false
+          },
+          {
+            "name": "Coinbase",
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 7.68,
+            "highlight": false
+          },
+          {
+            "name": "Ethena",
+            "fdv_fees_90d": 7.41,
+            "fdv_revenues_90d": 854.99,
+            "highlight": false
+          },
+          {
+            "name": "Euler",
+            "fdv_fees_90d": 1.13,
+            "fdv_revenues_90d": 19.69,
+            "highlight": false
+          },
+          {
+            "name": "Hyperliquid",
+            "fdv_fees_90d": 45.57,
+            "fdv_revenues_90d": 51.12,
+            "highlight": false
+          },
+          {
+            "name": "JPMorgan",
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 4.86,
+            "highlight": false
+          },
+          {
+            "name": "Jito",
+            "fdv_fees_90d": 2.68,
+            "fdv_revenues_90d": 70.85,
+            "highlight": false
+          },
+          {
+            "name": "Jupiter",
+            "fdv_fees_90d": 4.82,
+            "fdv_revenues_90d": 15.08,
+            "highlight": false
+          },
+          {
+            "name": "Kamino",
+            "fdv_fees_90d": 3.3,
+            "fdv_revenues_90d": 20.51,
+            "highlight": false
+          },
+          {
+            "name": "Lido",
+            "fdv_fees_90d": 0.69,
+            "fdv_revenues_90d": 6.91,
+            "highlight": false
+          },
+          {
+            "name": "Morpho",
+            "fdv_fees_90d": 10.71,
+            "fdv_revenues_90d": null,
+            "highlight": false
+          },
+          {
+            "name": "Nasdaq",
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.53,
+            "highlight": false
+          },
+          {
+            "name": "Pancakeswap",
+            "fdv_fees_90d": 3.69,
+            "fdv_revenues_90d": 10.7,
+            "highlight": false
+          },
+          {
+            "name": "Raydium",
+            "fdv_fees_90d": 3.35,
+            "fdv_revenues_90d": 21.06,
+            "highlight": false
+          },
+          {
+            "name": "Robinhood",
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 17.4,
+            "highlight": false
+          },
+          {
+            "name": "Sky",
+            "fdv_fees_90d": 4.81,
+            "fdv_revenues_90d": 10.07,
+            "highlight": false
+          },
+          {
+            "name": "Spark",
+            "fdv_fees_90d": 1.98,
+            "fdv_revenues_90d": 22.29,
+            "highlight": false
+          },
+          {
+            "name": "Uniswap",
+            "fdv_fees_90d": 4.61,
+            "fdv_revenues_90d": 90.29,
+            "highlight": false
+          }
+        ]
+      },
+      "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
+      "generated_at": "2026-04-22T11:09:19.594793+00:00"
+    },
+    {
+      "protocol": "Uniswap",
+      "token": "UNI",
+      "overview": "Uniswap is a decentralised exchange protocol built around automated market making.",
+      "team": "Founded by Hayden Adams. Core development has historically involved Uniswap Labs and external contributors.",
+      "product_market_fit": "Uniswap is one of the strongest DeFi products by usage, liquidity, and network effects in decentralised trading.",
+      "governance": {
+        "dual_lab_dao_structure": false,
+        "dao_decentralised_enough": false,
+        "direct_revenue_accrual_to_protocol": false,
+        "revenue_accrual_type": "none",
+        "score": "orange",
+        "notes": "",
+        "updated_at": null
+      },
+      "tokenomics": {
+        "market_cap": 2146807358,
+        "fdv": 3037721403,
+        "mc_fdv": 0.706716342018676,
+        "unlocked_pct": 75,
+        "unlock_12m_pct": 5
+      },
+      "financials": {
+        "fees_90d_arr": null,
+        "fees_1y": null,
+        "revenues_90d_arr": null,
+        "revenues_1y": null
+      },
+      "valuation": {
+        "fdv_fees_90d": null,
+        "fdv_revenues_90d": null,
+        "peer_table": [
+          {
+            "name": "Aave",
+            "fdv_fees_90d": 1.91,
+            "fdv_revenues_90d": 14.75,
+            "highlight": false
+          },
+          {
+            "name": "CME",
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 15.86,
+            "highlight": false
+          },
+          {
+            "name": "Circle",
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.3,
+            "highlight": false
+          },
+          {
+            "name": "Coinbase",
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 7.68,
+            "highlight": false
+          },
+          {
+            "name": "Ethena",
+            "fdv_fees_90d": 7.41,
+            "fdv_revenues_90d": 854.99,
+            "highlight": false
+          },
+          {
+            "name": "Euler",
+            "fdv_fees_90d": 1.13,
+            "fdv_revenues_90d": 19.69,
+            "highlight": false
+          },
+          {
+            "name": "Hyperliquid",
+            "fdv_fees_90d": 45.57,
+            "fdv_revenues_90d": 51.12,
+            "highlight": false
+          },
+          {
+            "name": "JPMorgan",
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 4.86,
+            "highlight": false
+          },
+          {
+            "name": "Jito",
+            "fdv_fees_90d": 2.68,
+            "fdv_revenues_90d": 70.85,
+            "highlight": false
+          },
+          {
+            "name": "Jupiter",
+            "fdv_fees_90d": 4.82,
+            "fdv_revenues_90d": 15.08,
+            "highlight": false
+          },
+          {
+            "name": "Kamino",
+            "fdv_fees_90d": 3.3,
+            "fdv_revenues_90d": 20.51,
+            "highlight": false
+          },
+          {
+            "name": "Lido",
+            "fdv_fees_90d": 0.69,
+            "fdv_revenues_90d": 6.91,
+            "highlight": false
+          },
+          {
+            "name": "Morpho",
+            "fdv_fees_90d": 10.71,
+            "fdv_revenues_90d": null,
+            "highlight": false
+          },
+          {
+            "name": "Nasdaq",
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.53,
+            "highlight": false
+          },
+          {
+            "name": "Pancakeswap",
+            "fdv_fees_90d": 3.69,
+            "fdv_revenues_90d": 10.7,
+            "highlight": false
+          },
+          {
+            "name": "Raydium",
+            "fdv_fees_90d": 3.35,
+            "fdv_revenues_90d": 21.06,
+            "highlight": false
+          },
+          {
+            "name": "Robinhood",
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 17.4,
+            "highlight": false
+          },
+          {
+            "name": "Sky",
+            "fdv_fees_90d": 4.81,
+            "fdv_revenues_90d": 10.07,
+            "highlight": false
+          },
+          {
+            "name": "Spark",
+            "fdv_fees_90d": 1.98,
+            "fdv_revenues_90d": 22.29,
+            "highlight": false
+          },
+          {
+            "name": "Uniswap",
+            "fdv_fees_90d": 4.61,
+            "fdv_revenues_90d": 90.29,
+            "highlight": false
+          }
+        ]
+      },
+      "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
+      "generated_at": "2026-04-22T11:09:19.594793+00:00"
+    }
+  ]
+}
