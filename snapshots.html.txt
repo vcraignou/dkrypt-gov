@@ -1,0 +1,178 @@
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial;
+    margin: 40px;
+    background: #0f1115;
+    color: #e6e6e6;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+
+  .snapshot {
+    background: #171a21;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 18px;
+    border: 1px solid #2a2f3a;
+  }
+
+  .token {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .section-title {
+    margin-top: 14px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #8f9bb3;
+  }
+
+  .small {
+    font-size: 13px;
+    color: #c9d1d9;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .green { background: #1f6f43; }
+  .orange { background: #a66b00; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+  }
+
+  th, td {
+    padding: 6px;
+    font-size: 12px;
+    border-bottom: 1px solid #2a2f3a;
+  }
+
+  .highlight {
+    font-weight: bold;
+    color: #ffd166;
+  }
+</style>
+</head>
+<body>
+  <h1>DKRYPT Token Snapshots</h1>
+  <div id="generated" class="generated">Loading...</div>
+  <div id="snapshots"></div>
+
+  <script>
+    const URL = "https://vcraignou.github.io/dkrypt-gov/snapshots.json?v=" + Date.now();
+
+    function fmtNumber(x) {
+      if (x === null || x === undefined || x === "") return "n/a";
+      const n = Number(x);
+      if (Number.isNaN(n)) return x;
+      return n.toLocaleString(undefined, { maximumFractionDigits: 2 });
+    }
+
+    function renderPeerTable(peerTable) {
+      if (!peerTable || peerTable.length === 0) return "<div class='small'>No peer table available.</div>";
+
+      let html = "<table><thead><tr><th>Name</th><th>FDV / Fees (90d)</th><th>FDV / Revenues (90d)</th></tr></thead><tbody>";
+      peerTable.forEach(row => {
+        html += `
+          <tr class="${row.highlight ? "highlight" : ""}">
+            <td>${row.name ?? "n/a"}</td>
+            <td>${fmtNumber(row.fdv_fees_90d)}</td>
+            <td>${fmtNumber(row.fdv_revenues_90d)}</td>
+          </tr>
+        `;
+      });
+      html += "</tbody></table>";
+      return html;
+    }
+
+    async function load() {
+      try {
+        const res = await fetch(URL, { cache: "no-store" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+
+        const data = await res.json();
+
+        document.getElementById("generated").innerText =
+          `Generated: ${data.generated_at || "n/a"} | Count: ${data.count || 0}`;
+
+        const container = document.getElementById("snapshots");
+        container.innerHTML = "";
+
+        (data.snapshots || []).forEach(s => {
+          const div = document.createElement("div");
+          div.className = "snapshot";
+
+          div.innerHTML = `
+            <div class="token">${s.token} — ${s.protocol}</div>
+
+            <div class="section-title">Overview</div>
+            <div>${s.overview || "n/a"}</div>
+
+            <div class="section-title">Team</div>
+            <div>${s.team || "n/a"}</div>
+
+            <div class="section-title">Product / market fit</div>
+            <div>${s.product_market_fit || "n/a"}</div>
+
+            <div class="section-title">Governance</div>
+            <div class="small">
+              Score: ${s.governance?.score || "n/a"} |
+              Dual structure: ${s.governance?.dual_lab_dao_structure} |
+              DAO decentralised: ${s.governance?.dao_decentralised_enough} |
+              Direct accrual: ${s.governance?.direct_revenue_accrual_to_protocol}
+            </div>
+            <div>${s.governance?.notes || ""}</div>
+
+            <div class="section-title">Tokenomics</div>
+            <div class="small">
+              Market cap: ${fmtNumber(s.tokenomics?.market_cap)} |
+              FDV: ${fmtNumber(s.tokenomics?.fdv)} |
+              MC / FDV: ${fmtNumber(s.tokenomics?.mc_fdv)} |
+              Unlocked %: ${fmtNumber(s.tokenomics?.unlocked_pct)} |
+              Unlock next 12m %: ${fmtNumber(s.tokenomics?.unlock_12m_pct)}
+            </div>
+
+            <div class="section-title">Financials</div>
+            <div class="small">
+              Fees (90d ARR): ${fmtNumber(s.financials?.fees_90d_arr)} |
+              Fees (1y): ${fmtNumber(s.financials?.fees_1y)} |
+              Revenues (90d ARR): ${fmtNumber(s.financials?.revenues_90d_arr)} |
+              Revenues (1y): ${fmtNumber(s.financials?.revenues_1y)}
+            </div>
+
+            <div class="section-title">Valuation</div>
+            <div class="small">
+              FDV / Fees (90d): ${fmtNumber(s.valuation?.fdv_fees_90d)} |
+              FDV / Revenues (90d): ${fmtNumber(s.valuation?.fdv_revenues_90d)}
+            </div>
+            ${renderPeerTable(s.valuation?.peer_table)}
+
+            <div class="section-title">Conclusion</div>
+            <div>${s.conclusion || "n/a"}</div>
+          `;
+
+          container.appendChild(div);
+        });
+
+      } catch (err) {
+        document.getElementById("generated").innerText = "Could not load token snapshots: " + err.message;
+      }
+    }
+
+    load();
+  </script>
+</body>
+</html>
