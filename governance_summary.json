@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T07:05:08.703316+00:00",
+  "generated_at": "2026-04-28T07:05:08.279643+00:00",
   "impact": [
     {
       "protocol": "AAVE",
@@ -14,21 +14,6 @@
       "published_at": null,
       "vote_start": "2026-03-12T14:36:37+00:00",
       "vote_end": "2026-03-15T14:36:37+00:00",
-      "state": "closed"
-    },
-    {
-      "protocol": "AAVE",
-      "title": "[ARFC] Safety Module - Reduce Emissions",
-      "signal": "buyback",
-      "stage": "closed",
-      "priority_bucket": "impact",
-      "score": 82,
-      "url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xe76461b0936fc892904c1696066b9fa3688e1042078d9c9f06c1a937736a100e",
-      "source_type": "proposal",
-      "source": "aavedao.eth",
-      "published_at": null,
-      "vote_start": "2026-03-07T12:41:49+00:00",
-      "vote_end": "2026-03-10T12:41:49+00:00",
       "state": "closed"
     },
     {
@@ -79,21 +64,6 @@
       "state": null
     },
     {
-      "protocol": "AAVE",
-      "title": "[Direct-to-AIP] April 2026 - Funding Update",
-      "signal": "buyback",
-      "stage": "aip",
-      "priority_bucket": "watch",
-      "score": 66,
-      "url": "https://governance.aave.com/t/direct-to-aip-april-2026-funding-update/24447",
-      "source_type": "forum",
-      "source": "aave",
-      "published_at": "Wed, 15 Apr 2026 06:22:16 +0000",
-      "vote_start": null,
-      "vote_end": null,
-      "state": null
-    },
-    {
       "protocol": "LDO",
       "title": "Increase Lido Alliance BORG Operational Easy Track Limits to align with EGG",
       "signal": "budget",
@@ -107,36 +77,6 @@
       "vote_start": "2026-04-06T16:00:00+00:00",
       "vote_end": "2026-04-13T16:00:00+00:00",
       "state": "closed"
-    },
-    {
-      "protocol": "AAVE",
-      "title": "Introducing Aave Checkpoint",
-      "signal": "service provider budget",
-      "stage": "forum",
-      "priority_bucket": "watch",
-      "score": 50,
-      "url": "https://governance.aave.com/t/introducing-aave-checkpoint/24457",
-      "source_type": "forum",
-      "source": "aave",
-      "published_at": "Wed, 15 Apr 2026 17:47:32 +0000",
-      "vote_start": null,
-      "vote_end": null,
-      "state": null
-    },
-    {
-      "protocol": "AAVE",
-      "title": "[ARFC] Add support for Rocket Pool Staked ETH (rETH) on AAVE V4",
-      "signal": "service provider budget",
-      "stage": "arfc",
-      "priority_bucket": "watch",
-      "score": 50,
-      "url": "https://governance.aave.com/t/arfc-add-support-for-rocket-pool-staked-eth-reth-on-aave-v4/24450",
-      "source_type": "forum",
-      "source": "aave",
-      "published_at": "Wed, 15 Apr 2026 09:55:47 +0000",
-      "vote_start": null,
-      "vote_end": null,
-      "state": null
     },
     {
       "protocol": "LDO",
@@ -185,6 +125,21 @@
     },
     {
       "protocol": "AAVE",
+      "title": "[ARFC] Pause AAVE Buybacks",
+      "signal": "buyback",
+      "stage": "pending",
+      "priority_bucket": "watch",
+      "score": 45,
+      "url": "https://snapshot.box/#/s:aavedao.eth/proposal/0x10a2af0110b1ad6f4afd7a3a052b2a119d102cc22949e80e9bbd5132587107c8",
+      "source_type": "proposal",
+      "source": "aavedao.eth",
+      "published_at": null,
+      "vote_start": "2026-04-28T09:05:18+00:00",
+      "vote_end": "2026-05-01T09:05:18+00:00",
+      "state": "pending"
+    },
+    {
+      "protocol": "AAVE",
       "title": "Aave v4 - Safe to move my positions?",
       "signal": "governance item",
       "stage": "forum",
@@ -212,7 +167,37 @@
       "vote_start": null,
       "vote_end": null,
       "state": null
+    },
+    {
+      "protocol": "AAVE",
+      "title": "Request: Fully exclude Linea L2 pure ETH suppliers from any haircut or socialized losses (or prioritize unfreeze of Linea WETH)",
+      "signal": "service provider budget",
+      "stage": "forum",
+      "priority_bucket": "watch",
+      "score": 44,
+      "url": "https://governance.aave.com/t/request-fully-exclude-linea-l2-pure-eth-suppliers-from-any-haircut-or-socialized-losses-or-prioritize-unfreeze-of-linea-weth/24625",
+      "source_type": "forum",
+      "source": "aave",
+      "published_at": "Tue, 21 Apr 2026 10:18:00 +0000",
+      "vote_start": null,
+      "vote_end": null,
+      "state": null
+    },
+    {
+      "protocol": "AAVE",
+      "title": "[ARFC] Pause AAVE Buybacks",
+      "signal": "buyback",
+      "stage": "arfc",
+      "priority_bucket": "watch",
+      "score": 41,
+      "url": "https://governance.aave.com/t/arfc-pause-aave-buybacks/24686",
+      "source_type": "forum",
+      "source": "aave",
+      "published_at": "Wed, 22 Apr 2026 18:51:13 +0000",
+      "vote_start": null,
+      "vote_end": null,
+      "state": null
     }
   ],
-  "count_items": 16
+  "count_items": 13
 }
