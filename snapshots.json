@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T14:25:57.265886+00:00",
+  "generated_at": "2026-04-29T14:30:34.838206+00:00",
   "count": 2,
   "snapshots": [
     {
@@ -17,10 +17,14 @@
         "notes": "Dual structure risk remains.",
         "updated_at": "2026-04-01"
       },
+      "adoption": {
+        "tvl": null,
+        "tvl_change_3m_pct": null
+      },
       "tokenomics": {
-        "market_cap": 1426162815,
-        "fdv": 1503574463,
-        "mc_fdv": 0.9485149223367729,
+        "market_cap": 1429122235,
+        "fdv": 1506694520,
+        "mc_fdv": 0.9485149219232576,
         "unlocked_pct": 92,
         "unlock_12m_pct": 3
       },
@@ -36,128 +40,115 @@
         "peer_table": [
           {
             "name": "Aave",
+            "type": "Protocol",
+            "fees_90d_arr": 777855851.61,
+            "revenues_90d_arr": 101165257.44,
+            "fdv_or_mc": 1543861055.0,
             "fdv_fees_90d": 1.98,
             "fdv_revenues_90d": 15.26,
             "highlight": true
           },
           {
-            "name": "CME",
-            "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.29,
-            "highlight": false
-          },
-          {
-            "name": "Circle",
-            "fdv_fees_90d": null,
-            "fdv_revenues_90d": 8.49,
-            "highlight": false
-          },
-          {
-            "name": "Coinbase",
-            "fdv_fees_90d": null,
-            "fdv_revenues_90d": 7.45,
-            "highlight": false
-          },
-          {
-            "name": "Ethena",
-            "fdv_fees_90d": 6.56,
-            "fdv_revenues_90d": 765.53,
-            "highlight": false
-          },
-          {
-            "name": "Euler",
-            "fdv_fees_90d": 1.1,
-            "fdv_revenues_90d": 19.24,
-            "highlight": false
-          },
-          {
-            "name": "Hyperliquid",
-            "fdv_fees_90d": 45.53,
-            "fdv_revenues_90d": 50.99,
-            "highlight": false
-          },
-          {
-            "name": "JPMorgan",
-            "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.81,
-            "highlight": false
-          },
-          {
-            "name": "Jito",
-            "fdv_fees_90d": 2.83,
-            "fdv_revenues_90d": 72.16,
-            "highlight": false
-          },
-          {
-            "name": "Jupiter",
-            "fdv_fees_90d": 5.29,
-            "fdv_revenues_90d": 16.99,
-            "highlight": false
-          },
-          {
-            "name": "Kamino",
-            "fdv_fees_90d": 3.42,
-            "fdv_revenues_90d": 21.22,
-            "highlight": false
-          },
-          {
-            "name": "Lido",
-            "fdv_fees_90d": 0.7,
-            "fdv_revenues_90d": 7.02,
-            "highlight": false
-          },
-          {
             "name": "Morpho",
+            "type": "Protocol",
+            "fees_90d_arr": 185478030.94,
+            "revenues_90d_arr": 0.0,
+            "fdv_or_mc": 1949235694.0,
             "fdv_fees_90d": 10.51,
             "fdv_revenues_90d": null,
             "highlight": false
           },
           {
+            "name": "Euler",
+            "type": "Protocol",
+            "fees_90d_arr": 33774334.11,
+            "revenues_90d_arr": 1932099.11,
+            "fdv_or_mc": 37171469.0,
+            "fdv_fees_90d": 1.1,
+            "fdv_revenues_90d": 19.24,
+            "highlight": false
+          },
+          {
+            "name": "Kamino",
+            "type": "Protocol",
+            "fees_90d_arr": 61728512.06,
+            "revenues_90d_arr": 9944238.44,
+            "fdv_or_mc": 211013212.0,
+            "fdv_fees_90d": 3.42,
+            "fdv_revenues_90d": 21.22,
+            "highlight": false
+          },
+          {
+            "name": "Coinbase",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 51256991744.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 7.45,
+            "highlight": false
+          },
+          {
+            "name": "Circle",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 23324303360.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 8.49,
+            "highlight": false
+          },
+          {
             "name": "Nasdaq",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 51639529472.0,
             "fdv_fees_90d": null,
             "fdv_revenues_90d": 9.53,
             "highlight": false
           },
           {
-            "name": "Pancakeswap",
-            "fdv_fees_90d": 3.61,
-            "fdv_revenues_90d": 10.46,
-            "highlight": false
-          },
-          {
-            "name": "Raydium",
-            "fdv_fees_90d": 3.84,
-            "fdv_revenues_90d": 24.27,
-            "highlight": false
-          },
-          {
             "name": "Robinhood",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 73888309248.0,
             "fdv_fees_90d": null,
             "fdv_revenues_90d": 16.52,
             "highlight": false
           },
           {
-            "name": "Sky",
-            "fdv_fees_90d": 4.88,
-            "fdv_revenues_90d": 10.34,
+            "name": "JPMorgan",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 834530312192.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 4.81,
             "highlight": false
           },
           {
-            "name": "Spark",
-            "fdv_fees_90d": 2.28,
-            "fdv_revenues_90d": 27.92,
-            "highlight": false
-          },
-          {
-            "name": "Uniswap",
-            "fdv_fees_90d": 4.5,
-            "fdv_revenues_90d": 82.69,
+            "name": "CME",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 103102111744.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 15.29,
             "highlight": false
           }
         ]
       },
+      "rag": {
+        "governance": "orange",
+        "adoption": "orange",
+        "financials": "green",
+        "valuation": "orange",
+        "tokenomics": "green"
+      },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-04-29T14:25:57.265886+00:00"
+      "generated_at": "2026-04-29T14:30:34.838206+00:00"
     },
     {
       "protocol": "Uniswap",
@@ -174,10 +165,14 @@
         "notes": "",
         "updated_at": null
       },
+      "adoption": {
+        "tvl": null,
+        "tvl_change_3m_pct": null
+      },
       "tokenomics": {
-        "market_cap": 2047446432,
-        "fdv": 2896176098,
-        "mc_fdv": 0.7069481836459794,
+        "market_cap": 2050967562,
+        "fdv": 2901156844,
+        "mc_fdv": 0.706948183874198,
         "unlocked_pct": 75,
         "unlock_12m_pct": 5
       },
@@ -192,129 +187,116 @@
         "fdv_revenues_90d": null,
         "peer_table": [
           {
-            "name": "Aave",
-            "fdv_fees_90d": 1.98,
-            "fdv_revenues_90d": 15.26,
-            "highlight": false
-          },
-          {
-            "name": "CME",
-            "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.29,
-            "highlight": false
-          },
-          {
-            "name": "Circle",
-            "fdv_fees_90d": null,
-            "fdv_revenues_90d": 8.49,
-            "highlight": false
-          },
-          {
-            "name": "Coinbase",
-            "fdv_fees_90d": null,
-            "fdv_revenues_90d": 7.45,
-            "highlight": false
-          },
-          {
-            "name": "Ethena",
-            "fdv_fees_90d": 6.56,
-            "fdv_revenues_90d": 765.53,
-            "highlight": false
-          },
-          {
-            "name": "Euler",
-            "fdv_fees_90d": 1.1,
-            "fdv_revenues_90d": 19.24,
-            "highlight": false
-          },
-          {
-            "name": "Hyperliquid",
-            "fdv_fees_90d": 45.53,
-            "fdv_revenues_90d": 50.99,
-            "highlight": false
-          },
-          {
-            "name": "JPMorgan",
-            "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.81,
-            "highlight": false
-          },
-          {
-            "name": "Jito",
-            "fdv_fees_90d": 2.83,
-            "fdv_revenues_90d": 72.16,
-            "highlight": false
-          },
-          {
-            "name": "Jupiter",
-            "fdv_fees_90d": 5.29,
-            "fdv_revenues_90d": 16.99,
-            "highlight": false
-          },
-          {
-            "name": "Kamino",
-            "fdv_fees_90d": 3.42,
-            "fdv_revenues_90d": 21.22,
-            "highlight": false
-          },
-          {
-            "name": "Lido",
-            "fdv_fees_90d": 0.7,
-            "fdv_revenues_90d": 7.02,
-            "highlight": false
-          },
-          {
-            "name": "Morpho",
-            "fdv_fees_90d": 10.51,
-            "fdv_revenues_90d": null,
-            "highlight": false
-          },
-          {
-            "name": "Nasdaq",
-            "fdv_fees_90d": null,
-            "fdv_revenues_90d": 9.53,
-            "highlight": false
-          },
-          {
-            "name": "Pancakeswap",
-            "fdv_fees_90d": 3.61,
-            "fdv_revenues_90d": 10.46,
-            "highlight": false
+            "name": "Uniswap",
+            "type": "Protocol",
+            "fees_90d_arr": 646384514.39,
+            "revenues_90d_arr": 35214044.17,
+            "fdv_or_mc": 2911864913.0,
+            "fdv_fees_90d": 4.5,
+            "fdv_revenues_90d": 82.69,
+            "highlight": true
           },
           {
             "name": "Raydium",
+            "type": "Protocol",
+            "fees_90d_arr": 108075250.89,
+            "revenues_90d_arr": 17096279.61,
+            "fdv_or_mc": 414931082.0,
             "fdv_fees_90d": 3.84,
             "fdv_revenues_90d": 24.27,
             "highlight": false
           },
           {
+            "name": "Pancakeswap",
+            "type": "Protocol",
+            "fees_90d_arr": 141041361.44,
+            "revenues_90d_arr": 48684628.72,
+            "fdv_or_mc": 509391255.0,
+            "fdv_fees_90d": 3.61,
+            "fdv_revenues_90d": 10.46,
+            "highlight": false
+          },
+          {
+            "name": "Jupiter",
+            "type": "Protocol",
+            "fees_90d_arr": 245088585.89,
+            "revenues_90d_arr": 76300755.83,
+            "fdv_or_mc": 1296174973.0,
+            "fdv_fees_90d": 5.29,
+            "fdv_revenues_90d": 16.99,
+            "highlight": false
+          },
+          {
+            "name": "Coinbase",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 51256991744.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 7.45,
+            "highlight": false
+          },
+          {
+            "name": "Circle",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 23324303360.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 8.49,
+            "highlight": false
+          },
+          {
+            "name": "Nasdaq",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 51639529472.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.53,
+            "highlight": false
+          },
+          {
             "name": "Robinhood",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 73888309248.0,
             "fdv_fees_90d": null,
             "fdv_revenues_90d": 16.52,
             "highlight": false
           },
           {
-            "name": "Sky",
-            "fdv_fees_90d": 4.88,
-            "fdv_revenues_90d": 10.34,
+            "name": "JPMorgan",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 834530312192.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 4.81,
             "highlight": false
           },
           {
-            "name": "Spark",
-            "fdv_fees_90d": 2.28,
-            "fdv_revenues_90d": 27.92,
-            "highlight": false
-          },
-          {
-            "name": "Uniswap",
-            "fdv_fees_90d": 4.5,
-            "fdv_revenues_90d": 82.69,
+            "name": "CME",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 103102111744.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 15.29,
             "highlight": false
           }
         ]
       },
+      "rag": {
+        "governance": "orange",
+        "adoption": "orange",
+        "financials": "orange",
+        "valuation": "orange",
+        "tokenomics": "orange"
+      },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-04-29T14:25:57.265886+00:00"
+      "generated_at": "2026-04-29T14:30:34.838206+00:00"
     }
   ]
 }
