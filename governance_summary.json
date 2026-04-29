@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T07:05:08.279643+00:00",
+  "generated_at": "2026-04-29T07:05:08.569975+00:00",
   "impact": [
     {
       "protocol": "AAVE",
@@ -127,16 +127,16 @@
       "protocol": "AAVE",
       "title": "[ARFC] Pause AAVE Buybacks",
       "signal": "buyback",
-      "stage": "pending",
+      "stage": "active",
       "priority_bucket": "watch",
-      "score": 45,
+      "score": 47,
       "url": "https://snapshot.box/#/s:aavedao.eth/proposal/0x10a2af0110b1ad6f4afd7a3a052b2a119d102cc22949e80e9bbd5132587107c8",
       "source_type": "proposal",
       "source": "aavedao.eth",
       "published_at": null,
       "vote_start": "2026-04-28T09:05:18+00:00",
       "vote_end": "2026-05-01T09:05:18+00:00",
-      "state": "pending"
+      "state": "active"
     },
     {
       "protocol": "AAVE",
