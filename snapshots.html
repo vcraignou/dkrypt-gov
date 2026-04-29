@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>DKRYPT Token Snapshots</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -10,7 +11,6 @@
       background: #f5f5f5;
       color: #222;
     }
-    <h1 style="color:red;">SNAPSHOT TEST V1</h1>
 
     h1 {
       margin-bottom: 6px;
@@ -32,17 +32,10 @@
       box-shadow: 0 2px 8px rgba(0,0,0,0.04);
     }
 
-    .token-header {
-      display: flex;
-      justify-content: space-between;
-      gap: 16px;
-      align-items: flex-start;
-      margin-bottom: 14px;
-    }
-
     .token {
       font-size: 24px;
       font-weight: bold;
+      margin-bottom: 12px;
     }
 
     .badges {
@@ -89,6 +82,7 @@
       border: 1px solid #e4e6eb;
       border-radius: 8px;
       padding: 10px;
+      font-size: 14px;
     }
 
     .metric-label {
@@ -138,6 +132,11 @@
     th, td {
       border-bottom: 1px solid #ddd;
       padding: 7px 8px;
+      text-align: center;
+    }
+
+    th:first-child,
+    td:first-child {
       text-align: left;
     }
 
@@ -182,24 +181,31 @@
       return n.toFixed(1) + "%";
     }
 
+    function ragBadge(label, value) {
+      const safeValue = value || "orange";
+      return `<span class="badge ${safeValue}">${label}: ${String(safeValue).toUpperCase()}</span>`;
+    }
+
     function renderPeerTable(peerTable) {
-  if (!peerTable || peerTable.length === 0) return "";
+      if (!peerTable || peerTable.length === 0) return "";
 
-  let html = "<table><thead><tr><th>Name</th><th>FDV/Fees</th><th>FDV/Rev</th></tr></thead><tbody>";
+      let html = "<table><thead><tr><th>Name</th><th>Type</th><th>FDV / Fees</th><th>FDV / Rev</th></tr></thead><tbody>";
 
-  peerTable.forEach(row => {
-    html += `
-      <tr class="${row.highlight ? "highlight" : ""}">
-        <td>${row.name}</td>
-        <td style="text-align:center;">${fmtNumber(row.fdv_fees_90d)}</td>
-        <td style="text-align:center;">${fmtNumber(row.fdv_revenues_90d)}</td>
-      </tr>
-    `;
-  });
+      peerTable.forEach(row => {
+        html += `
+          <tr class="${row.highlight ? "highlight" : ""}">
+            <td>${row.name || "n/a"}</td>
+            <td>${row.type || "n/a"}</td>
+            <td>${fmtNumber(row.fdv_fees_90d)}</td>
+            <td>${fmtNumber(row.fdv_revenues_90d)}</td>
+          </tr>
+        `;
+      });
 
-  html += "</tbody></table>";
-  return html;
-}
+      html += "</tbody></table>";
+      return html;
+    }
+
     async function load() {
       try {
         const res = await fetch(URL, { cache: "no-store" });
@@ -214,45 +220,54 @@
         container.innerHTML = "";
 
         (data.snapshots || []).forEach(s => {
+          const div = document.createElement("div");
+          div.className = "snapshot";
+
           const rag = s.rag || {};
+          const gov = s.governance || {};
 
-function ragBadge(label, value) {
-  return `<span class="badge ${value}">${label}: ${String(value).toUpperCase()}</span>`;
-}
+          div.innerHTML = `
+            <div class="token">${s.token || "n/a"} — ${s.protocol || "n/a"}</div>
 
-div.innerHTML = `
-  <div class="token">${s.token} — ${s.protocol}</div>
+            <div class="section-title">Investment signals</div>
+            <div class="badges">
+              ${ragBadge("Governance", rag.governance)}
+              ${ragBadge("Adoption", rag.adoption)}
+              ${ragBadge("Financials", rag.financials)}
+              ${ragBadge("Valuation", rag.valuation)}
+              ${ragBadge("Tokenomics", rag.tokenomics)}
+            </div>
 
-  <div class="section-title">Investment signals</div>
+            <div class="section-title">Governance and value accrual</div>
+            <div class="grid">
+              <div class="metric">Dual Labs-DAO structure: <b>${gov.dual_lab_dao_structure === true ? "Yes" : "No"}</b></div>
+              <div class="metric">DAO decentralised enough: <b>${gov.dao_decentralised_enough === true ? "Yes" : "No"}</b></div>
+              <div class="metric">Direct revenue accrual: <b>${gov.direct_revenue_accrual_to_protocol === true ? "Yes" : "No"}</b></div>
+              <div class="metric">Accrual type: <b>${gov.revenue_accrual_type || "n/a"}</b></div>
+            </div>
+            <div class="text-block" style="margin-top:10px;">${gov.notes || ""}</div>
 
-  <div class="badges">
-    ${ragBadge("Governance", rag.governance)}
-    ${ragBadge("Adoption", rag.adoption)}
-    ${ragBadge("Financials", rag.financials)}
-    ${ragBadge("Valuation", rag.valuation)}
-    ${ragBadge("Tokenomics", rag.tokenomics)}
-  </div>
+            <div class="section-title">Adoption</div>
+            <div class="grid">
+              <div class="metric">TVL: <b>${fmtNumber(s.adoption?.tvl)}</b></div>
+              <div class="metric">3m TVL change: <b>${fmtPct(s.adoption?.tvl_change_3m_pct)}</b></div>
+            </div>
 
-<div class="section-title">Adoption</div>
-<div class="grid">
-  <div class="metric">
-    TVL: ${fmtNumber(s.adoption?.tvl)}
-  </div>
-  <div class="metric">
-    3m change: ${fmtPct(s.adoption?.tvl_change_3m_pct)}
-  </div>
-</div>
+            <div class="section-title">Key metrics</div>
+            <div class="grid">
+              <div class="metric">FDV / Fees: <b>${fmtNumber(s.valuation?.fdv_fees_90d)}x</b></div>
+              <div class="metric">FDV / Revenues: <b>${fmtNumber(s.valuation?.fdv_revenues_90d)}x</b></div>
+              <div class="metric">MC / FDV: <b>${fmtNumber(s.tokenomics?.mc_fdv)}</b></div>
+              <div class="metric">Unlock 12m: <b>${fmtPct(s.tokenomics?.unlock_12m_pct)}</b></div>
+              <div class="metric">Fees 90d ARR: <b>${fmtNumber(s.financials?.fees_90d_arr)}</b></div>
+              <div class="metric">Revenue 90d ARR: <b>${fmtNumber(s.financials?.revenues_90d_arr)}</b></div>
+            </div>
+
             <div class="section-title">Investment conclusion</div>
             <div class="conclusion">${s.conclusion || "n/a"}</div>
 
-            <div class="section-title">Key metrics</div>
-
-<div class="grid">
-  <div class="metric">FDV / Fees: ${fmtNumber(s.valuation?.fdv_fees_90d)}x</div>
-  <div class="metric">FDV / Revenues: ${fmtNumber(s.valuation?.fdv_revenues_90d)}x</div>
-  <div class="metric">MC / FDV: ${fmtNumber(s.tokenomics?.mc_fdv)}</div>
-  <div class="metric">Unlock 12m: ${fmtPct(s.tokenomics?.unlock_12m_pct)}</div>
-</div>
+            <div class="section-title">Relative valuation</div>
+            ${renderPeerTable(s.valuation?.peer_table)}
 
             <div class="section-title">Overview</div>
             <div class="text-block">${s.overview || "n/a"}</div>
@@ -262,17 +277,6 @@ div.innerHTML = `
 
             <div class="section-title">Product / market fit</div>
             <div class="text-block">${s.product_market_fit || "n/a"}</div>
-
-            <div class="section-title">Governance and value accrual</div>
-            <div class="text-block">
-              Dual Labs-DAO structure: <b>${s.governance?.dual_lab_dao_structure}</b><br>
-              DAO decentralised enough: <b>${s.governance?.dao_decentralised_enough}</b><br>
-              Direct revenue accrual: <b>${s.governance?.direct_revenue_accrual_to_protocol}</b><br>
-              Notes: ${s.governance?.notes || "n/a"}
-            </div>
-
-            <div class="section-title">Relative valuation</div>
-            ${renderPeerTable(s.valuation?.peer_table)}
           `;
 
           container.appendChild(div);
