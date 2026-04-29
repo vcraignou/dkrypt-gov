@@ -6,58 +6,154 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 40px;
+      margin: 32px;
       background: #f5f5f5;
       color: #222;
     }
+
     h1 {
-      margin-bottom: 8px;
+      margin-bottom: 6px;
+      font-size: 28px;
     }
+
     .generated {
       color: #666;
-      margin-bottom: 24px;
+      margin-bottom: 28px;
+      font-size: 13px;
     }
+
     .snapshot {
       background: white;
       border: 1px solid #ddd;
-      border-radius: 10px;
-      padding: 18px;
-      margin-bottom: 20px;
+      border-radius: 12px;
+      padding: 22px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
     }
+
+    .token-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+      margin-bottom: 14px;
+    }
+
     .token {
-      font-size: 22px;
+      font-size: 24px;
       font-weight: bold;
-      margin-bottom: 10px;
     }
-    .section-title {
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 12px 0 18px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
       font-weight: bold;
-      margin-top: 14px;
-      margin-bottom: 6px;
+      background: #eef1f5;
+      color: #333;
     }
-    .small {
+
+    .badge.green {
+      background: #dff5e5;
+      color: #116b2f;
+    }
+
+    .badge.orange {
+      background: #fff0d6;
+      color: #945f00;
+    }
+
+    .badge.red {
+      background: #fdecea;
+      color: #b71c1c;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 10px;
+      margin-top: 8px;
+    }
+
+    .metric {
+      background: #f7f8fa;
+      border: 1px solid #e4e6eb;
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .metric-label {
+      font-size: 11px;
       color: #666;
-      font-size: 13px;
+      text-transform: uppercase;
+      margin-bottom: 4px;
     }
+
+    .metric-value {
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    .section-title {
+      margin-top: 20px;
+      margin-bottom: 8px;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #666;
+      letter-spacing: 0.6px;
+      font-weight: bold;
+    }
+
+    .text-block {
+      font-size: 14px;
+      line-height: 1.45;
+      color: #333;
+    }
+
+    .conclusion {
+      background: #f7f8fa;
+      border-left: 4px solid #222;
+      padding: 12px;
+      border-radius: 6px;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
     table {
       border-collapse: collapse;
       width: 100%;
-      margin-top: 8px;
-    }
-    th, td {
-      border: 1px solid #ddd;
-      padding: 6px 8px;
-      text-align: left;
+      margin-top: 10px;
       font-size: 13px;
     }
+
+    th, td {
+      border-bottom: 1px solid #ddd;
+      padding: 7px 8px;
+      text-align: left;
+    }
+
     th {
       background: #f0f0f0;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #555;
     }
+
     .highlight {
       font-weight: bold;
       background: #fff8dc;
     }
   </style>
 </head>
+
 <body>
   <h1>DKRYPT Token Snapshots</h1>
   <div id="generated" class="generated">Loading...</div>
@@ -70,26 +166,39 @@
       if (x === null || x === undefined || x === "") return "n/a";
       const n = Number(x);
       if (Number.isNaN(n)) return x;
-      return n.toLocaleString(undefined, { maximumFractionDigits: 2 });
+
+      if (Math.abs(n) >= 1_000_000_000) return (n / 1_000_000_000).toFixed(2) + "B";
+      if (Math.abs(n) >= 1_000_000) return (n / 1_000_000).toFixed(2) + "M";
+      if (Math.abs(n) >= 1_000) return (n / 1_000).toFixed(2) + "K";
+
+      return n.toFixed(2);
+    }
+
+    function fmtPct(x) {
+      if (x === null || x === undefined || x === "") return "n/a";
+      const n = Number(x);
+      if (Number.isNaN(n)) return x;
+      return n.toFixed(1) + "%";
     }
 
     function renderPeerTable(peerTable) {
-      if (!peerTable || peerTable.length === 0) return "<div class='small'>No peer table available.</div>";
+  if (!peerTable || peerTable.length === 0) return "";
 
-      let html = "<table><thead><tr><th>Name</th><th>FDV / Fees (90d)</th><th>FDV / Revenues (90d)</th></tr></thead><tbody>";
-      peerTable.forEach(row => {
-        html += `
-          <tr class="${row.highlight ? "highlight" : ""}">
-            <td>${row.name ?? "n/a"}</td>
-            <td>${fmtNumber(row.fdv_fees_90d)}</td>
-            <td>${fmtNumber(row.fdv_revenues_90d)}</td>
-          </tr>
-        `;
-      });
-      html += "</tbody></table>";
-      return html;
-    }
+  let html = "<table><thead><tr><th>Name</th><th>FDV/Fees</th><th>FDV/Rev</th></tr></thead><tbody>";
 
+  peerTable.forEach(row => {
+    html += `
+      <tr class="${row.highlight ? "highlight" : ""}">
+        <td>${row.name}</td>
+        <td style="text-align:center;">${fmtNumber(row.fdv_fees_90d)}</td>
+        <td style="text-align:center;">${fmtNumber(row.fdv_revenues_90d)}</td>
+      </tr>
+    `;
+  });
+
+  html += "</tbody></table>";
+  return html;
+}
     async function load() {
       try {
         const res = await fetch(URL, { cache: "no-store" });
@@ -98,69 +207,79 @@
         const data = await res.json();
 
         document.getElementById("generated").innerText =
-          `Generated: ${data.generated_at || "n/a"} | Count: ${data.count || 0}`;
+          `Generated: ${data.generated_at || "n/a"} | Tokens: ${data.count || 0}`;
 
         const container = document.getElementById("snapshots");
         container.innerHTML = "";
 
         (data.snapshots || []).forEach(s => {
-          const div = document.createElement("div");
-          div.className = "snapshot";
+          const rag = s.rag || {};
 
-          div.innerHTML = `
-            <div class="token">${s.token} — ${s.protocol}</div>
+function ragBadge(label, value) {
+  return `<span class="badge ${value}">${label}: ${String(value).toUpperCase()}</span>`;
+}
+
+div.innerHTML = `
+  <div class="token">${s.token} — ${s.protocol}</div>
+
+  <div class="section-title">Investment signals</div>
+
+  <div class="badges">
+    ${ragBadge("Governance", rag.governance)}
+    ${ragBadge("Adoption", rag.adoption)}
+    ${ragBadge("Financials", rag.financials)}
+    ${ragBadge("Valuation", rag.valuation)}
+    ${ragBadge("Tokenomics", rag.tokenomics)}
+  </div>
+
+<div class="section-title">Adoption</div>
+<div class="grid">
+  <div class="metric">
+    TVL: ${fmtNumber(s.adoption?.tvl)}
+  </div>
+  <div class="metric">
+    3m change: ${fmtPct(s.adoption?.tvl_change_3m_pct)}
+  </div>
+</div>
+            <div class="section-title">Investment conclusion</div>
+            <div class="conclusion">${s.conclusion || "n/a"}</div>
+
+            <div class="section-title">Key metrics</div>
+
+<div class="grid">
+  <div class="metric">FDV / Fees: ${fmtNumber(s.valuation?.fdv_fees_90d)}x</div>
+  <div class="metric">FDV / Revenues: ${fmtNumber(s.valuation?.fdv_revenues_90d)}x</div>
+  <div class="metric">MC / FDV: ${fmtNumber(s.tokenomics?.mc_fdv)}</div>
+  <div class="metric">Unlock 12m: ${fmtPct(s.tokenomics?.unlock_12m_pct)}</div>
+</div>
 
             <div class="section-title">Overview</div>
-            <div>${s.overview || "n/a"}</div>
+            <div class="text-block">${s.overview || "n/a"}</div>
 
             <div class="section-title">Team</div>
-            <div>${s.team || "n/a"}</div>
+            <div class="text-block">${s.team || "n/a"}</div>
 
             <div class="section-title">Product / market fit</div>
-            <div>${s.product_market_fit || "n/a"}</div>
+            <div class="text-block">${s.product_market_fit || "n/a"}</div>
 
-            <div class="section-title">Governance</div>
-            <div class="small">
-              Score: ${s.governance?.score || "n/a"} |
-              Dual structure: ${s.governance?.dual_lab_dao_structure} |
-              DAO decentralised: ${s.governance?.dao_decentralised_enough} |
-              Direct accrual: ${s.governance?.direct_revenue_accrual_to_protocol}
-            </div>
-            <div>${s.governance?.notes || ""}</div>
-
-            <div class="section-title">Tokenomics</div>
-            <div class="small">
-              Market cap: ${fmtNumber(s.tokenomics?.market_cap)} |
-              FDV: ${fmtNumber(s.tokenomics?.fdv)} |
-              MC / FDV: ${fmtNumber(s.tokenomics?.mc_fdv)} |
-              Unlocked %: ${fmtNumber(s.tokenomics?.unlocked_pct)} |
-              Unlock next 12m %: ${fmtNumber(s.tokenomics?.unlock_12m_pct)}
+            <div class="section-title">Governance and value accrual</div>
+            <div class="text-block">
+              Dual Labs-DAO structure: <b>${s.governance?.dual_lab_dao_structure}</b><br>
+              DAO decentralised enough: <b>${s.governance?.dao_decentralised_enough}</b><br>
+              Direct revenue accrual: <b>${s.governance?.direct_revenue_accrual_to_protocol}</b><br>
+              Notes: ${s.governance?.notes || "n/a"}
             </div>
 
-            <div class="section-title">Financials</div>
-            <div class="small">
-              Fees (90d ARR): ${fmtNumber(s.financials?.fees_90d_arr)} |
-              Fees (1y): ${fmtNumber(s.financials?.fees_1y)} |
-              Revenues (90d ARR): ${fmtNumber(s.financials?.revenues_90d_arr)} |
-              Revenues (1y): ${fmtNumber(s.financials?.revenues_1y)}
-            </div>
-
-            <div class="section-title">Valuation</div>
-            <div class="small">
-              FDV / Fees (90d): ${fmtNumber(s.valuation?.fdv_fees_90d)} |
-              FDV / Revenues (90d): ${fmtNumber(s.valuation?.fdv_revenues_90d)}
-            </div>
+            <div class="section-title">Relative valuation</div>
             ${renderPeerTable(s.valuation?.peer_table)}
-
-            <div class="section-title">Conclusion</div>
-            <div>${s.conclusion || "n/a"}</div>
           `;
 
           container.appendChild(div);
         });
 
       } catch (err) {
-        document.getElementById("generated").innerText = "Could not load token snapshots: " + err.message;
+        document.getElementById("generated").innerText =
+          "Could not load token snapshots: " + err.message;
       }
     }
 
