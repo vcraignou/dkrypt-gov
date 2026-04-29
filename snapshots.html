@@ -69,6 +69,25 @@
       background: #fdecea;
       color: #b71c1c;
     }
+    .dot {
+     display: inline-block;
+     width: 10px;
+     height: 10px;
+     border-radius: 50%;
+     margin-left: 6px;
+    }
+
+    .dot.green {
+     background: #2e7d32;
+    }
+
+    .dot.orange {
+     background: #ef6c00;
+    }
+
+    .dot.red {
+     background: #b71c1c;
+    }
 
     .grid {
       display: grid;
@@ -181,11 +200,15 @@
       return n.toFixed(1) + "%";
     }
 
-    function ragBadge(label, value) {
-      const safeValue = value || "orange";
-      return `<span class="badge ${safeValue}">${label}: ${String(safeValue).toUpperCase()}</span>`;
-    }
-
+    function ragDot(label, value) {
+      const v = value || "orange";
+      return `
+      <span>
+      ${label}
+      <span class="dot ${v}"></span>
+      </span>
+    `;
+   }
     function renderPeerTable(peerTable) {
       if (!peerTable || peerTable.length === 0) return "";
 
@@ -231,11 +254,11 @@
 
             <div class="section-title">Investment signals</div>
             <div class="badges">
-              ${ragBadge("Governance", rag.governance)}
-              ${ragBadge("Adoption", rag.adoption)}
-              ${ragBadge("Financials", rag.financials)}
-              ${ragBadge("Valuation", rag.valuation)}
-              ${ragBadge("Tokenomics", rag.tokenomics)}
+              ${ragDot("Governance", rag.governance)}
+              ${ragDot("Adoption", rag.adoption)}
+              ${ragDot("Financials", rag.financials)}
+              ${ragDot("Valuation", rag.valuation)}
+              ${ragDot("Tokenomics", rag.tokenomics)}
             </div>
 
             <div class="section-title">Governance and value accrual</div>
