@@ -71,6 +71,11 @@
       color: #945f00;
     }
 
+    .badge.red {
+      background: #fdecea;
+      color: #b71c1c;
+    }
+
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -177,26 +182,23 @@
     }
 
     function renderPeerTable(peerTable) {
-      if (!peerTable || peerTable.length === 0) {
-        return "<div class='text-block'>No peer table available.</div>";
-      }
+  if (!peerTable || peerTable.length === 0) return "";
 
-      let html = "<table><thead><tr><th>Name</th><th>FDV / Fees</th><th>FDV / Revenues</th></tr></thead><tbody>";
+  let html = "<table><thead><tr><th>Name</th><th>FDV/Fees</th><th>FDV/Rev</th></tr></thead><tbody>";
 
-      peerTable.forEach(row => {
-        html += `
-          <tr class="${row.highlight ? "highlight" : ""}">
-            <td>${row.name ?? "n/a"}</td>
-            <td>${fmtNumber(row.fdv_fees_90d)}</td>
-            <td>${fmtNumber(row.fdv_revenues_90d)}</td>
-          </tr>
-        `;
-      });
+  peerTable.forEach(row => {
+    html += `
+      <tr class="${row.highlight ? "highlight" : ""}">
+        <td>${row.name}</td>
+        <td style="text-align:center;">${fmtNumber(row.fdv_fees_90d)}</td>
+        <td style="text-align:center;">${fmtNumber(row.fdv_revenues_90d)}</td>
+      </tr>
+    `;
+  });
 
-      html += "</tbody></table>";
-      return html;
-    }
-
+  html += "</tbody></table>";
+  return html;
+}
     async function load() {
       try {
         const res = await fetch(URL, { cache: "no-store" });
@@ -211,54 +213,45 @@
         container.innerHTML = "";
 
         (data.snapshots || []).forEach(s => {
-          const govScore = s.governance?.score || "n/a";
+          const rag = s.rag || {};
 
-          const div = document.createElement("div");
-          div.className = "snapshot";
+function ragBadge(label, value) {
+  return `<span class="badge ${value}">${label}: ${String(value).toUpperCase()}</span>`;
+}
 
-          div.innerHTML = `
-            <div class="token-header">
-              <div>
-                <div class="token">${s.token} — ${s.protocol}</div>
-                <div class="badges">
-                  <span class="badge ${govScore}">Governance: ${String(govScore).toUpperCase()}</span>
-                  <span class="badge">Accrual: ${s.governance?.revenue_accrual_type || "n/a"}</span>
-                  <span class="badge">FDV / Fees: ${fmtNumber(s.valuation?.fdv_fees_90d)}x</span>
-                  <span class="badge">12m unlock: ${fmtPct(s.tokenomics?.unlock_12m_pct)}</span>
-                </div>
-              </div>
-            </div>
+div.innerHTML = `
+  <div class="token">${s.token} — ${s.protocol}</div>
 
+  <div class="section-title">Investment signals</div>
+
+  <div class="badges">
+    ${ragBadge("Governance", rag.governance)}
+    ${ragBadge("Adoption", rag.adoption)}
+    ${ragBadge("Financials", rag.financials)}
+    ${ragBadge("Valuation", rag.valuation)}
+    ${ragBadge("Tokenomics", rag.tokenomics)}
+  </div>
+
+<div class="section-title">Adoption</div>
+<div class="grid">
+  <div class="metric">
+    TVL: ${fmtNumber(s.adoption?.tvl)}
+  </div>
+  <div class="metric">
+    3m change: ${fmtPct(s.adoption?.tvl_change_3m_pct)}
+  </div>
+</div>
             <div class="section-title">Investment conclusion</div>
             <div class="conclusion">${s.conclusion || "n/a"}</div>
 
             <div class="section-title">Key metrics</div>
-            <div class="grid">
-              <div class="metric">
-                <div class="metric-label">Market cap</div>
-                <div class="metric-value">${fmtNumber(s.tokenomics?.market_cap)}</div>
-              </div>
-              <div class="metric">
-                <div class="metric-label">FDV</div>
-                <div class="metric-value">${fmtNumber(s.tokenomics?.fdv)}</div>
-              </div>
-              <div class="metric">
-                <div class="metric-label">MC / FDV</div>
-                <div class="metric-value">${fmtNumber(s.tokenomics?.mc_fdv)}</div>
-              </div>
-              <div class="metric">
-                <div class="metric-label">Unlocked</div>
-                <div class="metric-value">${fmtPct(s.tokenomics?.unlocked_pct)}</div>
-              </div>
-              <div class="metric">
-                <div class="metric-label">Fees 90d ARR</div>
-                <div class="metric-value">${fmtNumber(s.financials?.fees_90d_arr)}</div>
-              </div>
-              <div class="metric">
-                <div class="metric-label">Revenue 90d ARR</div>
-                <div class="metric-value">${fmtNumber(s.financials?.revenues_90d_arr)}</div>
-              </div>
-            </div>
+
+<div class="grid">
+  <div class="metric">FDV / Fees: ${fmtNumber(s.valuation?.fdv_fees_90d)}x</div>
+  <div class="metric">FDV / Revenues: ${fmtNumber(s.valuation?.fdv_revenues_90d)}x</div>
+  <div class="metric">MC / FDV: ${fmtNumber(s.tokenomics?.mc_fdv)}</div>
+  <div class="metric">Unlock 12m: ${fmtPct(s.tokenomics?.unlock_12m_pct)}</div>
+</div>
 
             <div class="section-title">Overview</div>
             <div class="text-block">${s.overview || "n/a"}</div>

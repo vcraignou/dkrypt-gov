@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T14:45:54.201402+00:00",
+  "generated_at": "2026-04-29T15:01:17.521646+00:00",
   "count": 2,
   "snapshots": [
     {
@@ -22,9 +22,9 @@
         "tvl_change_3m_pct": -57.6766465355317
       },
       "tokenomics": {
-        "market_cap": 1432284409,
-        "fdv": 1510028335,
-        "mc_fdv": 0.9485149224037575,
+        "market_cap": 1426370415,
+        "fdv": 1503793331,
+        "mc_fdv": 0.9485149226266917,
         "unlocked_pct": 92,
         "unlock_12m_pct": 3
       },
@@ -148,7 +148,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-04-29T14:45:54.201402+00:00"
+      "generated_at": "2026-04-29T15:01:17.521646+00:00"
     },
     {
       "protocol": "Uniswap",
@@ -170,9 +170,9 @@
         "tvl_change_3m_pct": -14.992086850702258
       },
       "tokenomics": {
-        "market_cap": 2053091248,
-        "fdv": 2904160864,
-        "mc_fdv": 0.7069481837077741,
+        "market_cap": 2047534230,
+        "fdv": 2896300291,
+        "mc_fdv": 0.706948183640534,
         "unlocked_pct": 75,
         "unlock_12m_pct": 5
       },
@@ -296,7 +296,7 @@
         "tokenomics": "orange"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-04-29T14:45:54.201402+00:00"
+      "generated_at": "2026-04-29T15:01:17.521646+00:00"
     }
   ]
 }
