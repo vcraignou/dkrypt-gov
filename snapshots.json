@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T14:30:34.838206+00:00",
+  "generated_at": "2026-04-29T14:45:54.201402+00:00",
   "count": 2,
   "snapshots": [
     {
@@ -18,13 +18,13 @@
         "updated_at": "2026-04-01"
       },
       "adoption": {
-        "tvl": null,
-        "tvl_change_3m_pct": null
+        "tvl": 14361626921.0,
+        "tvl_change_3m_pct": -57.6766465355317
       },
       "tokenomics": {
-        "market_cap": 1429122235,
-        "fdv": 1506694520,
-        "mc_fdv": 0.9485149219232576,
+        "market_cap": 1432284409,
+        "fdv": 1510028335,
+        "mc_fdv": 0.9485149224037575,
         "unlocked_pct": 92,
         "unlock_12m_pct": 3
       },
@@ -142,13 +142,13 @@
       },
       "rag": {
         "governance": "orange",
-        "adoption": "orange",
+        "adoption": "red",
         "financials": "green",
         "valuation": "orange",
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-04-29T14:30:34.838206+00:00"
+      "generated_at": "2026-04-29T14:45:54.201402+00:00"
     },
     {
       "protocol": "Uniswap",
@@ -166,13 +166,13 @@
         "updated_at": null
       },
       "adoption": {
-        "tvl": null,
-        "tvl_change_3m_pct": null
+        "tvl": 3391225353.0,
+        "tvl_change_3m_pct": -14.992086850702258
       },
       "tokenomics": {
-        "market_cap": 2050967562,
-        "fdv": 2901156844,
-        "mc_fdv": 0.706948183874198,
+        "market_cap": 2053091248,
+        "fdv": 2904160864,
+        "mc_fdv": 0.7069481837077741,
         "unlocked_pct": 75,
         "unlock_12m_pct": 5
       },
@@ -290,13 +290,13 @@
       },
       "rag": {
         "governance": "orange",
-        "adoption": "orange",
+        "adoption": "green",
         "financials": "orange",
         "valuation": "orange",
         "tokenomics": "orange"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-04-29T14:30:34.838206+00:00"
+      "generated_at": "2026-04-29T14:45:54.201402+00:00"
     }
   ]
 }
