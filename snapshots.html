@@ -88,7 +88,18 @@
     .dot.red {
      background: #b71c1c;
     }
+    .signals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin: 12px 0 18px;
+  font-size: 14px;
+}
 
+.signal-label {
+  font-weight: 600;
+  color: #222;
+}
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -201,14 +212,14 @@
     }
 
     function ragDot(label, value) {
-      const v = value || "orange";
-      return `
-      <span>
+  const v = value || "orange";
+  return `
+    <span class="signal-label">
       ${label}
       <span class="dot ${v}"></span>
-      </span>
-    `;
-   }
+    </span>
+  `;
+}
     function renderPeerTable(peerTable) {
       if (!peerTable || peerTable.length === 0) return "";
 
@@ -253,7 +264,7 @@
             <div class="token">${s.token || "n/a"} — ${s.protocol || "n/a"}</div>
 
             <div class="section-title">Investment signals</div>
-            <div class="badges">
+            <div class="signals">
               ${ragDot("Governance", rag.governance)}
               ${ragDot("Adoption", rag.adoption)}
               ${ragDot("Financials", rag.financials)}
