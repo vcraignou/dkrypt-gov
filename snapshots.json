@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-30T09:48:09.393998+00:00",
-  "count": 2,
+  "generated_at": "2026-04-30T10:17:33.399411+00:00",
+  "count": 15,
   "snapshots": [
     {
       "protocol": "Uniswap",
       "token": "UNI",
       "overview": "Uniswap is a decentralised exchange protocol built around automated market making.",
       "team": "Founded by Hayden Adams. Core development has historically involved Uniswap Labs and external contributors.",
-      "product_market_fit": "Uniswap is one of the strongest DeFi products by usage, liquidity, and network effects in decentralised trading.",
+      "product_market_fit": "Uniswap remains one of the strongest DeFi products by liquidity, usage, brand recognition, and network effects in decentralised trading.",
       "governance": {
         "dual_lab_dao_structure": true,
         "dao_decentralised_enough": false,
@@ -22,9 +22,9 @@
         "tvl_change_3m_pct": -9.240523598608519
       },
       "tokenomics": {
-        "market_cap": 2035511271,
-        "fdv": 2879087825,
-        "mc_fdv": 0.7069986727480256,
+        "market_cap": 2034008108,
+        "fdv": 2876961707,
+        "mc_fdv": 0.7069986726104172,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
@@ -148,7 +148,547 @@
         "tokenomics": "orange"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-04-30T09:48:09.393998+00:00"
+      "generated_at": "2026-04-30T10:17:33.399411+00:00"
+    },
+    {
+      "protocol": "Hyperliquid",
+      "token": "HYPE",
+      "overview": "Hyperliquid is a high-performance decentralised perpetual futures exchange and Layer 1 ecosystem.",
+      "team": "Developed by Hyperliquid Labs with a crypto-native trading and engineering focus.",
+      "product_market_fit": "Hyperliquid has achieved strong product-market fit in perpetual futures trading, with high organic usage and a differentiated exchange-led ecosystem.",
+      "governance": {
+        "dual_lab_dao_structure": false,
+        "dao_decentralised_enough": false,
+        "direct_revenue_accrual_to_protocol": true,
+        "revenue_accrual_type": "buyback_burn",
+        "score": "orange",
+        "notes": "Direct token value accrual through buyback/burn is strong, but governance decentralisation remains limited.",
+        "updated_at": "2026-04-29"
+      },
+      "adoption": {
+        "tvl": 4735832673.0,
+        "tvl_change_3m_pct": 4.062760957689182
+      },
+      "tokenomics": {
+        "market_cap": 9303094776,
+        "fdv": 37553179214,
+        "mc_fdv": 0.24773121665639863,
+        "unlocked_pct": null,
+        "unlock_12m_pct": null
+      },
+      "financials": {
+        "fees_90d_arr": null,
+        "fees_1y": null,
+        "revenues_90d_arr": null,
+        "revenues_1y": null
+      },
+      "valuation": {
+        "fdv_fees_90d": null,
+        "fdv_revenues_90d": null,
+        "peer_table": [
+          {
+            "name": "Coinbase",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 47990378496.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 6.97,
+            "highlight": false
+          },
+          {
+            "name": "Circle",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 25411799040.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.25,
+            "highlight": false
+          },
+          {
+            "name": "Nasdaq",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 51616907264.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.53,
+            "highlight": false
+          },
+          {
+            "name": "Robinhood",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 64101957632.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 14.33,
+            "highlight": false
+          },
+          {
+            "name": "JPMorgan",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 828635414528.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 4.77,
+            "highlight": false
+          },
+          {
+            "name": "CME",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 104094965760.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 15.44,
+            "highlight": false
+          }
+        ]
+      },
+      "rag": {
+        "governance": "orange",
+        "adoption": "green",
+        "financials": "orange",
+        "valuation": "orange",
+        "tokenomics": "red"
+      },
+      "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
+      "generated_at": "2026-04-30T10:17:33.399411+00:00"
+    },
+    {
+      "protocol": "Raydium",
+      "token": "RAY",
+      "overview": "Raydium is a Solana-based decentralised exchange and liquidity protocol.",
+      "team": "Built by the Raydium contributor ecosystem.",
+      "product_market_fit": "Raydium is a key Solana liquidity venue and has benefited from Solana trading activity and memecoin-driven volumes.",
+      "governance": {
+        "dual_lab_dao_structure": false,
+        "dao_decentralised_enough": false,
+        "direct_revenue_accrual_to_protocol": true,
+        "revenue_accrual_type": "buyback",
+        "score": "orange",
+        "notes": "Token value accrual exists, but governance decentralisation remains unclear.",
+        "updated_at": "2026-04-29"
+      },
+      "adoption": {
+        "tvl": 985568617.0,
+        "tvl_change_3m_pct": -27.119231012650324
+      },
+      "tokenomics": {
+        "market_cap": 210333423,
+        "fdv": 434010970,
+        "mc_fdv": 0.4846269738297168,
+        "unlocked_pct": null,
+        "unlock_12m_pct": null
+      },
+      "financials": {
+        "fees_90d_arr": null,
+        "fees_1y": null,
+        "revenues_90d_arr": null,
+        "revenues_1y": null
+      },
+      "valuation": {
+        "fdv_fees_90d": null,
+        "fdv_revenues_90d": null,
+        "peer_table": [
+          {
+            "name": "Coinbase",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 47990378496.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 6.97,
+            "highlight": false
+          },
+          {
+            "name": "Circle",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 25411799040.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.25,
+            "highlight": false
+          },
+          {
+            "name": "Nasdaq",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 51616907264.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.53,
+            "highlight": false
+          },
+          {
+            "name": "Robinhood",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 64101957632.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 14.33,
+            "highlight": false
+          },
+          {
+            "name": "JPMorgan",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 828635414528.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 4.77,
+            "highlight": false
+          },
+          {
+            "name": "CME",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 104094965760.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 15.44,
+            "highlight": false
+          }
+        ]
+      },
+      "rag": {
+        "governance": "orange",
+        "adoption": "orange",
+        "financials": "orange",
+        "valuation": "orange",
+        "tokenomics": "red"
+      },
+      "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
+      "generated_at": "2026-04-30T10:17:33.399411+00:00"
+    },
+    {
+      "protocol": "Jupiter",
+      "token": "JUP",
+      "overview": "Jupiter is a Solana-based liquidity aggregator and trading platform.",
+      "team": "Built by the Jupiter contributor ecosystem.",
+      "product_market_fit": "Jupiter has strong Solana distribution and user mindshare as a leading aggregator and trading interface.",
+      "governance": {
+        "dual_lab_dao_structure": false,
+        "dao_decentralised_enough": false,
+        "direct_revenue_accrual_to_protocol": false,
+        "revenue_accrual_type": "none",
+        "score": "orange",
+        "notes": "Strong distribution and user base, but direct token value accrual and governance decentralisation remain limited.",
+        "updated_at": "2026-04-29"
+      },
+      "adoption": {
+        "tvl": 1684527797.9916801,
+        "tvl_change_3m_pct": -32.270471961708445
+      },
+      "tokenomics": {
+        "market_cap": 595727586,
+        "fdv": 1230678657,
+        "mc_fdv": 0.4840642864906692,
+        "unlocked_pct": null,
+        "unlock_12m_pct": null
+      },
+      "financials": {
+        "fees_90d_arr": null,
+        "fees_1y": null,
+        "revenues_90d_arr": null,
+        "revenues_1y": null
+      },
+      "valuation": {
+        "fdv_fees_90d": null,
+        "fdv_revenues_90d": null,
+        "peer_table": [
+          {
+            "name": "Coinbase",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 47990378496.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 6.97,
+            "highlight": false
+          },
+          {
+            "name": "Circle",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 25411799040.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.25,
+            "highlight": false
+          },
+          {
+            "name": "Nasdaq",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 51616907264.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.53,
+            "highlight": false
+          },
+          {
+            "name": "Robinhood",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 64101957632.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 14.33,
+            "highlight": false
+          },
+          {
+            "name": "JPMorgan",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 828635414528.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 4.77,
+            "highlight": false
+          },
+          {
+            "name": "CME",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 104094965760.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 15.44,
+            "highlight": false
+          }
+        ]
+      },
+      "rag": {
+        "governance": "orange",
+        "adoption": "orange",
+        "financials": "orange",
+        "valuation": "orange",
+        "tokenomics": "red"
+      },
+      "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
+      "generated_at": "2026-04-30T10:17:33.399411+00:00"
+    },
+    {
+      "protocol": "PancakeSwap",
+      "token": "CAKE",
+      "overview": "PancakeSwap is a multi-chain decentralised exchange originating on BNB Chain.",
+      "team": "Built by the PancakeSwap contributor ecosystem.",
+      "product_market_fit": "PancakeSwap has durable retail distribution, especially on BNB Chain, and remains one of the largest DEX brands by user reach.",
+      "governance": {
+        "dual_lab_dao_structure": false,
+        "dao_decentralised_enough": false,
+        "direct_revenue_accrual_to_protocol": true,
+        "revenue_accrual_type": "burn",
+        "score": "orange",
+        "notes": "CAKE has explicit supply-management mechanisms, but governance decentralisation remains unclear.",
+        "updated_at": "2026-04-29"
+      },
+      "adoption": {
+        "tvl": 2144264876.0,
+        "tvl_change_3m_pct": -10.426596796947674
+      },
+      "tokenomics": {
+        "market_cap": 476796190,
+        "fdv": 494958600,
+        "mc_fdv": 0.9633051936060915,
+        "unlocked_pct": null,
+        "unlock_12m_pct": null
+      },
+      "financials": {
+        "fees_90d_arr": null,
+        "fees_1y": null,
+        "revenues_90d_arr": null,
+        "revenues_1y": null
+      },
+      "valuation": {
+        "fdv_fees_90d": null,
+        "fdv_revenues_90d": null,
+        "peer_table": [
+          {
+            "name": "Coinbase",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 47990378496.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 6.97,
+            "highlight": false
+          },
+          {
+            "name": "Circle",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 25411799040.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.25,
+            "highlight": false
+          },
+          {
+            "name": "Nasdaq",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 51616907264.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.53,
+            "highlight": false
+          },
+          {
+            "name": "Robinhood",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 64101957632.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 14.33,
+            "highlight": false
+          },
+          {
+            "name": "JPMorgan",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 828635414528.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 4.77,
+            "highlight": false
+          },
+          {
+            "name": "CME",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 104094965760.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 15.44,
+            "highlight": false
+          }
+        ]
+      },
+      "rag": {
+        "governance": "orange",
+        "adoption": "green",
+        "financials": "orange",
+        "valuation": "orange",
+        "tokenomics": "green"
+      },
+      "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
+      "generated_at": "2026-04-30T10:17:33.399411+00:00"
+    },
+    {
+      "protocol": "Aerodrome",
+      "token": "AERO",
+      "overview": "Aerodrome is a decentralised exchange and liquidity hub for the Base ecosystem.",
+      "team": "Built by the Aerodrome contributor ecosystem.",
+      "product_market_fit": "Aerodrome has strong product-market fit as the dominant liquidity layer on Base.",
+      "governance": {
+        "dual_lab_dao_structure": false,
+        "dao_decentralised_enough": true,
+        "direct_revenue_accrual_to_protocol": true,
+        "revenue_accrual_type": "ve_token_fee_distribution",
+        "score": "green",
+        "notes": "Aerodrome has relatively clear vote-escrow style value accrual, though emissions and incentive design remain important.",
+        "updated_at": "2026-04-29"
+      },
+      "adoption": {
+        "tvl": 375928447.0,
+        "tvl_change_3m_pct": -16.70754859254895
+      },
+      "tokenomics": {
+        "market_cap": 428367271,
+        "fdv": 870098053,
+        "mc_fdv": 0.49232068675827734,
+        "unlocked_pct": null,
+        "unlock_12m_pct": null
+      },
+      "financials": {
+        "fees_90d_arr": null,
+        "fees_1y": null,
+        "revenues_90d_arr": null,
+        "revenues_1y": null
+      },
+      "valuation": {
+        "fdv_fees_90d": null,
+        "fdv_revenues_90d": null,
+        "peer_table": [
+          {
+            "name": "Coinbase",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 47990378496.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 6.97,
+            "highlight": false
+          },
+          {
+            "name": "Circle",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 25411799040.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.25,
+            "highlight": false
+          },
+          {
+            "name": "Nasdaq",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 51616907264.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.53,
+            "highlight": false
+          },
+          {
+            "name": "Robinhood",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 64101957632.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 14.33,
+            "highlight": false
+          },
+          {
+            "name": "JPMorgan",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 828635414528.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 4.77,
+            "highlight": false
+          },
+          {
+            "name": "CME",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 104094965760.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 15.44,
+            "highlight": false
+          }
+        ]
+      },
+      "rag": {
+        "governance": "green",
+        "adoption": "orange",
+        "financials": "orange",
+        "valuation": "orange",
+        "tokenomics": "red"
+      },
+      "conclusion": "Overall profile appears balanced, with no immediate extreme positive or negative signal.",
+      "generated_at": "2026-04-30T10:17:33.399411+00:00"
     },
     {
       "protocol": "Aave",
@@ -170,9 +710,9 @@
         "tvl_change_3m_pct": -55.793598134648846
       },
       "tokenomics": {
-        "market_cap": 1408120823,
-        "fdv": 1484442706,
-        "mc_fdv": 0.9485854976473574,
+        "market_cap": 1406068233,
+        "fdv": 1482278864,
+        "mc_fdv": 0.9485854970674398,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
@@ -296,7 +836,891 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-04-30T09:48:09.393998+00:00"
+      "generated_at": "2026-04-30T10:17:33.399411+00:00"
+    },
+    {
+      "protocol": "Sky",
+      "token": "SKY",
+      "overview": "Sky is the successor ecosystem to MakerDAO, centred around USDS, decentralised credit, and modular capital allocation.",
+      "team": "Evolved from the MakerDAO ecosystem with multiple contributor and subDAO-style structures.",
+      "product_market_fit": "Sky has strong product-market fit in decentralised stablecoins and onchain credit, but the structure remains complex.",
+      "governance": {
+        "dual_lab_dao_structure": true,
+        "dao_decentralised_enough": false,
+        "direct_revenue_accrual_to_protocol": true,
+        "revenue_accrual_type": "buyback",
+        "score": "orange",
+        "notes": "Governance and entity structure remain complex, though protocol cash-flow and buyback mechanics support value accrual.",
+        "updated_at": "2026-04-29"
+      },
+      "adoption": {
+        "tvl": 5464052870.0,
+        "tvl_change_3m_pct": -4.853823989140615
+      },
+      "tokenomics": {
+        "market_cap": 1809768491,
+        "fdv": 1829293395,
+        "mc_fdv": 0.9893265322810615,
+        "unlocked_pct": null,
+        "unlock_12m_pct": null
+      },
+      "financials": {
+        "fees_90d_arr": 414104115.11,
+        "fees_1y": 404364252.0,
+        "revenues_90d_arr": 195108507.28,
+        "revenues_1y": 250303042.0
+      },
+      "valuation": {
+        "fdv_fees_90d": 4.63,
+        "fdv_revenues_90d": 9.82,
+        "peer_table": [
+          {
+            "name": "Sky",
+            "type": "Protocol",
+            "fees_90d_arr": 414104115.11,
+            "revenues_90d_arr": 195108507.28,
+            "fdv_or_mc": 1916341391.0,
+            "fdv_fees_90d": 4.63,
+            "fdv_revenues_90d": 9.82,
+            "highlight": true
+          },
+          {
+            "name": "Coinbase",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 47990378496.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 6.97,
+            "highlight": false
+          },
+          {
+            "name": "Circle",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 25411799040.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.25,
+            "highlight": false
+          },
+          {
+            "name": "Nasdaq",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 51616907264.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.53,
+            "highlight": false
+          },
+          {
+            "name": "Robinhood",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 64101957632.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 14.33,
+            "highlight": false
+          },
+          {
+            "name": "JPMorgan",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 828635414528.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 4.77,
+            "highlight": false
+          },
+          {
+            "name": "CME",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 104094965760.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 15.44,
+            "highlight": false
+          }
+        ]
+      },
+      "rag": {
+        "governance": "orange",
+        "adoption": "green",
+        "financials": "green",
+        "valuation": "orange",
+        "tokenomics": "green"
+      },
+      "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
+      "generated_at": "2026-04-30T10:17:33.399411+00:00"
+    },
+    {
+      "protocol": "Spark",
+      "token": "SPK",
+      "overview": "Spark is an onchain capital allocator and lending ecosystem connected to Sky stablecoin liquidity.",
+      "team": "Built within the broader Sky ecosystem with specialist contributors.",
+      "product_market_fit": "Spark has strong potential product-market fit as a capital deployment and yield layer for USDS liquidity.",
+      "governance": {
+        "dual_lab_dao_structure": true,
+        "dao_decentralised_enough": false,
+        "direct_revenue_accrual_to_protocol": true,
+        "revenue_accrual_type": "staking_rewards",
+        "score": "orange",
+        "notes": "Spark is closely linked to the Sky ecosystem; value accrual exists, but governance independence is limited.",
+        "updated_at": "2026-04-29"
+      },
+      "adoption": {
+        "tvl": 4692842647.495649,
+        "tvl_change_3m_pct": -3.6112971922328874
+      },
+      "tokenomics": {
+        "market_cap": null,
+        "fdv": null,
+        "mc_fdv": null,
+        "unlocked_pct": null,
+        "unlock_12m_pct": null
+      },
+      "financials": {
+        "fees_90d_arr": null,
+        "fees_1y": null,
+        "revenues_90d_arr": null,
+        "revenues_1y": null
+      },
+      "valuation": {
+        "fdv_fees_90d": null,
+        "fdv_revenues_90d": null,
+        "peer_table": [
+          {
+            "name": "Coinbase",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 47990378496.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 6.97,
+            "highlight": false
+          },
+          {
+            "name": "Circle",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 25411799040.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.25,
+            "highlight": false
+          },
+          {
+            "name": "Nasdaq",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 51616907264.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.53,
+            "highlight": false
+          },
+          {
+            "name": "Robinhood",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 64101957632.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 14.33,
+            "highlight": false
+          },
+          {
+            "name": "JPMorgan",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 828635414528.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 4.77,
+            "highlight": false
+          },
+          {
+            "name": "CME",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 104094965760.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 15.44,
+            "highlight": false
+          }
+        ]
+      },
+      "rag": {
+        "governance": "orange",
+        "adoption": "green",
+        "financials": "orange",
+        "valuation": "orange",
+        "tokenomics": "orange"
+      },
+      "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
+      "generated_at": "2026-04-30T10:17:33.399411+00:00"
+    },
+    {
+      "protocol": "Ethena",
+      "token": "ENA",
+      "overview": "Ethena is a synthetic dollar and basis-trade yield protocol built around USDe and sUSDe.",
+      "team": "Built by Ethena Labs.",
+      "product_market_fit": "Ethena has demonstrated strong product-market fit in crypto-native dollar savings products, though its model remains dependent on funding markets and risk management.",
+      "governance": {
+        "dual_lab_dao_structure": true,
+        "dao_decentralised_enough": false,
+        "direct_revenue_accrual_to_protocol": false,
+        "revenue_accrual_type": "none",
+        "score": "orange",
+        "notes": "Ethena has strong product-market fit, but tokenholder revenue accrual and DAO control remain limited.",
+        "updated_at": "2026-04-29"
+      },
+      "adoption": {
+        "tvl": 4422954046.62734,
+        "tvl_change_3m_pct": -40.07966274479302
+      },
+      "tokenomics": {
+        "market_cap": 905882772,
+        "fdv": 1551279810,
+        "mc_fdv": 0.5839583330875685,
+        "unlocked_pct": null,
+        "unlock_12m_pct": null
+      },
+      "financials": {
+        "fees_90d_arr": null,
+        "fees_1y": null,
+        "revenues_90d_arr": null,
+        "revenues_1y": null
+      },
+      "valuation": {
+        "fdv_fees_90d": null,
+        "fdv_revenues_90d": null,
+        "peer_table": [
+          {
+            "name": "Coinbase",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 47990378496.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 6.97,
+            "highlight": false
+          },
+          {
+            "name": "Circle",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 25411799040.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.25,
+            "highlight": false
+          },
+          {
+            "name": "Nasdaq",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 51616907264.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.53,
+            "highlight": false
+          },
+          {
+            "name": "Robinhood",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 64101957632.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 14.33,
+            "highlight": false
+          },
+          {
+            "name": "JPMorgan",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 828635414528.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 4.77,
+            "highlight": false
+          },
+          {
+            "name": "CME",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 104094965760.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 15.44,
+            "highlight": false
+          }
+        ]
+      },
+      "rag": {
+        "governance": "orange",
+        "adoption": "orange",
+        "financials": "orange",
+        "valuation": "orange",
+        "tokenomics": "red"
+      },
+      "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
+      "generated_at": "2026-04-30T10:17:33.399411+00:00"
+    },
+    {
+      "protocol": "Kamino",
+      "token": "KMNO",
+      "overview": "Kamino is a Solana-based lending, liquidity, and structured yield protocol.",
+      "team": "Built by the Kamino contributor ecosystem.",
+      "product_market_fit": "Kamino has strong Solana-native product-market fit across lending, vaults, and liquidity management.",
+      "governance": {
+        "dual_lab_dao_structure": false,
+        "dao_decentralised_enough": false,
+        "direct_revenue_accrual_to_protocol": false,
+        "revenue_accrual_type": "none",
+        "score": "orange",
+        "notes": "Strong Solana product traction, but token value accrual and governance decentralisation remain limited.",
+        "updated_at": "2026-04-29"
+      },
+      "adoption": {
+        "tvl": 1578151361.0,
+        "tvl_change_3m_pct": -29.91994824961104
+      },
+      "tokenomics": {
+        "market_cap": 91155730,
+        "fdv": 202907156,
+        "mc_fdv": 0.44924847303068993,
+        "unlocked_pct": null,
+        "unlock_12m_pct": null
+      },
+      "financials": {
+        "fees_90d_arr": null,
+        "fees_1y": null,
+        "revenues_90d_arr": null,
+        "revenues_1y": null
+      },
+      "valuation": {
+        "fdv_fees_90d": null,
+        "fdv_revenues_90d": null,
+        "peer_table": [
+          {
+            "name": "Coinbase",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 47990378496.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 6.97,
+            "highlight": false
+          },
+          {
+            "name": "Circle",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 25411799040.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.25,
+            "highlight": false
+          },
+          {
+            "name": "Nasdaq",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 51616907264.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.53,
+            "highlight": false
+          },
+          {
+            "name": "Robinhood",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 64101957632.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 14.33,
+            "highlight": false
+          },
+          {
+            "name": "JPMorgan",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 828635414528.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 4.77,
+            "highlight": false
+          },
+          {
+            "name": "CME",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 104094965760.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 15.44,
+            "highlight": false
+          }
+        ]
+      },
+      "rag": {
+        "governance": "orange",
+        "adoption": "orange",
+        "financials": "orange",
+        "valuation": "orange",
+        "tokenomics": "red"
+      },
+      "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
+      "generated_at": "2026-04-30T10:17:33.399411+00:00"
+    },
+    {
+      "protocol": "Morpho",
+      "token": "MORPHO",
+      "overview": "Morpho is a decentralised lending infrastructure protocol built around markets, vaults, and risk curators.",
+      "team": "Built by Morpho Labs and a broader ecosystem of curators and integrators.",
+      "product_market_fit": "Morpho has strong product-market fit as modular lending infrastructure, especially through curated vaults and permissionless markets.",
+      "governance": {
+        "dual_lab_dao_structure": true,
+        "dao_decentralised_enough": false,
+        "direct_revenue_accrual_to_protocol": false,
+        "revenue_accrual_type": "none",
+        "score": "orange",
+        "notes": "Strong lending infrastructure product-market fit, but Labs-DAO structure and lack of direct accrual cap governance/value-accrual rating.",
+        "updated_at": "2026-04-29"
+      },
+      "adoption": {
+        "tvl": 6950162007.0,
+        "tvl_change_3m_pct": 7.770279052934659
+      },
+      "tokenomics": {
+        "market_cap": 1145741590,
+        "fdv": 1942317371,
+        "mc_fdv": 0.5898838197642831,
+        "unlocked_pct": null,
+        "unlock_12m_pct": null
+      },
+      "financials": {
+        "fees_90d_arr": 183722709.44,
+        "fees_1y": 186385559.0,
+        "revenues_90d_arr": 0.0,
+        "revenues_1y": 0.0
+      },
+      "valuation": {
+        "fdv_fees_90d": 10.71,
+        "fdv_revenues_90d": null,
+        "peer_table": [
+          {
+            "name": "Morpho",
+            "type": "Protocol",
+            "fees_90d_arr": 183722709.44,
+            "revenues_90d_arr": 0.0,
+            "fdv_or_mc": 1967014567.0,
+            "fdv_fees_90d": 10.71,
+            "fdv_revenues_90d": null,
+            "highlight": true
+          },
+          {
+            "name": "Coinbase",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 47990378496.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 6.97,
+            "highlight": false
+          },
+          {
+            "name": "Circle",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 25411799040.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.25,
+            "highlight": false
+          },
+          {
+            "name": "Nasdaq",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 51616907264.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.53,
+            "highlight": false
+          },
+          {
+            "name": "Robinhood",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 64101957632.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 14.33,
+            "highlight": false
+          },
+          {
+            "name": "JPMorgan",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 828635414528.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 4.77,
+            "highlight": false
+          },
+          {
+            "name": "CME",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 104094965760.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 15.44,
+            "highlight": false
+          }
+        ]
+      },
+      "rag": {
+        "governance": "orange",
+        "adoption": "green",
+        "financials": "orange",
+        "valuation": "orange",
+        "tokenomics": "red"
+      },
+      "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
+      "generated_at": "2026-04-30T10:17:33.399411+00:00"
+    },
+    {
+      "protocol": "Euler",
+      "token": "EUL",
+      "overview": "Euler is a modular decentralised lending protocol.",
+      "team": "Built by Euler Labs and contributors.",
+      "product_market_fit": "Euler has rebuilt credibility after prior setbacks and has strong potential as a flexible lending infrastructure layer.",
+      "governance": {
+        "dual_lab_dao_structure": true,
+        "dao_decentralised_enough": false,
+        "direct_revenue_accrual_to_protocol": false,
+        "revenue_accrual_type": "none",
+        "score": "orange",
+        "notes": "Euler has strong technical potential, but token value accrual and governance decentralisation require further evidence.",
+        "updated_at": "2026-04-29"
+      },
+      "adoption": {
+        "tvl": 372661674.0,
+        "tvl_change_3m_pct": -37.427665398131595
+      },
+      "tokenomics": {
+        "market_cap": 31946394,
+        "fdv": 35987882,
+        "mc_fdv": 0.8876986425597372,
+        "unlocked_pct": null,
+        "unlock_12m_pct": null
+      },
+      "financials": {
+        "fees_90d_arr": null,
+        "fees_1y": null,
+        "revenues_90d_arr": null,
+        "revenues_1y": null
+      },
+      "valuation": {
+        "fdv_fees_90d": null,
+        "fdv_revenues_90d": null,
+        "peer_table": [
+          {
+            "name": "Coinbase",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 47990378496.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 6.97,
+            "highlight": false
+          },
+          {
+            "name": "Circle",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 25411799040.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.25,
+            "highlight": false
+          },
+          {
+            "name": "Nasdaq",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 51616907264.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.53,
+            "highlight": false
+          },
+          {
+            "name": "Robinhood",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 64101957632.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 14.33,
+            "highlight": false
+          },
+          {
+            "name": "JPMorgan",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 828635414528.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 4.77,
+            "highlight": false
+          },
+          {
+            "name": "CME",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 104094965760.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 15.44,
+            "highlight": false
+          }
+        ]
+      },
+      "rag": {
+        "governance": "orange",
+        "adoption": "orange",
+        "financials": "orange",
+        "valuation": "orange",
+        "tokenomics": "green"
+      },
+      "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
+      "generated_at": "2026-04-30T10:17:33.399411+00:00"
+    },
+    {
+      "protocol": "Lido",
+      "token": "LDO",
+      "overview": "Lido is a liquid staking protocol, primarily focused on Ethereum staking through stETH.",
+      "team": "Built by Lido DAO contributors and service providers.",
+      "product_market_fit": "Lido has very strong product-market fit as the dominant liquid staking protocol on Ethereum.",
+      "governance": {
+        "dual_lab_dao_structure": false,
+        "dao_decentralised_enough": true,
+        "direct_revenue_accrual_to_protocol": true,
+        "revenue_accrual_type": "treasury",
+        "score": "green",
+        "notes": "Lido has strong DAO governance and protocol cash-flow, but accrual primarily benefits the DAO treasury rather than direct tokenholder distributions.",
+        "updated_at": "2026-04-29"
+      },
+      "adoption": {
+        "tvl": 20782172173.0,
+        "tvl_change_3m_pct": -23.171053940167564
+      },
+      "tokenomics": {
+        "market_cap": 316652317,
+        "fdv": 372887409,
+        "mc_fdv": 0.8491901559486553,
+        "unlocked_pct": null,
+        "unlock_12m_pct": null
+      },
+      "financials": {
+        "fees_90d_arr": null,
+        "fees_1y": null,
+        "revenues_90d_arr": null,
+        "revenues_1y": null
+      },
+      "valuation": {
+        "fdv_fees_90d": null,
+        "fdv_revenues_90d": null,
+        "peer_table": [
+          {
+            "name": "Coinbase",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 47990378496.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 6.97,
+            "highlight": false
+          },
+          {
+            "name": "Circle",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 25411799040.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.25,
+            "highlight": false
+          },
+          {
+            "name": "Nasdaq",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 51616907264.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.53,
+            "highlight": false
+          },
+          {
+            "name": "Robinhood",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 64101957632.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 14.33,
+            "highlight": false
+          },
+          {
+            "name": "JPMorgan",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 828635414528.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 4.77,
+            "highlight": false
+          },
+          {
+            "name": "CME",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 104094965760.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 15.44,
+            "highlight": false
+          }
+        ]
+      },
+      "rag": {
+        "governance": "green",
+        "adoption": "green",
+        "financials": "orange",
+        "valuation": "orange",
+        "tokenomics": "green"
+      },
+      "conclusion": "Overall profile appears balanced, with no immediate extreme positive or negative signal.",
+      "generated_at": "2026-04-30T10:17:33.399411+00:00"
+    },
+    {
+      "protocol": "Jito",
+      "token": "JTO",
+      "overview": "Jito is a Solana liquid staking and MEV infrastructure protocol.",
+      "team": "Built by Jito Labs and DAO contributors.",
+      "product_market_fit": "Jito has strong product-market fit as a Solana-native liquid staking and MEV infrastructure layer.",
+      "governance": {
+        "dual_lab_dao_structure": true,
+        "dao_decentralised_enough": false,
+        "direct_revenue_accrual_to_protocol": false,
+        "revenue_accrual_type": "none",
+        "score": "orange",
+        "notes": "Jito has strong Solana infrastructure product-market fit, but tokenholder value accrual and governance decentralisation remain limited.",
+        "updated_at": "2026-04-29"
+      },
+      "adoption": {
+        "tvl": 868891810.24484,
+        "tvl_change_3m_pct": -48.4714407520603
+      },
+      "tokenomics": {
+        "market_cap": 162230684,
+        "fdv": 348989230,
+        "mc_fdv": 0.46485871211555724,
+        "unlocked_pct": null,
+        "unlock_12m_pct": null
+      },
+      "financials": {
+        "fees_90d_arr": null,
+        "fees_1y": null,
+        "revenues_90d_arr": null,
+        "revenues_1y": null
+      },
+      "valuation": {
+        "fdv_fees_90d": null,
+        "fdv_revenues_90d": null,
+        "peer_table": [
+          {
+            "name": "Coinbase",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 47990378496.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 6.97,
+            "highlight": false
+          },
+          {
+            "name": "Circle",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 25411799040.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.25,
+            "highlight": false
+          },
+          {
+            "name": "Nasdaq",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 51616907264.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.53,
+            "highlight": false
+          },
+          {
+            "name": "Robinhood",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 64101957632.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 14.33,
+            "highlight": false
+          },
+          {
+            "name": "JPMorgan",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 828635414528.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 4.77,
+            "highlight": false
+          },
+          {
+            "name": "CME",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 104094965760.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 15.44,
+            "highlight": false
+          }
+        ]
+      },
+      "rag": {
+        "governance": "orange",
+        "adoption": "orange",
+        "financials": "orange",
+        "valuation": "orange",
+        "tokenomics": "red"
+      },
+      "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
+      "generated_at": "2026-04-30T10:17:33.399411+00:00"
     }
   ]
 }
