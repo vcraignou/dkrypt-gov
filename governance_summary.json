@@ -1,21 +1,6 @@
 {
-  "generated_at": "2026-04-29T07:05:08.569975+00:00",
+  "generated_at": "2026-04-30T07:05:09.012073+00:00",
   "impact": [
-    {
-      "protocol": "AAVE",
-      "title": "[ARFC] Buyback Program - Budget Adjustment",
-      "signal": "buyback",
-      "stage": "closed",
-      "priority_bucket": "impact",
-      "score": 100,
-      "url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xe1f47bd04001269432d2e74e76b79747e1458e90b0e3b2cdee7be6495d96e056",
-      "source_type": "proposal",
-      "source": "aavedao.eth",
-      "published_at": null,
-      "vote_start": "2026-03-12T14:36:37+00:00",
-      "vote_end": "2026-03-15T14:36:37+00:00",
-      "state": "closed"
-    },
     {
       "protocol": "AAVE",
       "title": "rsETH Incident Report (April 20, 2026)",
@@ -199,5 +184,5 @@
       "state": null
     }
   ],
-  "count_items": 13
+  "count_items": 12
 }

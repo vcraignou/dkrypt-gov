@@ -288,18 +288,18 @@
             </div>
 
             <div class="section-title">Financials</div>
-<div class="grid">
-  <div class="metric">Fees 90d ARR: <b>${fmtNumber(s.financials?.fees_90d_arr)}</b></div>
-  <div class="metric">Revenue 90d ARR: <b>${fmtNumber(s.financials?.revenues_90d_arr)}</b></div>
-  <div class="metric">FDV / Fees: <b>${fmtNumber(s.valuation?.fdv_fees_90d)}x</b></div>
-  <div class="metric">FDV / Revenues: <b>${fmtNumber(s.valuation?.fdv_revenues_90d)}x</b></div>
-</div>
+	    <div class="grid">
+            <div class="metric">Fees 90d ARR: <b>${fmtNumber(s.financials?.fees_90d_arr)}</b></div>
+            <div class="metric">Revenue 90d ARR: <b>${fmtNumber(s.financials?.revenues_90d_arr)}</b></div>
+            <div class="metric">FDV / Fees: <b>${fmtNumber(s.valuation?.fdv_fees_90d)}x</b></div>
+            <div class="metric">FDV / Revenues: <b>${fmtNumber(s.valuation?.fdv_revenues_90d)}x</b></div>
+           </div>
 
-<div class="section-title">Tokenomics</div>
-<div class="grid">
-  <div class="metric">MC / FDV: <b>${fmtNumber(s.tokenomics?.mc_fdv)}</b></div>
-  <div class="metric">Unlock 12m: <b>${fmtPct(s.tokenomics?.unlock_12m_pct)}</b></div>
-</div>
+            <div class="section-title">Tokenomics</div>
+            <div class="grid">
+            <div class="metric">MC / FDV: <b>${fmtNumber(s.tokenomics?.mc_fdv)}</b></div>
+            <div class="metric">Unlock 12m: <b>${fmtPct(s.tokenomics?.unlock_12m_pct)}</b></div>
+           </div>
 
             <div class="section-title">Investment conclusion</div>
             <div class="conclusion">${s.conclusion || "n/a"}</div>

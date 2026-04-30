@@ -1,155 +1,7 @@
 {
-  "generated_at": "2026-04-29T15:01:17.521646+00:00",
+  "generated_at": "2026-04-30T09:46:20.276895+00:00",
   "count": 2,
   "snapshots": [
-    {
-      "protocol": "Aave",
-      "token": "AAVE",
-      "overview": "Aave is a decentralised lending protocol enabling overcollateralised borrowing and lending across multiple chains.",
-      "team": "Founded by Stani Kulechov. Core development has historically involved Aave Labs and a broader ecosystem of contributors.",
-      "product_market_fit": "Aave is one of the leading DeFi lending protocols by scale, liquidity, integrations, and brand recognition.",
-      "governance": {
-        "dual_lab_dao_structure": true,
-        "dao_decentralised_enough": true,
-        "direct_revenue_accrual_to_protocol": true,
-        "revenue_accrual_type": "buyback",
-        "score": "orange",
-        "notes": "Dual structure risk remains.",
-        "updated_at": "2026-04-01"
-      },
-      "adoption": {
-        "tvl": 14361626921.0,
-        "tvl_change_3m_pct": -57.6766465355317
-      },
-      "tokenomics": {
-        "market_cap": 1426370415,
-        "fdv": 1503793331,
-        "mc_fdv": 0.9485149226266917,
-        "unlocked_pct": 92,
-        "unlock_12m_pct": 3
-      },
-      "financials": {
-        "fees_90d_arr": 777855851.61,
-        "fees_1y": 936868616.0,
-        "revenues_90d_arr": 101165257.44,
-        "revenues_1y": 125245384.0
-      },
-      "valuation": {
-        "fdv_fees_90d": 1.98,
-        "fdv_revenues_90d": 15.26,
-        "peer_table": [
-          {
-            "name": "Aave",
-            "type": "Protocol",
-            "fees_90d_arr": 777855851.61,
-            "revenues_90d_arr": 101165257.44,
-            "fdv_or_mc": 1543861055.0,
-            "fdv_fees_90d": 1.98,
-            "fdv_revenues_90d": 15.26,
-            "highlight": true
-          },
-          {
-            "name": "Morpho",
-            "type": "Protocol",
-            "fees_90d_arr": 185478030.94,
-            "revenues_90d_arr": 0.0,
-            "fdv_or_mc": 1949235694.0,
-            "fdv_fees_90d": 10.51,
-            "fdv_revenues_90d": null,
-            "highlight": false
-          },
-          {
-            "name": "Euler",
-            "type": "Protocol",
-            "fees_90d_arr": 33774334.11,
-            "revenues_90d_arr": 1932099.11,
-            "fdv_or_mc": 37171469.0,
-            "fdv_fees_90d": 1.1,
-            "fdv_revenues_90d": 19.24,
-            "highlight": false
-          },
-          {
-            "name": "Kamino",
-            "type": "Protocol",
-            "fees_90d_arr": 61728512.06,
-            "revenues_90d_arr": 9944238.44,
-            "fdv_or_mc": 211013212.0,
-            "fdv_fees_90d": 3.42,
-            "fdv_revenues_90d": 21.22,
-            "highlight": false
-          },
-          {
-            "name": "Coinbase",
-            "type": "Company",
-            "fees_90d_arr": null,
-            "revenues_90d_arr": null,
-            "fdv_or_mc": 51256991744.0,
-            "fdv_fees_90d": null,
-            "fdv_revenues_90d": 7.45,
-            "highlight": false
-          },
-          {
-            "name": "Circle",
-            "type": "Company",
-            "fees_90d_arr": null,
-            "revenues_90d_arr": null,
-            "fdv_or_mc": 23324303360.0,
-            "fdv_fees_90d": null,
-            "fdv_revenues_90d": 8.49,
-            "highlight": false
-          },
-          {
-            "name": "Nasdaq",
-            "type": "Company",
-            "fees_90d_arr": null,
-            "revenues_90d_arr": null,
-            "fdv_or_mc": 51639529472.0,
-            "fdv_fees_90d": null,
-            "fdv_revenues_90d": 9.53,
-            "highlight": false
-          },
-          {
-            "name": "Robinhood",
-            "type": "Company",
-            "fees_90d_arr": null,
-            "revenues_90d_arr": null,
-            "fdv_or_mc": 73888309248.0,
-            "fdv_fees_90d": null,
-            "fdv_revenues_90d": 16.52,
-            "highlight": false
-          },
-          {
-            "name": "JPMorgan",
-            "type": "Company",
-            "fees_90d_arr": null,
-            "revenues_90d_arr": null,
-            "fdv_or_mc": 834530312192.0,
-            "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.81,
-            "highlight": false
-          },
-          {
-            "name": "CME",
-            "type": "Company",
-            "fees_90d_arr": null,
-            "revenues_90d_arr": null,
-            "fdv_or_mc": 103102111744.0,
-            "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.29,
-            "highlight": false
-          }
-        ]
-      },
-      "rag": {
-        "governance": "orange",
-        "adoption": "red",
-        "financials": "green",
-        "valuation": "orange",
-        "tokenomics": "green"
-      },
-      "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-04-29T15:01:17.521646+00:00"
-    },
     {
       "protocol": "Uniswap",
       "token": "UNI",
@@ -157,24 +9,24 @@
       "team": "Founded by Hayden Adams. Core development has historically involved Uniswap Labs and external contributors.",
       "product_market_fit": "Uniswap is one of the strongest DeFi products by usage, liquidity, and network effects in decentralised trading.",
       "governance": {
-        "dual_lab_dao_structure": false,
+        "dual_lab_dao_structure": true,
         "dao_decentralised_enough": false,
         "direct_revenue_accrual_to_protocol": false,
         "revenue_accrual_type": "none",
         "score": "orange",
-        "notes": "",
-        "updated_at": null
+        "notes": "Strong product-market fit, but dual Labs-DAO structure and lack of direct tokenholder revenue accrual limit governance/value-accrual rating.",
+        "updated_at": "2026-04-29"
       },
       "adoption": {
-        "tvl": 3391225353.0,
-        "tvl_change_3m_pct": -14.992086850702258
+        "tvl": 3403847734.0,
+        "tvl_change_3m_pct": -9.240523598608519
       },
       "tokenomics": {
-        "market_cap": 2047534230,
-        "fdv": 2896300291,
-        "mc_fdv": 0.706948183640534,
-        "unlocked_pct": 75,
-        "unlock_12m_pct": 5
+        "market_cap": 2035511271,
+        "fdv": 2879087825,
+        "mc_fdv": 0.7069986727480256,
+        "unlocked_pct": null,
+        "unlock_12m_pct": null
       },
       "financials": {
         "fees_90d_arr": null,
@@ -189,41 +41,41 @@
           {
             "name": "Uniswap",
             "type": "Protocol",
-            "fees_90d_arr": 646384514.39,
-            "revenues_90d_arr": 35214044.17,
-            "fdv_or_mc": 2911864913.0,
-            "fdv_fees_90d": 4.5,
-            "fdv_revenues_90d": 82.69,
+            "fees_90d_arr": 641629018.61,
+            "revenues_90d_arr": 35290458.94,
+            "fdv_or_mc": 2858471651.0,
+            "fdv_fees_90d": 4.46,
+            "fdv_revenues_90d": 81.0,
             "highlight": true
           },
           {
             "name": "Raydium",
             "type": "Protocol",
-            "fees_90d_arr": 108075250.89,
-            "revenues_90d_arr": 17096279.61,
-            "fdv_or_mc": 414931082.0,
-            "fdv_fees_90d": 3.84,
-            "fdv_revenues_90d": 24.27,
+            "fees_90d_arr": 107181430.78,
+            "revenues_90d_arr": 16990458.0,
+            "fdv_or_mc": 442013706.0,
+            "fdv_fees_90d": 4.12,
+            "fdv_revenues_90d": 26.02,
             "highlight": false
           },
           {
             "name": "Pancakeswap",
             "type": "Protocol",
-            "fees_90d_arr": 141041361.44,
-            "revenues_90d_arr": 48684628.72,
-            "fdv_or_mc": 509391255.0,
-            "fdv_fees_90d": 3.61,
-            "fdv_revenues_90d": 10.46,
+            "fees_90d_arr": 140770754.5,
+            "revenues_90d_arr": 48592458.11,
+            "fdv_or_mc": 501445640.0,
+            "fdv_fees_90d": 3.56,
+            "fdv_revenues_90d": 10.32,
             "highlight": false
           },
           {
             "name": "Jupiter",
             "type": "Protocol",
-            "fees_90d_arr": 245088585.89,
-            "revenues_90d_arr": 76300755.83,
-            "fdv_or_mc": 1296174973.0,
-            "fdv_fees_90d": 5.29,
-            "fdv_revenues_90d": 16.99,
+            "fees_90d_arr": 240580487.11,
+            "revenues_90d_arr": 74993504.28,
+            "fdv_or_mc": 1238095257.0,
+            "fdv_fees_90d": 5.15,
+            "fdv_revenues_90d": 16.51,
             "highlight": false
           },
           {
@@ -231,9 +83,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 51256991744.0,
+            "fdv_or_mc": 47990378496.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 7.45,
+            "fdv_revenues_90d": 6.97,
             "highlight": false
           },
           {
@@ -241,9 +93,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 23324303360.0,
+            "fdv_or_mc": 25411799040.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 8.49,
+            "fdv_revenues_90d": 9.25,
             "highlight": false
           },
           {
@@ -251,7 +103,7 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 51639529472.0,
+            "fdv_or_mc": 51616907264.0,
             "fdv_fees_90d": null,
             "fdv_revenues_90d": 9.53,
             "highlight": false
@@ -261,9 +113,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 73888309248.0,
+            "fdv_or_mc": 64101957632.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 16.52,
+            "fdv_revenues_90d": 14.33,
             "highlight": false
           },
           {
@@ -271,9 +123,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 834530312192.0,
+            "fdv_or_mc": 828635414528.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.81,
+            "fdv_revenues_90d": 4.77,
             "highlight": false
           },
           {
@@ -281,9 +133,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 103102111744.0,
+            "fdv_or_mc": 104094965760.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.29,
+            "fdv_revenues_90d": 15.44,
             "highlight": false
           }
         ]
@@ -296,7 +148,155 @@
         "tokenomics": "orange"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-04-29T15:01:17.521646+00:00"
+      "generated_at": "2026-04-30T09:46:20.276895+00:00"
+    },
+    {
+      "protocol": "Aave",
+      "token": "AAVE",
+      "overview": "Aave is a decentralised lending protocol enabling overcollateralised borrowing and lending across multiple chains.",
+      "team": "Founded by Stani Kulechov. Core development has historically involved Aave Labs and a broader ecosystem of contributors.",
+      "product_market_fit": "Aave is one of the leading DeFi lending protocols by scale, liquidity, integrations, and brand recognition.",
+      "governance": {
+        "dual_lab_dao_structure": true,
+        "dao_decentralised_enough": true,
+        "direct_revenue_accrual_to_protocol": true,
+        "revenue_accrual_type": "buyback",
+        "score": "orange",
+        "notes": "Dual Labs-DAO structure remains a governance risk despite active governance and direct value accrual.",
+        "updated_at": "2026-04-29"
+      },
+      "adoption": {
+        "tvl": 14218144579.0,
+        "tvl_change_3m_pct": -55.793598134648846
+      },
+      "tokenomics": {
+        "market_cap": 1408120823,
+        "fdv": 1484442706,
+        "mc_fdv": 0.9485854976473574,
+        "unlocked_pct": null,
+        "unlock_12m_pct": null
+      },
+      "financials": {
+        "fees_90d_arr": 773404595.5,
+        "fees_1y": 937662994.0,
+        "revenues_90d_arr": 100759239.56,
+        "revenues_1y": 125356793.0
+      },
+      "valuation": {
+        "fdv_fees_90d": 1.93,
+        "fdv_revenues_90d": 14.85,
+        "peer_table": [
+          {
+            "name": "Aave",
+            "type": "Protocol",
+            "fees_90d_arr": 773404595.5,
+            "revenues_90d_arr": 100759239.56,
+            "fdv_or_mc": 1496223676.0,
+            "fdv_fees_90d": 1.93,
+            "fdv_revenues_90d": 14.85,
+            "highlight": true
+          },
+          {
+            "name": "Morpho",
+            "type": "Protocol",
+            "fees_90d_arr": 183722709.44,
+            "revenues_90d_arr": 0.0,
+            "fdv_or_mc": 1967014567.0,
+            "fdv_fees_90d": 10.71,
+            "fdv_revenues_90d": null,
+            "highlight": false
+          },
+          {
+            "name": "Euler",
+            "type": "Protocol",
+            "fees_90d_arr": 33729345.83,
+            "revenues_90d_arr": 1928380.17,
+            "fdv_or_mc": 35778876.0,
+            "fdv_fees_90d": 1.06,
+            "fdv_revenues_90d": 18.55,
+            "highlight": false
+          },
+          {
+            "name": "Kamino",
+            "type": "Protocol",
+            "fees_90d_arr": 61728512.06,
+            "revenues_90d_arr": 9944238.44,
+            "fdv_or_mc": 202208000.0,
+            "fdv_fees_90d": 3.28,
+            "fdv_revenues_90d": 20.33,
+            "highlight": false
+          },
+          {
+            "name": "Coinbase",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 47990378496.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 6.97,
+            "highlight": false
+          },
+          {
+            "name": "Circle",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 25411799040.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.25,
+            "highlight": false
+          },
+          {
+            "name": "Nasdaq",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 51616907264.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 9.53,
+            "highlight": false
+          },
+          {
+            "name": "Robinhood",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 64101957632.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 14.33,
+            "highlight": false
+          },
+          {
+            "name": "JPMorgan",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 828635414528.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 4.77,
+            "highlight": false
+          },
+          {
+            "name": "CME",
+            "type": "Company",
+            "fees_90d_arr": null,
+            "revenues_90d_arr": null,
+            "fdv_or_mc": 104094965760.0,
+            "fdv_fees_90d": null,
+            "fdv_revenues_90d": 15.44,
+            "highlight": false
+          }
+        ]
+      },
+      "rag": {
+        "governance": "orange",
+        "adoption": "red",
+        "financials": "green",
+        "valuation": "orange",
+        "tokenomics": "green"
+      },
+      "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
+      "generated_at": "2026-04-30T09:46:20.276895+00:00"
     }
   ]
 }
