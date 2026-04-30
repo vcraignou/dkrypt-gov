@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T09:46:20.276895+00:00",
+  "generated_at": "2026-04-30T09:48:09.393998+00:00",
   "count": 2,
   "snapshots": [
     {
@@ -148,7 +148,7 @@
         "tokenomics": "orange"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-04-30T09:46:20.276895+00:00"
+      "generated_at": "2026-04-30T09:48:09.393998+00:00"
     },
     {
       "protocol": "Aave",
@@ -296,7 +296,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-04-30T09:46:20.276895+00:00"
+      "generated_at": "2026-04-30T09:48:09.393998+00:00"
     }
   ]
 }
