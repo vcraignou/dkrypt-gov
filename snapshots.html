@@ -272,14 +272,16 @@
               ${ragDot("Tokenomics", rag.tokenomics)}
             </div>
 
-            <div class="section-title">Governance and value accrual</div>
-            <div class="grid">
-              <div class="metric">Dual Labs-DAO structure: <b>${gov.dual_lab_dao_structure === true ? "Yes" : "No"}</b></div>
-              <div class="metric">DAO decentralised enough: <b>${gov.dao_decentralised_enough === true ? "Yes" : "No"}</b></div>
-              <div class="metric">Direct revenue accrual: <b>${gov.direct_revenue_accrual_to_protocol === true ? "Yes" : "No"}</b></div>
-              <div class="metric">Accrual type: <b>${gov.revenue_accrual_type || "n/a"}</b></div>
+            <div class="section-title">Governance & value accrual</div>
+
+            <div class="conclusion">${gov.notes || "n/a"}</div>
+
+            <div class="grid" style="margin-top:10px;">
+            <div class="metric">Dual Labs-DAO structure: <b>${gov.dual_lab_dao_structure === true ? "Yes" : "No"}</b></div>
+            <div class="metric">DAO decentralised enough: <b>${gov.dao_decentralised_enough === true ? "Yes" : "No"}</b></div>
+            <div class="metric">Direct revenue accrual: <b>${gov.direct_revenue_accrual_to_protocol === true ? "Yes" : "No"}</b></div>
+            <div class="metric">Accrual type: <b>${gov.revenue_accrual_type || "n/a"}</b></div>
             </div>
-            <div class="text-block" style="margin-top:10px;">${gov.notes || ""}</div>
 
             <div class="section-title">Adoption</div>
             <div class="grid">
@@ -301,20 +303,9 @@
             <div class="metric">Unlock 12m: <b>${fmtPct(s.tokenomics?.unlock_12m_pct)}</b></div>
            </div>
 
-            <div class="section-title">Investment conclusion</div>
-            <div class="conclusion">${s.conclusion || "n/a"}</div>
-
             <div class="section-title">Relative valuation</div>
             ${renderPeerTable(s.valuation?.peer_table)}
 
-            <div class="section-title">Overview</div>
-            <div class="text-block">${s.overview || "n/a"}</div>
-
-            <div class="section-title">Team</div>
-            <div class="text-block">${s.team || "n/a"}</div>
-
-            <div class="section-title">Product / market fit</div>
-            <div class="text-block">${s.product_market_fit || "n/a"}</div>
           `;
 
           container.appendChild(div);
