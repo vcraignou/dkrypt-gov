@@ -1,21 +1,6 @@
 {
-  "generated_at": "2026-05-01T07:05:08.705029+00:00",
+  "generated_at": "2026-05-08T07:05:15.550055+00:00",
   "impact": [
-    {
-      "protocol": "AAVE",
-      "title": "rsETH Incident Report (April 20, 2026)",
-      "signal": "burn",
-      "stage": "forum",
-      "priority_bucket": "impact",
-      "score": 74,
-      "url": "https://governance.aave.com/t/rseth-incident-report-april-20-2026/24580",
-      "source_type": "forum",
-      "source": "aave",
-      "published_at": "Mon, 20 Apr 2026 20:12:55 +0000",
-      "vote_start": null,
-      "vote_end": null,
-      "state": null
-    },
     {
       "protocol": "AAVE",
       "title": "[TEMP CHECK] Post-rsETH Collateral Framework: Tier-Based LTV Reductions and Wrap-Depth Ineligibility Limits",
@@ -34,19 +19,19 @@
   ],
   "watch": [
     {
-      "protocol": "AAVE",
-      "title": "ETH price appreciation makes this bad debt crisis worse every hour, governance must move fast",
+      "protocol": "UNI",
+      "title": "Return 12.5M Delegated Tokens to the Governance Timelock",
       "signal": "treasury allocation",
-      "stage": "forum",
+      "stage": "active",
       "priority_bucket": "watch",
-      "score": 66,
-      "url": "https://governance.aave.com/t/eth-price-appreciation-makes-this-bad-debt-crisis-worse-every-hour-governance-must-move-fast/24495",
-      "source_type": "forum",
-      "source": "aave",
-      "published_at": "Sun, 19 Apr 2026 11:39:34 +0000",
-      "vote_start": null,
-      "vote_end": null,
-      "state": null
+      "score": 64,
+      "url": "https://snapshot.box/#/s:uniswapgovernance.eth/proposal/0xd41b2db93c0348e9061bf786dfcb610d8f35e8447f2e90b37b8f30a9b1a3091e",
+      "source_type": "proposal",
+      "source": "uniswapgovernance.eth",
+      "published_at": null,
+      "vote_start": "2026-05-03T12:57:27+00:00",
+      "vote_end": "2026-05-08T12:57:27+00:00",
+      "state": "active"
     },
     {
       "protocol": "LDO",
@@ -62,6 +47,51 @@
       "vote_start": "2026-04-06T16:00:00+00:00",
       "vote_end": "2026-04-13T16:00:00+00:00",
       "state": "closed"
+    },
+    {
+      "protocol": "AAVE",
+      "title": "[Direct-to-AIP] CAPO SnapshotRatio Update Across Aave V3",
+      "signal": "inflation change",
+      "stage": "aip",
+      "priority_bucket": "watch",
+      "score": 52,
+      "url": "https://governance.aave.com/t/direct-to-aip-capo-snapshotratio-update-across-aave-v3/24854",
+      "source_type": "forum",
+      "source": "aave",
+      "published_at": "Tue, 05 May 2026 23:02:57 +0000",
+      "vote_start": null,
+      "vote_end": null,
+      "state": null
+    },
+    {
+      "protocol": "AAVE",
+      "title": "AL Development Update | April 2026",
+      "signal": "service provider budget",
+      "stage": "forum",
+      "priority_bucket": "watch",
+      "score": 50,
+      "url": "https://governance.aave.com/t/al-development-update-april-2026/24821",
+      "source_type": "forum",
+      "source": "aave",
+      "published_at": "Fri, 01 May 2026 10:42:45 +0000",
+      "vote_start": null,
+      "vote_end": null,
+      "state": null
+    },
+    {
+      "protocol": "AAVE",
+      "title": "[ARFC] Renew LlamaRisk as Risk Service Provider - epoch 4",
+      "signal": "service provider budget",
+      "stage": "active",
+      "priority_bucket": "watch",
+      "score": 50,
+      "url": "https://snapshot.box/#/s:aavedao.eth/proposal/0x139144f55e87579003f5f9ed53fc4b87bd0c7312fc9c356e5e4e164baa3f8077",
+      "source_type": "proposal",
+      "source": "aavedao.eth",
+      "published_at": null,
+      "vote_start": "2026-05-07T11:36:22+00:00",
+      "vote_end": "2026-05-10T11:36:22+00:00",
+      "state": "active"
     },
     {
       "protocol": "LDO",
@@ -110,21 +140,6 @@
     },
     {
       "protocol": "AAVE",
-      "title": "[ARFC] Pause AAVE Buybacks",
-      "signal": "buyback",
-      "stage": "active",
-      "priority_bucket": "watch",
-      "score": 47,
-      "url": "https://snapshot.box/#/s:aavedao.eth/proposal/0x10a2af0110b1ad6f4afd7a3a052b2a119d102cc22949e80e9bbd5132587107c8",
-      "source_type": "proposal",
-      "source": "aavedao.eth",
-      "published_at": null,
-      "vote_start": "2026-04-28T09:05:18+00:00",
-      "vote_end": "2026-05-01T09:05:18+00:00",
-      "state": "active"
-    },
-    {
-      "protocol": "AAVE",
       "title": "Aave v4 - Safe to move my positions?",
       "signal": "governance item",
       "stage": "forum",
@@ -152,37 +167,7 @@
       "vote_start": null,
       "vote_end": null,
       "state": null
-    },
-    {
-      "protocol": "AAVE",
-      "title": "Request: Fully exclude Linea L2 pure ETH suppliers from any haircut or socialized losses (or prioritize unfreeze of Linea WETH)",
-      "signal": "service provider budget",
-      "stage": "forum",
-      "priority_bucket": "watch",
-      "score": 44,
-      "url": "https://governance.aave.com/t/request-fully-exclude-linea-l2-pure-eth-suppliers-from-any-haircut-or-socialized-losses-or-prioritize-unfreeze-of-linea-weth/24625",
-      "source_type": "forum",
-      "source": "aave",
-      "published_at": "Tue, 21 Apr 2026 10:18:00 +0000",
-      "vote_start": null,
-      "vote_end": null,
-      "state": null
-    },
-    {
-      "protocol": "AAVE",
-      "title": "[ARFC] Pause AAVE Buybacks",
-      "signal": "buyback",
-      "stage": "arfc",
-      "priority_bucket": "watch",
-      "score": 41,
-      "url": "https://governance.aave.com/t/arfc-pause-aave-buybacks/24686",
-      "source_type": "forum",
-      "source": "aave",
-      "published_at": "Wed, 22 Apr 2026 18:51:13 +0000",
-      "vote_start": null,
-      "vote_end": null,
-      "state": null
     }
   ],
-  "count_items": 12
+  "count_items": 16
 }
