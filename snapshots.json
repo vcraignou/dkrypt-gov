@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T15:14:46.436296+00:00",
+  "generated_at": "2026-10-23T15:38:28.980411+00:00",
   "count": 15,
   "snapshots": [
     {
@@ -22,9 +22,9 @@
         "tvl_change_3m_pct": 29.94303932721387
       },
       "tokenomics": {
-        "market_cap": 4430611782,
-        "fdv": 6290949030,
-        "mc_fdv": 0.7042835287444699,
+        "market_cap": 4429466181,
+        "fdv": 6289322411,
+        "mc_fdv": 0.7042835287395796,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
@@ -148,7 +148,7 @@
         "tokenomics": "orange"
       },
       "conclusion": "Valuation appears relatively attractive versus current fee generation.",
-      "generated_at": "2026-10-23T15:14:46.436296+00:00"
+      "generated_at": "2026-10-23T15:38:28.980411+00:00"
     },
     {
       "protocol": "Hyperliquid",
@@ -166,13 +166,13 @@
         "updated_at": "05-09-2025"
       },
       "adoption": {
-        "tvl": 8307606389.0,
-        "tvl_change_3m_pct": 36.21876349368331
+        "tvl": 8304809412.0,
+        "tvl_change_3m_pct": 36.17290181817534
       },
       "tokenomics": {
-        "market_cap": 17361677058,
-        "fdv": 74560811719,
-        "mc_fdv": 0.2328525757395396,
+        "market_cap": 17408625925,
+        "fdv": 74762436573,
+        "mc_fdv": 0.23285257574506366,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
@@ -266,7 +266,7 @@
         "tokenomics": "red"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-10-23T15:14:46.436296+00:00"
+      "generated_at": "2026-10-23T15:38:28.980411+00:00"
     },
     {
       "protocol": "Raydium",
@@ -288,9 +288,9 @@
         "tvl_change_3m_pct": 44.82282169042391
       },
       "tokenomics": {
-        "market_cap": 496978608,
-        "fdv": 1021705019,
-        "mc_fdv": 0.4864208345442218,
+        "market_cap": 496530384,
+        "fdv": 1020783546,
+        "mc_fdv": 0.48642083421669885,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
@@ -384,7 +384,7 @@
         "tokenomics": "red"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-10-23T15:14:46.436296+00:00"
+      "generated_at": "2026-10-23T15:38:28.980411+00:00"
     },
     {
       "protocol": "Jupiter",
@@ -402,13 +402,13 @@
         "updated_at": "18-09-2025"
       },
       "adoption": {
-        "tvl": 1760813650.6383,
-        "tvl_change_3m_pct": 16.33021833014876
+        "tvl": 1759145454.74561,
+        "tvl_change_3m_pct": 16.220007012588987
       },
       "tokenomics": {
-        "market_cap": 1027546183,
-        "fdv": 2124046264,
-        "mc_fdv": 0.4837682683356091,
+        "market_cap": 1025384362,
+        "fdv": 2119577552,
+        "mc_fdv": 0.4837682683667146,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
@@ -502,7 +502,7 @@
         "tokenomics": "red"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-10-23T15:14:46.436296+00:00"
+      "generated_at": "2026-10-23T15:38:28.980411+00:00"
     },
     {
       "protocol": "PancakeSwap",
@@ -520,13 +520,13 @@
         "updated_at": "10-02-2025"
       },
       "adoption": {
-        "tvl": 2396510016.0,
-        "tvl_change_3m_pct": 16.725434742868384
+        "tvl": 2396635401.0,
+        "tvl_change_3m_pct": 16.731541797934923
       },
       "tokenomics": {
-        "market_cap": 692079000,
-        "fdv": 717296276,
-        "mc_fdv": 0.9648439886783965,
+        "market_cap": 694619744,
+        "fdv": 719929516,
+        "mc_fdv": 0.9648440973213273,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
@@ -620,7 +620,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-10-23T15:14:46.436296+00:00"
+      "generated_at": "2026-10-23T15:38:28.980411+00:00"
     },
     {
       "protocol": "Aerodrome",
@@ -642,9 +642,9 @@
         "tvl_change_3m_pct": null
       },
       "tokenomics": {
-        "market_cap": 632346826,
-        "fdv": 1485706348,
-        "mc_fdv": 0.42562032992000115,
+        "market_cap": 631277445,
+        "fdv": 1483261170,
+        "mc_fdv": 0.4256010052498037,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
@@ -728,7 +728,7 @@
         "tokenomics": "red"
       },
       "conclusion": "Overall profile appears balanced, with no immediate extreme positive or negative signal.",
-      "generated_at": "2026-10-23T15:14:46.436296+00:00"
+      "generated_at": "2026-10-23T15:38:28.980411+00:00"
     },
     {
       "protocol": "Aave",
@@ -746,13 +746,13 @@
         "updated_at": "03-03-2026"
       },
       "adoption": {
-        "tvl": 17978903381.0,
-        "tvl_change_3m_pct": 26.717312817865448
+        "tvl": 18038086210.0,
+        "tvl_change_3m_pct": 27.13443998613114
       },
       "tokenomics": {
-        "market_cap": 2269042855,
-        "fdv": 2351856539,
-        "mc_fdv": 0.964787952569925,
+        "market_cap": 2269124438,
+        "fdv": 2351941100,
+        "mc_fdv": 0.9647879523853722,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
@@ -876,7 +876,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-10-23T15:14:46.436296+00:00"
+      "generated_at": "2026-10-23T15:38:28.980411+00:00"
     },
     {
       "protocol": "Sky",
@@ -898,9 +898,9 @@
         "tvl_change_3m_pct": -5.172401599650445
       },
       "tokenomics": {
-        "market_cap": 1687417924,
-        "fdv": 1689313393,
-        "mc_fdv": 0.9988779648537363,
+        "market_cap": 1688750368,
+        "fdv": 1690647334,
+        "mc_fdv": 0.9988779646932564,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
@@ -994,7 +994,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-10-23T15:14:46.436296+00:00"
+      "generated_at": "2026-10-23T15:38:28.980411+00:00"
     },
     {
       "protocol": "Spark",
@@ -1012,8 +1012,8 @@
         "updated_at": "04-09-2025"
       },
       "adoption": {
-        "tvl": 6792211376.709559,
-        "tvl_change_3m_pct": 47.712837019464715
+        "tvl": 6810156509.87328,
+        "tvl_change_3m_pct": 48.10309674244601
       },
       "tokenomics": {
         "market_cap": null,
@@ -1112,7 +1112,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-10-23T15:14:46.436296+00:00"
+      "generated_at": "2026-10-23T15:38:28.980411+00:00"
     },
     {
       "protocol": "Ethena",
@@ -1130,13 +1130,13 @@
         "updated_at": "2026-05-08"
       },
       "adoption": {
-        "tvl": 5036067275.3732,
-        "tvl_change_3m_pct": 19.33146720405279
+        "tvl": 5035634702.09598,
+        "tvl_change_3m_pct": 19.321217221075713
       },
       "tokenomics": {
-        "market_cap": 2734262840,
-        "fdv": 3059315066,
-        "mc_fdv": 0.8937499999223683,
+        "market_cap": 2733607999,
+        "fdv": 3058582377,
+        "mc_fdv": 0.8937499998549164,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
@@ -1230,7 +1230,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-10-23T15:14:46.436296+00:00"
+      "generated_at": "2026-10-23T15:38:28.980411+00:00"
     },
     {
       "protocol": "Kamino",
@@ -1248,13 +1248,13 @@
         "updated_at": "15-09-2025"
       },
       "adoption": {
-        "tvl": 1359194677.0,
-        "tvl_change_3m_pct": 20.80683211955945
+        "tvl": 1359306431.0,
+        "tvl_change_3m_pct": 20.816764947391352
       },
       "tokenomics": {
-        "market_cap": 229242262,
-        "fdv": 393477816,
-        "mc_fdv": 0.5826053024549673,
+        "market_cap": 231679649,
+        "fdv": 397661414,
+        "mc_fdv": 0.5826053040187601,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
@@ -1348,7 +1348,7 @@
         "tokenomics": "red"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-10-23T15:14:46.436296+00:00"
+      "generated_at": "2026-10-23T15:38:28.980411+00:00"
     },
     {
       "protocol": "Morpho",
@@ -1366,13 +1366,13 @@
         "updated_at": "01-09-2025"
       },
       "adoption": {
-        "tvl": 11256065208.0,
-        "tvl_change_3m_pct": 50.80309554475462
+        "tvl": 11257909222.0,
+        "tvl_change_3m_pct": 50.827800716081306
       },
       "tokenomics": {
-        "market_cap": 1597595451,
-        "fdv": 2272973271,
-        "mc_fdv": 0.7028659207669143,
+        "market_cap": 1595128473,
+        "fdv": 2269460034,
+        "mc_fdv": 0.702866959145578,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
@@ -1466,7 +1466,7 @@
         "tokenomics": "orange"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-10-23T15:14:46.436296+00:00"
+      "generated_at": "2026-10-23T15:38:28.980411+00:00"
     },
     {
       "protocol": "Euler",
@@ -1484,13 +1484,13 @@
         "updated_at": "01-09-2025"
       },
       "adoption": {
-        "tvl": 283114677.0,
-        "tvl_change_3m_pct": -14.704842053005084
+        "tvl": 283205153.0,
+        "tvl_change_3m_pct": -14.677583965250019
       },
       "tokenomics": {
-        "market_cap": 28838057,
-        "fdv": 32615258,
-        "mc_fdv": 0.8841891423946424,
+        "market_cap": 28851796,
+        "fdv": 32630796,
+        "mc_fdv": 0.8841891567708002,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
@@ -1584,7 +1584,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-10-23T15:14:46.436296+00:00"
+      "generated_at": "2026-10-23T15:38:28.980411+00:00"
     },
     {
       "protocol": "Lido",
@@ -1602,13 +1602,13 @@
         "updated_at": "15-09-2025"
       },
       "adoption": {
-        "tvl": 23228444750.0,
-        "tvl_change_3m_pct": 33.55847707858916
+        "tvl": 23318016949.0,
+        "tvl_change_3m_pct": 34.07349763273195
       },
       "tokenomics": {
-        "market_cap": 321006257,
-        "fdv": 386956040,
-        "mc_fdv": 0.8295677643382954,
+        "market_cap": 319874218,
+        "fdv": 385591427,
+        "mc_fdv": 0.8295677642231397,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
@@ -1702,7 +1702,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-10-23T15:14:46.436296+00:00"
+      "generated_at": "2026-10-23T15:38:28.980411+00:00"
     },
     {
       "protocol": "Jito",
@@ -1720,13 +1720,13 @@
         "updated_at": "15-09-2025"
       },
       "adoption": {
-        "tvl": 1090809848.75746,
-        "tvl_change_3m_pct": 46.21479907707362
+        "tvl": 1095100658.75746,
+        "tvl_change_3m_pct": 46.78994966151557
       },
       "tokenomics": {
-        "market_cap": 245793248,
-        "fdv": 459040223,
-        "mc_fdv": 0.5354503498487538,
+        "market_cap": 246298705,
+        "fdv": 459984207,
+        "mc_fdv": 0.5354503507986743,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
@@ -1820,7 +1820,7 @@
         "tokenomics": "red"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-10-23T15:14:46.436296+00:00"
+      "generated_at": "2026-10-23T15:38:28.980411+00:00"
     }
   ]
 }
