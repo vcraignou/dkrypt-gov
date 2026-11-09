@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T00:30:07.280582+00:00",
+  "generated_at": "2026-11-09T00:30:07.350471+00:00",
   "count": 15,
   "snapshots": [
     {
@@ -18,64 +18,64 @@
         "updated_at": "17-11-2025"
       },
       "adoption": {
-        "tvl": 3492988812.0,
-        "tvl_change_3m_pct": 15.092941492169821
+        "tvl": 3505046454.0,
+        "tvl_change_3m_pct": 15.818288395068336
       },
       "tokenomics": {
-        "market_cap": 4191790689,
-        "fdv": 6110556512,
-        "mc_fdv": 0.6859916409852523,
+        "market_cap": 4162258455,
+        "fdv": 6067575038,
+        "mc_fdv": 0.6859838450999969,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 1620029177.11,
-        "fees_1y": 924861981.48,
-        "revenues_90d_arr": 134096964.72,
-        "revenues_1y": 63573151.0
+        "fees_90d_arr": 1597150257.17,
+        "fees_1y": 920692362.43,
+        "revenues_90d_arr": 132856731.22,
+        "revenues_1y": 63687308.0
       },
       "valuation": {
-        "fdv_fees_90d": 3.76,
-        "fdv_revenues_90d": 45.47,
+        "fdv_fees_90d": 3.75,
+        "fdv_revenues_90d": 45.12,
         "peer_table": [
           {
             "name": "Uniswap",
             "type": "Protocol",
-            "fees_90d_arr": 1620029177.11,
-            "revenues_90d_arr": 134096964.72,
-            "fdv_or_mc": 6096987455.0,
-            "fdv_fees_90d": 3.76,
-            "fdv_revenues_90d": 45.47,
+            "fees_90d_arr": 1597150257.17,
+            "revenues_90d_arr": 132856731.22,
+            "fdv_or_mc": 5993879406.0,
+            "fdv_fees_90d": 3.75,
+            "fdv_revenues_90d": 45.12,
             "highlight": true
           },
           {
             "name": "Raydium",
             "type": "Protocol",
-            "fees_90d_arr": 285568107.89,
-            "revenues_90d_arr": 46143072.89,
-            "fdv_or_mc": 993629844.0,
-            "fdv_fees_90d": 3.48,
-            "fdv_revenues_90d": 21.53,
+            "fees_90d_arr": 286124298.94,
+            "revenues_90d_arr": 46293465.06,
+            "fdv_or_mc": 931002489.0,
+            "fdv_fees_90d": 3.25,
+            "fdv_revenues_90d": 20.11,
             "highlight": false
           },
           {
             "name": "Pancakeswap",
             "type": "Protocol",
-            "fees_90d_arr": 207768808.26,
-            "revenues_90d_arr": 68484042.0,
-            "fdv_or_mc": 651901403.0,
-            "fdv_fees_90d": 3.14,
-            "fdv_revenues_90d": 9.52,
+            "fees_90d_arr": 203683739.09,
+            "revenues_90d_arr": 67199520.5,
+            "fdv_or_mc": 625762365.0,
+            "fdv_fees_90d": 3.07,
+            "fdv_revenues_90d": 9.31,
             "highlight": false
           },
           {
             "name": "Jupiter",
             "type": "Protocol",
-            "fees_90d_arr": 221256875.54,
-            "revenues_90d_arr": 68192480.29,
-            "fdv_or_mc": 1670649193.0,
-            "fdv_fees_90d": 7.55,
-            "fdv_revenues_90d": 24.5,
+            "fees_90d_arr": 244635073.88,
+            "revenues_90d_arr": 84655798.72,
+            "fdv_or_mc": 1588146552.0,
+            "fdv_fees_90d": 6.49,
+            "fdv_revenues_90d": 18.76,
             "highlight": false
           },
           {
@@ -148,7 +148,7 @@
         "tokenomics": "orange"
       },
       "conclusion": "Valuation appears relatively attractive versus current fee generation.",
-      "generated_at": "2026-11-07T00:30:07.280582+00:00"
+      "generated_at": "2026-11-09T00:30:07.350471+00:00"
     },
     {
       "protocol": "Hyperliquid",
@@ -166,34 +166,34 @@
         "updated_at": "05-09-2025"
       },
       "adoption": {
-        "tvl": 8101824587.0,
-        "tvl_change_3m_pct": 33.805148920692794
+        "tvl": 7931641782.0,
+        "tvl_change_3m_pct": 31.279281095536593
       },
       "tokenomics": {
-        "market_cap": 18831905271,
-        "fdv": 74848657352,
-        "mc_fdv": 0.2515997739603648,
+        "market_cap": 17867902724,
+        "fdv": 71017165253,
+        "mc_fdv": 0.25159977394683747,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 1068727265.77,
-        "fees_1y": 899015573.69,
-        "revenues_90d_arr": 851460972.94,
-        "revenues_1y": 683661734.0
+        "fees_90d_arr": 1079436376.8,
+        "fees_1y": 894735670.69,
+        "revenues_90d_arr": 860682085.56,
+        "revenues_1y": 680347232.0
       },
       "valuation": {
-        "fdv_fees_90d": 69.88,
-        "fdv_revenues_90d": 87.71,
+        "fdv_fees_90d": 65.5,
+        "fdv_revenues_90d": 82.15,
         "peer_table": [
           {
             "name": "Hyperliquid",
             "type": "Protocol",
-            "fees_90d_arr": 1068727265.77,
-            "revenues_90d_arr": 851460972.94,
-            "fdv_or_mc": 74680276218.0,
-            "fdv_fees_90d": 69.88,
-            "fdv_revenues_90d": 87.71,
+            "fees_90d_arr": 1079436376.8,
+            "revenues_90d_arr": 860682085.56,
+            "fdv_or_mc": 70700843278.0,
+            "fdv_fees_90d": 65.5,
+            "fdv_revenues_90d": 82.15,
             "highlight": true
           },
           {
@@ -266,7 +266,7 @@
         "tokenomics": "red"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-07T00:30:07.280582+00:00"
+      "generated_at": "2026-11-09T00:30:07.350471+00:00"
     },
     {
       "protocol": "Raydium",
@@ -284,34 +284,34 @@
         "updated_at": null
       },
       "adoption": {
-        "tvl": 1017737755.0,
-        "tvl_change_3m_pct": 23.334295463498457
+        "tvl": 985278764.0,
+        "tvl_change_3m_pct": 16.393900783254047
       },
       "tokenomics": {
-        "market_cap": 484375536,
-        "fdv": 995790396,
-        "mc_fdv": 0.4864231849852065,
+        "market_cap": 457673824,
+        "fdv": 940896399,
+        "mc_fdv": 0.48642318589636774,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 285568107.89,
-        "fees_1y": 165580648.0,
-        "revenues_90d_arr": 46143072.89,
-        "revenues_1y": 25924041.0
+        "fees_90d_arr": 286124298.94,
+        "fees_1y": 165477754.0,
+        "revenues_90d_arr": 46293465.06,
+        "revenues_1y": 25929242.0
       },
       "valuation": {
-        "fdv_fees_90d": 3.48,
-        "fdv_revenues_90d": 21.53,
+        "fdv_fees_90d": 3.25,
+        "fdv_revenues_90d": 20.11,
         "peer_table": [
           {
             "name": "Raydium",
             "type": "Protocol",
-            "fees_90d_arr": 285568107.89,
-            "revenues_90d_arr": 46143072.89,
-            "fdv_or_mc": 993629844.0,
-            "fdv_fees_90d": 3.48,
-            "fdv_revenues_90d": 21.53,
+            "fees_90d_arr": 286124298.94,
+            "revenues_90d_arr": 46293465.06,
+            "fdv_or_mc": 931002489.0,
+            "fdv_fees_90d": 3.25,
+            "fdv_revenues_90d": 20.11,
             "highlight": true
           },
           {
@@ -378,13 +378,13 @@
       },
       "rag": {
         "governance": "orange",
-        "adoption": "green",
+        "adoption": "orange",
         "financials": "green",
         "valuation": "red",
         "tokenomics": "red"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-07T00:30:07.280582+00:00"
+      "generated_at": "2026-11-09T00:30:07.350471+00:00"
     },
     {
       "protocol": "Jupiter",
@@ -402,34 +402,34 @@
         "updated_at": "18-09-2025"
       },
       "adoption": {
-        "tvl": 1596888909.4563,
-        "tvl_change_3m_pct": 6.762199804479052
+        "tvl": 1557394161.5447998,
+        "tvl_change_3m_pct": 1.6840799820998287
       },
       "tokenomics": {
-        "market_cap": 808829316,
-        "fdv": 1671935392,
-        "mc_fdv": 0.4837682842711185,
+        "market_cap": 774981151,
+        "fdv": 1601967671,
+        "mc_fdv": 0.4837682838607047,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 221256875.54,
-        "fees_1y": 249862308.4,
-        "revenues_90d_arr": 68192480.29,
-        "revenues_1y": 75683284.47
+        "fees_90d_arr": 244635073.88,
+        "fees_1y": 260505843.81,
+        "revenues_90d_arr": 84655798.72,
+        "revenues_1y": 84557840.63
       },
       "valuation": {
-        "fdv_fees_90d": 7.55,
-        "fdv_revenues_90d": 24.5,
+        "fdv_fees_90d": 6.49,
+        "fdv_revenues_90d": 18.76,
         "peer_table": [
           {
             "name": "Jupiter",
             "type": "Protocol",
-            "fees_90d_arr": 221256875.54,
-            "revenues_90d_arr": 68192480.29,
-            "fdv_or_mc": 1670649193.0,
-            "fdv_fees_90d": 7.55,
-            "fdv_revenues_90d": 24.5,
+            "fees_90d_arr": 244635073.88,
+            "revenues_90d_arr": 84655798.72,
+            "fdv_or_mc": 1588146552.0,
+            "fdv_fees_90d": 6.49,
+            "fdv_revenues_90d": 18.76,
             "highlight": true
           },
           {
@@ -502,7 +502,7 @@
         "tokenomics": "red"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-07T00:30:07.280582+00:00"
+      "generated_at": "2026-11-09T00:30:07.350471+00:00"
     },
     {
       "protocol": "PancakeSwap",
@@ -520,34 +520,34 @@
         "updated_at": "10-02-2025"
       },
       "adoption": {
-        "tvl": 2213876474.0,
-        "tvl_change_3m_pct": 10.997868005561084
+        "tvl": 2179248255.0,
+        "tvl_change_3m_pct": 4.065376136892351
       },
       "tokenomics": {
-        "market_cap": 629774936,
-        "fdv": 651917499,
-        "mc_fdv": 0.9660347159970928,
+        "market_cap": 607461579,
+        "fdv": 628812857,
+        "mc_fdv": 0.9660450994881614,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 207768808.26,
-        "fees_1y": 177828271.43,
-        "revenues_90d_arr": 68484042.0,
-        "revenues_1y": 60011484.11
+        "fees_90d_arr": 203683739.09,
+        "fees_1y": 169854607.25,
+        "revenues_90d_arr": 67199520.5,
+        "revenues_1y": 57318818.53
       },
       "valuation": {
-        "fdv_fees_90d": 3.14,
-        "fdv_revenues_90d": 9.52,
+        "fdv_fees_90d": 3.07,
+        "fdv_revenues_90d": 9.31,
         "peer_table": [
           {
             "name": "Pancakeswap",
             "type": "Protocol",
-            "fees_90d_arr": 207768808.26,
-            "revenues_90d_arr": 68484042.0,
-            "fdv_or_mc": 651901403.0,
-            "fdv_fees_90d": 3.14,
-            "fdv_revenues_90d": 9.52,
+            "fees_90d_arr": 203683739.09,
+            "revenues_90d_arr": 67199520.5,
+            "fdv_or_mc": 625762365.0,
+            "fdv_fees_90d": 3.07,
+            "fdv_revenues_90d": 9.31,
             "highlight": true
           },
           {
@@ -620,7 +620,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-07T00:30:07.280582+00:00"
+      "generated_at": "2026-11-09T00:30:07.350471+00:00"
     },
     {
       "protocol": "Aerodrome",
@@ -638,13 +638,13 @@
         "updated_at": "2026-05-08"
       },
       "adoption": {
-        "tvl": 356750985.0,
-        "tvl_change_3m_pct": 18.57351401132732
+        "tvl": 329846228.0,
+        "tvl_change_3m_pct": 10.715130514508985
       },
       "tokenomics": {
-        "market_cap": 194096607,
-        "fdv": 1229515112,
-        "mc_fdv": 0.1578643524635263,
+        "market_cap": 176766086,
+        "fdv": 1162318572,
+        "mc_fdv": 0.15208058294709928,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
@@ -728,7 +728,7 @@
         "tokenomics": "red"
       },
       "conclusion": "Overall profile appears balanced, with no immediate extreme positive or negative signal.",
-      "generated_at": "2026-11-07T00:30:07.280582+00:00"
+      "generated_at": "2026-11-09T00:30:07.350471+00:00"
     },
     {
       "protocol": "Aave",
@@ -746,64 +746,64 @@
         "updated_at": "03-03-2026"
       },
       "adoption": {
-        "tvl": 16910207900.0,
-        "tvl_change_3m_pct": 14.308875754580196
+        "tvl": 16416948825.0,
+        "tvl_change_3m_pct": 10.697696525847089
       },
       "tokenomics": {
-        "market_cap": 2017989992,
-        "fdv": 2091132666,
-        "mc_fdv": 0.9650224611813318,
+        "market_cap": 1961930673,
+        "fdv": 2033029808,
+        "mc_fdv": 0.9650279918571661,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 447728499.11,
-        "fees_1y": 621049826.26,
-        "revenues_90d_arr": 59795395.0,
-        "revenues_1y": 88302284.43
+        "fees_90d_arr": 449284072.33,
+        "fees_1y": 617177120.26,
+        "revenues_90d_arr": 59902254.83,
+        "revenues_1y": 87801564.43
       },
       "valuation": {
-        "fdv_fees_90d": 4.67,
-        "fdv_revenues_90d": 34.98,
+        "fdv_fees_90d": 4.48,
+        "fdv_revenues_90d": 33.6,
         "peer_table": [
           {
             "name": "Aave",
             "type": "Protocol",
-            "fees_90d_arr": 447728499.11,
-            "revenues_90d_arr": 59795395.0,
-            "fdv_or_mc": 2091403608.0,
-            "fdv_fees_90d": 4.67,
-            "fdv_revenues_90d": 34.98,
+            "fees_90d_arr": 449284072.33,
+            "revenues_90d_arr": 59902254.83,
+            "fdv_or_mc": 2012809713.0,
+            "fdv_fees_90d": 4.48,
+            "fdv_revenues_90d": 33.6,
             "highlight": true
           },
           {
             "name": "Morpho",
             "type": "Protocol",
-            "fees_90d_arr": 266926318.51,
+            "fees_90d_arr": 269062240.88,
             "revenues_90d_arr": 0.0,
-            "fdv_or_mc": 2109836082.0,
-            "fdv_fees_90d": 7.9,
+            "fdv_or_mc": 2009416962.0,
+            "fdv_fees_90d": 7.47,
             "fdv_revenues_90d": null,
             "highlight": false
           },
           {
             "name": "Euler",
             "type": "Protocol",
-            "fees_90d_arr": 12107617.78,
-            "revenues_90d_arr": 207011.21,
-            "fdv_or_mc": 27471174.0,
-            "fdv_fees_90d": 2.27,
-            "fdv_revenues_90d": 132.7,
+            "fees_90d_arr": 11749564.94,
+            "revenues_90d_arr": 197197.01,
+            "fdv_or_mc": 24949441.0,
+            "fdv_fees_90d": 2.12,
+            "fdv_revenues_90d": 126.52,
             "highlight": false
           },
           {
             "name": "Kamino",
             "type": "Protocol",
-            "fees_90d_arr": 57312977.28,
-            "revenues_90d_arr": 7576081.94,
-            "fdv_or_mc": 342981056.0,
-            "fdv_fees_90d": 5.98,
-            "fdv_revenues_90d": 45.27,
+            "fees_90d_arr": 57341224.22,
+            "revenues_90d_arr": 7578474.72,
+            "fdv_or_mc": 325444055.0,
+            "fdv_fees_90d": 5.68,
+            "fdv_revenues_90d": 42.94,
             "highlight": false
           },
           {
@@ -876,7 +876,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-07T00:30:07.280582+00:00"
+      "generated_at": "2026-11-09T00:30:07.350471+00:00"
     },
     {
       "protocol": "Sky",
@@ -894,34 +894,34 @@
         "updated_at": "08-05-2026"
       },
       "adoption": {
-        "tvl": 4367913203.0,
-        "tvl_change_3m_pct": -25.39080361790196
+        "tvl": 4203318501.0,
+        "tvl_change_3m_pct": -28.012528946220005
       },
       "tokenomics": {
-        "market_cap": 1519377048,
-        "fdv": 1521489511,
-        "mc_fdv": 0.9986115822785978,
+        "market_cap": 1458518984,
+        "fdv": 1460742284,
+        "mc_fdv": 0.9984779656039586,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 332817471.44,
-        "fees_1y": 385881016.0,
-        "revenues_90d_arr": 161667028.83,
-        "revenues_1y": 191381893.0
+        "fees_90d_arr": 332126084.39,
+        "fees_1y": 385194267.0,
+        "revenues_90d_arr": 161251776.44,
+        "revenues_1y": 190714281.0
       },
       "valuation": {
-        "fdv_fees_90d": 4.58,
-        "fdv_revenues_90d": 9.43,
+        "fdv_fees_90d": 4.38,
+        "fdv_revenues_90d": 9.03,
         "peer_table": [
           {
             "name": "Sky",
             "type": "Protocol",
-            "fees_90d_arr": 332817471.44,
-            "revenues_90d_arr": 161667028.83,
-            "fdv_or_mc": 1523829434.0,
-            "fdv_fees_90d": 4.58,
-            "fdv_revenues_90d": 9.43,
+            "fees_90d_arr": 332126084.39,
+            "revenues_90d_arr": 161251776.44,
+            "fdv_or_mc": 1455516950.0,
+            "fdv_fees_90d": 4.38,
+            "fdv_revenues_90d": 9.03,
             "highlight": true
           },
           {
@@ -994,7 +994,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-07T00:30:07.280582+00:00"
+      "generated_at": "2026-11-09T00:30:07.350471+00:00"
     },
     {
       "protocol": "Spark",
@@ -1012,34 +1012,34 @@
         "updated_at": "04-09-2025"
       },
       "adoption": {
-        "tvl": 6742617169.430281,
-        "tvl_change_3m_pct": 44.07265876019668
+        "tvl": 6640205913.52184,
+        "tvl_change_3m_pct": 41.634900008618956
       },
       "tokenomics": {
         "market_cap": null,
         "fdv": null,
-        "mc_fdv": 162164973.0,
+        "mc_fdv": 155216942.0,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 200882612.61,
-        "fees_1y": 171121599.0,
-        "revenues_90d_arr": 7721911.61,
-        "revenues_1y": 6321044.0
+        "fees_90d_arr": 203484048.72,
+        "fees_1y": 171318774.0,
+        "revenues_90d_arr": 8121927.28,
+        "revenues_1y": 6433837.0
       },
       "valuation": {
-        "fdv_fees_90d": 0.81,
-        "fdv_revenues_90d": 21.0,
+        "fdv_fees_90d": 0.76,
+        "fdv_revenues_90d": 19.11,
         "peer_table": [
           {
             "name": "Spark",
             "type": "Protocol",
-            "fees_90d_arr": 200882612.61,
-            "revenues_90d_arr": 7721911.61,
-            "fdv_or_mc": 162164973.0,
-            "fdv_fees_90d": 0.81,
-            "fdv_revenues_90d": 21.0,
+            "fees_90d_arr": 203484048.72,
+            "revenues_90d_arr": 8121927.28,
+            "fdv_or_mc": 155216942.0,
+            "fdv_fees_90d": 0.76,
+            "fdv_revenues_90d": 19.11,
             "highlight": true
           },
           {
@@ -1112,7 +1112,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-07T00:30:07.280582+00:00"
+      "generated_at": "2026-11-09T00:30:07.350471+00:00"
     },
     {
       "protocol": "Ethena",
@@ -1130,34 +1130,34 @@
         "updated_at": "2026-05-08"
       },
       "adoption": {
-        "tvl": 5296872224.71157,
-        "tvl_change_3m_pct": 25.77092628355655
+        "tvl": 5356321470.71711,
+        "tvl_change_3m_pct": 26.429123191515448
       },
       "tokenomics": {
-        "market_cap": 2207393385,
-        "fdv": 2452659316,
-        "mc_fdv": 0.9000000002446324,
+        "market_cap": 2025364907,
+        "fdv": 2250405452,
+        "mc_fdv": 0.9000000000888728,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 233554784.81,
-        "fees_1y": 236783154.49,
-        "revenues_90d_arr": 508107.38,
-        "revenues_1y": 2017213.08
+        "fees_90d_arr": 228960985.9,
+        "fees_1y": 235313976.19,
+        "revenues_90d_arr": 508092.33,
+        "revenues_1y": 2014748.61
       },
       "valuation": {
-        "fdv_fees_90d": 10.51,
-        "fdv_revenues_90d": 4830.52,
+        "fdv_fees_90d": 9.73,
+        "fdv_revenues_90d": 4383.65,
         "peer_table": [
           {
             "name": "Ethena",
             "type": "Protocol",
-            "fees_90d_arr": 233554784.81,
-            "revenues_90d_arr": 508107.38,
-            "fdv_or_mc": 2454422771.0,
-            "fdv_fees_90d": 10.51,
-            "fdv_revenues_90d": 4830.52,
+            "fees_90d_arr": 228960985.9,
+            "revenues_90d_arr": 508092.33,
+            "fdv_or_mc": 2227299016.0,
+            "fdv_fees_90d": 9.73,
+            "fdv_revenues_90d": 4383.65,
             "highlight": true
           },
           {
@@ -1230,7 +1230,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-07T00:30:07.280582+00:00"
+      "generated_at": "2026-11-09T00:30:07.350471+00:00"
     },
     {
       "protocol": "Kamino",
@@ -1248,34 +1248,34 @@
         "updated_at": "15-09-2025"
       },
       "adoption": {
-        "tvl": 1253101134.0,
-        "tvl_change_3m_pct": 12.358597122652526
+        "tvl": 1239519496.0,
+        "tvl_change_3m_pct": 8.947457849500218
       },
       "tokenomics": {
-        "market_cap": 203352920,
-        "fdv": 342833666,
-        "mc_fdv": 0.5931532990111887,
+        "market_cap": 194736069,
+        "fdv": 327474553,
+        "mc_fdv": 0.5946601566931523,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 57312977.28,
-        "fees_1y": 62015821.0,
-        "revenues_90d_arr": 7576081.94,
-        "revenues_1y": 9172919.0
+        "fees_90d_arr": 57341224.22,
+        "fees_1y": 61802223.0,
+        "revenues_90d_arr": 7578474.72,
+        "revenues_1y": 9139034.0
       },
       "valuation": {
-        "fdv_fees_90d": 5.98,
-        "fdv_revenues_90d": 45.27,
+        "fdv_fees_90d": 5.68,
+        "fdv_revenues_90d": 42.94,
         "peer_table": [
           {
             "name": "Kamino",
             "type": "Protocol",
-            "fees_90d_arr": 57312977.28,
-            "revenues_90d_arr": 7576081.94,
-            "fdv_or_mc": 342981056.0,
-            "fdv_fees_90d": 5.98,
-            "fdv_revenues_90d": 45.27,
+            "fees_90d_arr": 57341224.22,
+            "revenues_90d_arr": 7578474.72,
+            "fdv_or_mc": 325444055.0,
+            "fdv_fees_90d": 5.68,
+            "fdv_revenues_90d": 42.94,
             "highlight": true
           },
           {
@@ -1348,7 +1348,7 @@
         "tokenomics": "red"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-07T00:30:07.280582+00:00"
+      "generated_at": "2026-11-09T00:30:07.350471+00:00"
     },
     {
       "protocol": "Morpho",
@@ -1366,33 +1366,33 @@
         "updated_at": "01-09-2025"
       },
       "adoption": {
-        "tvl": 10959879684.0,
-        "tvl_change_3m_pct": 38.3576472089453
+        "tvl": 10978604669.0,
+        "tvl_change_3m_pct": 38.246797176753944
       },
       "tokenomics": {
-        "market_cap": 1483209657,
-        "fdv": 2107933804,
-        "mc_fdv": 0.7036319898592034,
+        "market_cap": 1420911123,
+        "fdv": 2019147651,
+        "mc_fdv": 0.7037182854340948,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 266926318.51,
-        "fees_1y": 207772772.58,
+        "fees_90d_arr": 269062240.88,
+        "fees_1y": 207934199.58,
         "revenues_90d_arr": 0.0,
         "revenues_1y": 0.0
       },
       "valuation": {
-        "fdv_fees_90d": 7.9,
+        "fdv_fees_90d": 7.47,
         "fdv_revenues_90d": null,
         "peer_table": [
           {
             "name": "Morpho",
             "type": "Protocol",
-            "fees_90d_arr": 266926318.51,
+            "fees_90d_arr": 269062240.88,
             "revenues_90d_arr": 0.0,
-            "fdv_or_mc": 2109836082.0,
-            "fdv_fees_90d": 7.9,
+            "fdv_or_mc": 2009416962.0,
+            "fdv_fees_90d": 7.47,
             "fdv_revenues_90d": null,
             "highlight": true
           },
@@ -1466,7 +1466,7 @@
         "tokenomics": "orange"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-07T00:30:07.280582+00:00"
+      "generated_at": "2026-11-09T00:30:07.350471+00:00"
     },
     {
       "protocol": "Euler",
@@ -1484,34 +1484,34 @@
         "updated_at": "01-09-2025"
       },
       "adoption": {
-        "tvl": 283962811.0,
-        "tvl_change_3m_pct": -20.632292253468943
+        "tvl": 280921534.0,
+        "tvl_change_3m_pct": -20.17519930694993
       },
       "tokenomics": {
-        "market_cap": 24247727,
-        "fdv": 27423688,
-        "mc_fdv": 0.8841891360490974,
+        "market_cap": 22112429,
+        "fdv": 25008709,
+        "mc_fdv": 0.8841891438698415,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 12107617.78,
-        "fees_1y": 31594022.0,
-        "revenues_90d_arr": 207011.21,
-        "revenues_1y": 1550038.86
+        "fees_90d_arr": 11749564.94,
+        "fees_1y": 31052624.0,
+        "revenues_90d_arr": 197197.01,
+        "revenues_1y": 1514563.92
       },
       "valuation": {
-        "fdv_fees_90d": 2.27,
-        "fdv_revenues_90d": 132.7,
+        "fdv_fees_90d": 2.12,
+        "fdv_revenues_90d": 126.52,
         "peer_table": [
           {
             "name": "Euler",
             "type": "Protocol",
-            "fees_90d_arr": 12107617.78,
-            "revenues_90d_arr": 207011.21,
-            "fdv_or_mc": 27471174.0,
-            "fdv_fees_90d": 2.27,
-            "fdv_revenues_90d": 132.7,
+            "fees_90d_arr": 11749564.94,
+            "revenues_90d_arr": 197197.01,
+            "fdv_or_mc": 24949441.0,
+            "fdv_fees_90d": 2.12,
+            "fdv_revenues_90d": 126.52,
             "highlight": true
           },
           {
@@ -1584,7 +1584,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-07T00:30:07.280582+00:00"
+      "generated_at": "2026-11-09T00:30:07.350471+00:00"
     },
     {
       "protocol": "Lido",
@@ -1602,34 +1602,34 @@
         "updated_at": "15-09-2025"
       },
       "adoption": {
-        "tvl": 21762195371.0,
-        "tvl_change_3m_pct": 20.389154279352883
+        "tvl": 20743597237.0,
+        "tvl_change_3m_pct": 14.952001902859635
       },
       "tokenomics": {
-        "market_cap": 270745621,
-        "fdv": 326369505,
-        "mc_fdv": 0.8295677655300546,
+        "market_cap": 261608828,
+        "fdv": 315355585,
+        "mc_fdv": 0.8295677655431408,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 620030780.33,
-        "fees_1y": 587913268.0,
-        "revenues_90d_arr": 38178716.11,
-        "revenues_1y": 34924361.0
+        "fees_90d_arr": 622150773.33,
+        "fees_1y": 586106196.0,
+        "revenues_90d_arr": 38294984.83,
+        "revenues_1y": 34872986.0
       },
       "valuation": {
-        "fdv_fees_90d": 0.53,
-        "fdv_revenues_90d": 8.53,
+        "fdv_fees_90d": 0.5,
+        "fdv_revenues_90d": 8.16,
         "peer_table": [
           {
             "name": "Lido",
             "type": "Protocol",
-            "fees_90d_arr": 620030780.33,
-            "revenues_90d_arr": 38178716.11,
-            "fdv_or_mc": 325713044.0,
-            "fdv_fees_90d": 0.53,
-            "fdv_revenues_90d": 8.53,
+            "fees_90d_arr": 622150773.33,
+            "revenues_90d_arr": 38294984.83,
+            "fdv_or_mc": 312550290.0,
+            "fdv_fees_90d": 0.5,
+            "fdv_revenues_90d": 8.16,
             "highlight": true
           },
           {
@@ -1702,7 +1702,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-07T00:30:07.280582+00:00"
+      "generated_at": "2026-11-09T00:30:07.350471+00:00"
     },
     {
       "protocol": "Jito",
@@ -1720,34 +1720,34 @@
         "updated_at": "15-09-2025"
       },
       "adoption": {
-        "tvl": 927516565.12587,
-        "tvl_change_3m_pct": 26.181782197043546
+        "tvl": 884558579.87254,
+        "tvl_change_3m_pct": 15.403669943570076
       },
       "tokenomics": {
-        "market_cap": 186767760,
-        "fdv": 345168730,
-        "mc_fdv": 0.541091193283934,
+        "market_cap": 175193618,
+        "fdv": 323335980,
+        "mc_fdv": 0.5418314967607378,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 114966065.61,
-        "fees_1y": 130494409.0,
-        "revenues_90d_arr": 7223350.0,
-        "revenues_1y": 8163071.0
+        "fees_90d_arr": 114957192.06,
+        "fees_1y": 129791567.0,
+        "revenues_90d_arr": 7224388.22,
+        "revenues_1y": 8115059.0
       },
       "valuation": {
-        "fdv_fees_90d": 3.02,
-        "fdv_revenues_90d": 48.14,
+        "fdv_fees_90d": 2.8,
+        "fdv_revenues_90d": 44.52,
         "peer_table": [
           {
             "name": "Jito",
             "type": "Protocol",
-            "fees_90d_arr": 114966065.61,
-            "revenues_90d_arr": 7223350.0,
-            "fdv_or_mc": 347743529.0,
-            "fdv_fees_90d": 3.02,
-            "fdv_revenues_90d": 48.14,
+            "fees_90d_arr": 114957192.06,
+            "revenues_90d_arr": 7224388.22,
+            "fdv_or_mc": 321603198.0,
+            "fdv_fees_90d": 2.8,
+            "fdv_revenues_90d": 44.52,
             "highlight": true
           },
           {
@@ -1820,7 +1820,7 @@
         "tokenomics": "red"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-07T00:30:07.280582+00:00"
+      "generated_at": "2026-11-09T00:30:07.350471+00:00"
     }
   ]
 }
