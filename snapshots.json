@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T00:30:13.978303+00:00",
+  "generated_at": "2026-11-25T00:30:07.354144+00:00",
   "count": 15,
   "snapshots": [
     {
@@ -22,60 +22,60 @@
         "tvl_change_3m_pct": null
       },
       "tokenomics": {
-        "market_cap": 2961667877,
-        "fdv": 4318853023,
-        "mc_fdv": 0.6857533380338885,
+        "market_cap": 2855303585,
+        "fdv": 4163824841,
+        "mc_fdv": 0.6857405616308921,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 1514088919.58,
-        "fees_1y": 906120667.68,
-        "revenues_90d_arr": 129612039.39,
-        "revenues_1y": 67372583.0
+        "fees_90d_arr": 1502008378.88,
+        "fees_1y": 905038847.34,
+        "revenues_90d_arr": 128774356.28,
+        "revenues_1y": 67533934.0
       },
       "valuation": {
-        "fdv_fees_90d": 2.83,
-        "fdv_revenues_90d": 33.1,
+        "fdv_fees_90d": 2.78,
+        "fdv_revenues_90d": 32.41,
         "peer_table": [
           {
             "name": "Uniswap",
             "type": "Protocol",
-            "fees_90d_arr": 1514088919.58,
-            "revenues_90d_arr": 129612039.39,
-            "fdv_or_mc": 4289684479.0,
-            "fdv_fees_90d": 2.83,
-            "fdv_revenues_90d": 33.1,
+            "fees_90d_arr": 1502008378.88,
+            "revenues_90d_arr": 128774356.28,
+            "fdv_or_mc": 4173971545.0,
+            "fdv_fees_90d": 2.78,
+            "fdv_revenues_90d": 32.41,
             "highlight": true
           },
           {
             "name": "Raydium",
             "type": "Protocol",
-            "fees_90d_arr": 291155613.06,
-            "revenues_90d_arr": 47333317.61,
-            "fdv_or_mc": 729800096.0,
-            "fdv_fees_90d": 2.51,
-            "fdv_revenues_90d": 15.42,
+            "fees_90d_arr": 290847179.94,
+            "revenues_90d_arr": 47298946.78,
+            "fdv_or_mc": 684512360.0,
+            "fdv_fees_90d": 2.35,
+            "fdv_revenues_90d": 14.47,
             "highlight": false
           },
           {
             "name": "Pancakeswap",
             "type": "Protocol",
-            "fees_90d_arr": 187723609.29,
-            "revenues_90d_arr": 62103597.69,
-            "fdv_or_mc": 516590739.0,
-            "fdv_fees_90d": 2.75,
-            "fdv_revenues_90d": 8.32,
+            "fees_90d_arr": 188604876.61,
+            "revenues_90d_arr": 62356642.1,
+            "fdv_or_mc": 500096125.0,
+            "fdv_fees_90d": 2.65,
+            "fdv_revenues_90d": 8.02,
             "highlight": false
           },
           {
             "name": "Jupiter",
             "type": "Protocol",
-            "fees_90d_arr": 270961344.97,
-            "revenues_90d_arr": 94154080.69,
-            "fdv_or_mc": 1626610181.0,
-            "fdv_fees_90d": 6.0,
-            "fdv_revenues_90d": 17.28,
+            "fees_90d_arr": 270426534.8,
+            "revenues_90d_arr": 93624928.87,
+            "fdv_or_mc": 1518000399.0,
+            "fdv_fees_90d": 5.61,
+            "fdv_revenues_90d": 16.21,
             "highlight": false
           },
           {
@@ -83,9 +83,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 28800964608.0,
+            "fdv_or_mc": 27097212928.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 5.29,
+            "fdv_revenues_90d": 4.98,
             "highlight": false
           },
           {
@@ -93,9 +93,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 13171436544.0,
+            "fdv_or_mc": 12242714624.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.35,
+            "fdv_revenues_90d": 4.04,
             "highlight": false
           },
           {
@@ -103,9 +103,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 58459774976.0,
+            "fdv_or_mc": 59059134464.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 10.11,
+            "fdv_revenues_90d": 10.22,
             "highlight": false
           },
           {
@@ -113,9 +113,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 60666097664.0,
+            "fdv_or_mc": 59117252608.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 11.94,
+            "fdv_revenues_90d": 11.63,
             "highlight": false
           },
           {
@@ -123,9 +123,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 840925315072.0,
+            "fdv_or_mc": 842093821952.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.41,
+            "fdv_revenues_90d": 4.42,
             "highlight": false
           },
           {
@@ -133,9 +133,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 108965814272.0,
+            "fdv_or_mc": 110691057664.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.66,
+            "fdv_revenues_90d": 15.91,
             "highlight": false
           }
         ]
@@ -148,7 +148,7 @@
         "tokenomics": "orange"
       },
       "conclusion": "Valuation appears relatively attractive versus current fee generation.",
-      "generated_at": "2026-11-24T00:30:13.978303+00:00"
+      "generated_at": "2026-11-25T00:30:07.354144+00:00"
     },
     {
       "protocol": "Hyperliquid",
@@ -166,34 +166,34 @@
         "updated_at": "05-09-2025"
       },
       "adoption": {
-        "tvl": 7255290081.0,
-        "tvl_change_3m_pct": 9.047678751367961
+        "tvl": 7179654664.0,
+        "tvl_change_3m_pct": 8.374709011268845
       },
       "tokenomics": {
-        "market_cap": 15141364401,
-        "fdv": 60507729567,
-        "mc_fdv": 0.25023851513440143,
+        "market_cap": 14100407825,
+        "fdv": 56350054370,
+        "mc_fdv": 0.25022882378099115,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 1126781766.67,
-        "fees_1y": 893915539.69,
-        "revenues_90d_arr": 890460119.83,
-        "revenues_1y": 679451363.0
+        "fees_90d_arr": 1127936265.72,
+        "fees_1y": 896473330.69,
+        "revenues_90d_arr": 890235292.0,
+        "revenues_1y": 681338601.0
       },
       "valuation": {
-        "fdv_fees_90d": 53.72,
-        "fdv_revenues_90d": 67.98,
+        "fdv_fees_90d": 50.45,
+        "fdv_revenues_90d": 63.92,
         "peer_table": [
           {
             "name": "Hyperliquid",
             "type": "Protocol",
-            "fees_90d_arr": 1126781766.67,
-            "revenues_90d_arr": 890460119.83,
-            "fdv_or_mc": 60531232821.0,
-            "fdv_fees_90d": 53.72,
-            "fdv_revenues_90d": 67.98,
+            "fees_90d_arr": 1127936265.72,
+            "revenues_90d_arr": 890235292.0,
+            "fdv_or_mc": 56903033885.0,
+            "fdv_fees_90d": 50.45,
+            "fdv_revenues_90d": 63.92,
             "highlight": true
           },
           {
@@ -201,9 +201,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 28800964608.0,
+            "fdv_or_mc": 27097212928.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 5.29,
+            "fdv_revenues_90d": 4.98,
             "highlight": false
           },
           {
@@ -211,9 +211,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 13171436544.0,
+            "fdv_or_mc": 12242714624.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.35,
+            "fdv_revenues_90d": 4.04,
             "highlight": false
           },
           {
@@ -221,9 +221,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 58459774976.0,
+            "fdv_or_mc": 59059134464.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 10.11,
+            "fdv_revenues_90d": 10.22,
             "highlight": false
           },
           {
@@ -231,9 +231,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 60666097664.0,
+            "fdv_or_mc": 59117252608.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 11.94,
+            "fdv_revenues_90d": 11.63,
             "highlight": false
           },
           {
@@ -241,9 +241,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 840925315072.0,
+            "fdv_or_mc": 842093821952.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.41,
+            "fdv_revenues_90d": 4.42,
             "highlight": false
           },
           {
@@ -251,9 +251,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 108965814272.0,
+            "fdv_or_mc": 110691057664.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.66,
+            "fdv_revenues_90d": 15.91,
             "highlight": false
           }
         ]
@@ -266,7 +266,7 @@
         "tokenomics": "red"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-24T00:30:13.978303+00:00"
+      "generated_at": "2026-11-25T00:30:07.354144+00:00"
     },
     {
       "protocol": "Raydium",
@@ -284,34 +284,34 @@
         "updated_at": null
       },
       "adoption": {
-        "tvl": 803698623.0,
-        "tvl_change_3m_pct": -27.39366516638312
+        "tvl": 764577505.0,
+        "tvl_change_3m_pct": -28.088858124135186
       },
       "tokenomics": {
-        "market_cap": 357458153,
-        "fdv": 734870685,
-        "mc_fdv": 0.4864232038321137,
+        "market_cap": 331621476,
+        "fdv": 681755050,
+        "mc_fdv": 0.4864232043459011,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 291155613.06,
-        "fees_1y": 164305511.0,
-        "revenues_90d_arr": 47333317.61,
-        "revenues_1y": 25833284.0
+        "fees_90d_arr": 290847179.94,
+        "fees_1y": 164074346.0,
+        "revenues_90d_arr": 47298946.78,
+        "revenues_1y": 25803257.0
       },
       "valuation": {
-        "fdv_fees_90d": 2.51,
-        "fdv_revenues_90d": 15.42,
+        "fdv_fees_90d": 2.35,
+        "fdv_revenues_90d": 14.47,
         "peer_table": [
           {
             "name": "Raydium",
             "type": "Protocol",
-            "fees_90d_arr": 291155613.06,
-            "revenues_90d_arr": 47333317.61,
-            "fdv_or_mc": 729800096.0,
-            "fdv_fees_90d": 2.51,
-            "fdv_revenues_90d": 15.42,
+            "fees_90d_arr": 290847179.94,
+            "revenues_90d_arr": 47298946.78,
+            "fdv_or_mc": 684512360.0,
+            "fdv_fees_90d": 2.35,
+            "fdv_revenues_90d": 14.47,
             "highlight": true
           },
           {
@@ -319,9 +319,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 28800964608.0,
+            "fdv_or_mc": 27097212928.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 5.29,
+            "fdv_revenues_90d": 4.98,
             "highlight": false
           },
           {
@@ -329,9 +329,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 13171436544.0,
+            "fdv_or_mc": 12242714624.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.35,
+            "fdv_revenues_90d": 4.04,
             "highlight": false
           },
           {
@@ -339,9 +339,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 58459774976.0,
+            "fdv_or_mc": 59059134464.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 10.11,
+            "fdv_revenues_90d": 10.22,
             "highlight": false
           },
           {
@@ -349,9 +349,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 60666097664.0,
+            "fdv_or_mc": 59117252608.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 11.94,
+            "fdv_revenues_90d": 11.63,
             "highlight": false
           },
           {
@@ -359,9 +359,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 840925315072.0,
+            "fdv_or_mc": 842093821952.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.41,
+            "fdv_revenues_90d": 4.42,
             "highlight": false
           },
           {
@@ -369,9 +369,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 108965814272.0,
+            "fdv_or_mc": 110691057664.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.66,
+            "fdv_revenues_90d": 15.91,
             "highlight": false
           }
         ]
@@ -384,7 +384,7 @@
         "tokenomics": "red"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-24T00:30:13.978303+00:00"
+      "generated_at": "2026-11-25T00:30:07.354144+00:00"
     },
     {
       "protocol": "Jupiter",
@@ -402,34 +402,34 @@
         "updated_at": "18-09-2025"
       },
       "adoption": {
-        "tvl": 1525830525.2174401,
-        "tvl_change_3m_pct": -12.099345138218709
+        "tvl": 1503368920.27533,
+        "tvl_change_3m_pct": -16.5460673038474
       },
       "tokenomics": {
-        "market_cap": 792193945,
-        "fdv": 1637548311,
-        "mc_fdv": 0.48376828926423043,
+        "market_cap": 733368736,
+        "fdv": 1515950407,
+        "mc_fdv": 0.4837682899213734,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 270961344.97,
-        "fees_1y": 261181811.08,
-        "revenues_90d_arr": 94154080.69,
-        "revenues_1y": 86171254.36
+        "fees_90d_arr": 270426534.8,
+        "fees_1y": 260975777.08,
+        "revenues_90d_arr": 93624928.87,
+        "revenues_1y": 86127068.57
       },
       "valuation": {
-        "fdv_fees_90d": 6.0,
-        "fdv_revenues_90d": 17.28,
+        "fdv_fees_90d": 5.61,
+        "fdv_revenues_90d": 16.21,
         "peer_table": [
           {
             "name": "Jupiter",
             "type": "Protocol",
-            "fees_90d_arr": 270961344.97,
-            "revenues_90d_arr": 94154080.69,
-            "fdv_or_mc": 1626610181.0,
-            "fdv_fees_90d": 6.0,
-            "fdv_revenues_90d": 17.28,
+            "fees_90d_arr": 270426534.8,
+            "revenues_90d_arr": 93624928.87,
+            "fdv_or_mc": 1518000399.0,
+            "fdv_fees_90d": 5.61,
+            "fdv_revenues_90d": 16.21,
             "highlight": true
           },
           {
@@ -437,9 +437,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 28800964608.0,
+            "fdv_or_mc": 27097212928.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 5.29,
+            "fdv_revenues_90d": 4.98,
             "highlight": false
           },
           {
@@ -447,9 +447,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 13171436544.0,
+            "fdv_or_mc": 12242714624.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.35,
+            "fdv_revenues_90d": 4.04,
             "highlight": false
           },
           {
@@ -457,9 +457,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 58459774976.0,
+            "fdv_or_mc": 59059134464.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 10.11,
+            "fdv_revenues_90d": 10.22,
             "highlight": false
           },
           {
@@ -467,9 +467,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 60666097664.0,
+            "fdv_or_mc": 59117252608.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 11.94,
+            "fdv_revenues_90d": 11.63,
             "highlight": false
           },
           {
@@ -477,9 +477,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 840925315072.0,
+            "fdv_or_mc": 842093821952.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.41,
+            "fdv_revenues_90d": 4.42,
             "highlight": false
           },
           {
@@ -487,9 +487,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 108965814272.0,
+            "fdv_or_mc": 110691057664.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.66,
+            "fdv_revenues_90d": 15.91,
             "highlight": false
           }
         ]
@@ -502,7 +502,7 @@
         "tokenomics": "red"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-24T00:30:13.978303+00:00"
+      "generated_at": "2026-11-25T00:30:07.354144+00:00"
     },
     {
       "protocol": "PancakeSwap",
@@ -520,34 +520,34 @@
         "updated_at": "10-02-2025"
       },
       "adoption": {
-        "tvl": null,
-        "tvl_change_3m_pct": null
+        "tvl": 1874499275.0,
+        "tvl_change_3m_pct": -18.155116329297826
       },
       "tokenomics": {
-        "market_cap": 500239172,
-        "fdv": 518408915,
-        "mc_fdv": 0.9649509441788824,
+        "market_cap": 481320966,
+        "fdv": 498803503,
+        "mc_fdv": 0.9649510540827136,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 187723609.29,
-        "fees_1y": 161434121.71,
-        "revenues_90d_arr": 62103597.69,
-        "revenues_1y": 54488366.17
+        "fees_90d_arr": 188604876.61,
+        "fees_1y": 161026489.94,
+        "revenues_90d_arr": 62356642.1,
+        "revenues_1y": 54345178.22
       },
       "valuation": {
-        "fdv_fees_90d": 2.75,
-        "fdv_revenues_90d": 8.32,
+        "fdv_fees_90d": 2.65,
+        "fdv_revenues_90d": 8.02,
         "peer_table": [
           {
             "name": "Pancakeswap",
             "type": "Protocol",
-            "fees_90d_arr": 187723609.29,
-            "revenues_90d_arr": 62103597.69,
-            "fdv_or_mc": 516590739.0,
-            "fdv_fees_90d": 2.75,
-            "fdv_revenues_90d": 8.32,
+            "fees_90d_arr": 188604876.61,
+            "revenues_90d_arr": 62356642.1,
+            "fdv_or_mc": 500096125.0,
+            "fdv_fees_90d": 2.65,
+            "fdv_revenues_90d": 8.02,
             "highlight": true
           },
           {
@@ -555,9 +555,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 28800964608.0,
+            "fdv_or_mc": 27097212928.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 5.29,
+            "fdv_revenues_90d": 4.98,
             "highlight": false
           },
           {
@@ -565,9 +565,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 13171436544.0,
+            "fdv_or_mc": 12242714624.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.35,
+            "fdv_revenues_90d": 4.04,
             "highlight": false
           },
           {
@@ -575,9 +575,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 58459774976.0,
+            "fdv_or_mc": 59059134464.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 10.11,
+            "fdv_revenues_90d": 10.22,
             "highlight": false
           },
           {
@@ -585,9 +585,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 60666097664.0,
+            "fdv_or_mc": 59117252608.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 11.94,
+            "fdv_revenues_90d": 11.63,
             "highlight": false
           },
           {
@@ -595,9 +595,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 840925315072.0,
+            "fdv_or_mc": 842093821952.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.41,
+            "fdv_revenues_90d": 4.42,
             "highlight": false
           },
           {
@@ -605,22 +605,22 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 108965814272.0,
+            "fdv_or_mc": 110691057664.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.66,
+            "fdv_revenues_90d": 15.91,
             "highlight": false
           }
         ]
       },
       "rag": {
         "governance": "orange",
-        "adoption": "orange",
+        "adoption": "green",
         "financials": "green",
         "valuation": "orange",
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-24T00:30:13.978303+00:00"
+      "generated_at": "2026-11-25T00:30:07.354144+00:00"
     },
     {
       "protocol": "Aerodrome",
@@ -638,13 +638,13 @@
         "updated_at": "2026-05-08"
       },
       "adoption": {
-        "tvl": 274719816.0,
-        "tvl_change_3m_pct": -6.300939944906059
+        "tvl": 277570944.0,
+        "tvl_change_3m_pct": -4.635198700341281
       },
       "tokenomics": {
-        "market_cap": 98692285,
-        "fdv": 841663678,
-        "mc_fdv": 0.11725857676847497,
+        "market_cap": 92945696,
+        "fdv": 794405486,
+        "mc_fdv": 0.11700031990967394,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
@@ -663,9 +663,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 28800964608.0,
+            "fdv_or_mc": 27097212928.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 5.29,
+            "fdv_revenues_90d": 4.98,
             "highlight": false
           },
           {
@@ -673,9 +673,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 13171436544.0,
+            "fdv_or_mc": 12242714624.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.35,
+            "fdv_revenues_90d": 4.04,
             "highlight": false
           },
           {
@@ -683,9 +683,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 58459774976.0,
+            "fdv_or_mc": 59059134464.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 10.11,
+            "fdv_revenues_90d": 10.22,
             "highlight": false
           },
           {
@@ -693,9 +693,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 60666097664.0,
+            "fdv_or_mc": 59117252608.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 11.94,
+            "fdv_revenues_90d": 11.63,
             "highlight": false
           },
           {
@@ -703,9 +703,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 840925315072.0,
+            "fdv_or_mc": 842093821952.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.41,
+            "fdv_revenues_90d": 4.42,
             "highlight": false
           },
           {
@@ -713,9 +713,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 108965814272.0,
+            "fdv_or_mc": 110691057664.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.66,
+            "fdv_revenues_90d": 15.91,
             "highlight": false
           }
         ]
@@ -728,7 +728,7 @@
         "tokenomics": "red"
       },
       "conclusion": "Overall profile appears balanced, with no immediate extreme positive or negative signal.",
-      "generated_at": "2026-11-24T00:30:13.978303+00:00"
+      "generated_at": "2026-11-25T00:30:07.354144+00:00"
     },
     {
       "protocol": "Aave",
@@ -746,64 +746,64 @@
         "updated_at": "03-03-2026"
       },
       "adoption": {
-        "tvl": 16478193799.0,
-        "tvl_change_3m_pct": -7.384724550028099
+        "tvl": 16139885325.0,
+        "tvl_change_3m_pct": -10.984747584677812
       },
       "tokenomics": {
-        "market_cap": 1512749885,
-        "fdv": 1567455779,
-        "mc_fdv": 0.9650989235339698,
+        "market_cap": 1440055733,
+        "fdv": 1492130937,
+        "mc_fdv": 0.9651001110501068,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 482664478.17,
-        "fees_1y": 591908859.26,
-        "revenues_90d_arr": 66008984.67,
-        "revenues_1y": 85319455.43
+        "fees_90d_arr": 482243207.33,
+        "fees_1y": 590562844.26,
+        "revenues_90d_arr": 66004389.72,
+        "revenues_1y": 85167315.43
       },
       "valuation": {
-        "fdv_fees_90d": 3.22,
-        "fdv_revenues_90d": 23.54,
+        "fdv_fees_90d": 3.12,
+        "fdv_revenues_90d": 22.77,
         "peer_table": [
           {
             "name": "Aave",
             "type": "Protocol",
-            "fees_90d_arr": 482664478.17,
-            "revenues_90d_arr": 66008984.67,
-            "fdv_or_mc": 1553763143.0,
-            "fdv_fees_90d": 3.22,
-            "fdv_revenues_90d": 23.54,
+            "fees_90d_arr": 482243207.33,
+            "revenues_90d_arr": 66004389.72,
+            "fdv_or_mc": 1502979707.0,
+            "fdv_fees_90d": 3.12,
+            "fdv_revenues_90d": 22.77,
             "highlight": true
           },
           {
             "name": "Morpho",
             "type": "Protocol",
-            "fees_90d_arr": 325084059.78,
+            "fees_90d_arr": 324807461.64,
             "revenues_90d_arr": 0.0,
-            "fdv_or_mc": 1602946631.0,
-            "fdv_fees_90d": 4.93,
+            "fdv_or_mc": 1565852347.0,
+            "fdv_fees_90d": 4.82,
             "fdv_revenues_90d": null,
             "highlight": false
           },
           {
             "name": "Euler",
             "type": "Protocol",
-            "fees_90d_arr": 9785864.94,
-            "revenues_90d_arr": 149940.82,
-            "fdv_or_mc": 21166471.0,
-            "fdv_fees_90d": 2.16,
-            "fdv_revenues_90d": 141.17,
+            "fees_90d_arr": 9550322.33,
+            "revenues_90d_arr": 140693.02,
+            "fdv_or_mc": 20516017.0,
+            "fdv_fees_90d": 2.15,
+            "fdv_revenues_90d": 145.82,
             "highlight": false
           },
           {
             "name": "Kamino",
             "type": "Protocol",
-            "fees_90d_arr": 56979789.06,
-            "revenues_90d_arr": 7558480.83,
-            "fdv_or_mc": 234021713.0,
-            "fdv_fees_90d": 4.11,
-            "fdv_revenues_90d": 30.96,
+            "fees_90d_arr": 56781253.39,
+            "revenues_90d_arr": 7527443.67,
+            "fdv_or_mc": 226482852.0,
+            "fdv_fees_90d": 3.99,
+            "fdv_revenues_90d": 30.09,
             "highlight": false
           },
           {
@@ -811,9 +811,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 28800964608.0,
+            "fdv_or_mc": 27097212928.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 5.29,
+            "fdv_revenues_90d": 4.98,
             "highlight": false
           },
           {
@@ -821,9 +821,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 13171436544.0,
+            "fdv_or_mc": 12242714624.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.35,
+            "fdv_revenues_90d": 4.04,
             "highlight": false
           },
           {
@@ -831,9 +831,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 58459774976.0,
+            "fdv_or_mc": 59059134464.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 10.11,
+            "fdv_revenues_90d": 10.22,
             "highlight": false
           },
           {
@@ -841,9 +841,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 60666097664.0,
+            "fdv_or_mc": 59117252608.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 11.94,
+            "fdv_revenues_90d": 11.63,
             "highlight": false
           },
           {
@@ -851,9 +851,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 840925315072.0,
+            "fdv_or_mc": 842093821952.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.41,
+            "fdv_revenues_90d": 4.42,
             "highlight": false
           },
           {
@@ -861,9 +861,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 108965814272.0,
+            "fdv_or_mc": 110691057664.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.66,
+            "fdv_revenues_90d": 15.91,
             "highlight": false
           }
         ]
@@ -876,7 +876,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-24T00:30:13.978303+00:00"
+      "generated_at": "2026-11-25T00:30:07.354144+00:00"
     },
     {
       "protocol": "Sky",
@@ -894,34 +894,34 @@
         "updated_at": "08-05-2026"
       },
       "adoption": {
-        "tvl": 2895171234.0,
-        "tvl_change_3m_pct": -48.529149997605145
+        "tvl": 3043683294.0,
+        "tvl_change_3m_pct": -48.14328587782734
       },
       "tokenomics": {
-        "market_cap": 940675022,
-        "fdv": 944602232,
-        "mc_fdv": 0.9958424722417976,
+        "market_cap": 969747623,
+        "fdv": 974702438,
+        "mc_fdv": 0.9949165870456148,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 330127599.89,
-        "fees_1y": 380638098.0,
-        "revenues_90d_arr": 162295027.56,
-        "revenues_1y": 186506043.0
+        "fees_90d_arr": 330438462.28,
+        "fees_1y": 380387906.0,
+        "revenues_90d_arr": 162548037.44,
+        "revenues_1y": 186249083.0
       },
       "valuation": {
-        "fdv_fees_90d": 2.87,
-        "fdv_revenues_90d": 5.85,
+        "fdv_fees_90d": 2.91,
+        "fdv_revenues_90d": 5.91,
         "peer_table": [
           {
             "name": "Sky",
             "type": "Protocol",
-            "fees_90d_arr": 330127599.89,
-            "revenues_90d_arr": 162295027.56,
-            "fdv_or_mc": 948640677.0,
-            "fdv_fees_90d": 2.87,
-            "fdv_revenues_90d": 5.85,
+            "fees_90d_arr": 330438462.28,
+            "revenues_90d_arr": 162548037.44,
+            "fdv_or_mc": 961296083.0,
+            "fdv_fees_90d": 2.91,
+            "fdv_revenues_90d": 5.91,
             "highlight": true
           },
           {
@@ -929,9 +929,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 28800964608.0,
+            "fdv_or_mc": 27097212928.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 5.29,
+            "fdv_revenues_90d": 4.98,
             "highlight": false
           },
           {
@@ -939,9 +939,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 13171436544.0,
+            "fdv_or_mc": 12242714624.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.35,
+            "fdv_revenues_90d": 4.04,
             "highlight": false
           },
           {
@@ -949,9 +949,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 58459774976.0,
+            "fdv_or_mc": 59059134464.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 10.11,
+            "fdv_revenues_90d": 10.22,
             "highlight": false
           },
           {
@@ -959,9 +959,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 60666097664.0,
+            "fdv_or_mc": 59117252608.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 11.94,
+            "fdv_revenues_90d": 11.63,
             "highlight": false
           },
           {
@@ -969,9 +969,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 840925315072.0,
+            "fdv_or_mc": 842093821952.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.41,
+            "fdv_revenues_90d": 4.42,
             "highlight": false
           },
           {
@@ -979,9 +979,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 108965814272.0,
+            "fdv_or_mc": 110691057664.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.66,
+            "fdv_revenues_90d": 15.91,
             "highlight": false
           }
         ]
@@ -994,7 +994,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-24T00:30:13.978303+00:00"
+      "generated_at": "2026-11-25T00:30:07.354144+00:00"
     },
     {
       "protocol": "Spark",
@@ -1012,34 +1012,34 @@
         "updated_at": "04-09-2025"
       },
       "adoption": {
-        "tvl": 4301647212.77039,
-        "tvl_change_3m_pct": -23.565113383329983
+        "tvl": 4247707787.15516,
+        "tvl_change_3m_pct": -24.523549460753713
       },
       "tokenomics": {
         "market_cap": null,
         "fdv": null,
-        "mc_fdv": 117642658.0,
+        "mc_fdv": 113997834.0,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 218031910.5,
-        "fees_1y": 171523020.0,
-        "revenues_90d_arr": 10128385.0,
-        "revenues_1y": 6959110.0
+        "fees_90d_arr": 218202767.0,
+        "fees_1y": 171276162.0,
+        "revenues_90d_arr": 10452164.33,
+        "revenues_1y": 6903674.0
       },
       "valuation": {
-        "fdv_fees_90d": 0.54,
-        "fdv_revenues_90d": 11.62,
+        "fdv_fees_90d": 0.52,
+        "fdv_revenues_90d": 10.91,
         "peer_table": [
           {
             "name": "Spark",
             "type": "Protocol",
-            "fees_90d_arr": 218031910.5,
-            "revenues_90d_arr": 10128385.0,
-            "fdv_or_mc": 117642658.0,
-            "fdv_fees_90d": 0.54,
-            "fdv_revenues_90d": 11.62,
+            "fees_90d_arr": 218202767.0,
+            "revenues_90d_arr": 10452164.33,
+            "fdv_or_mc": 113997834.0,
+            "fdv_fees_90d": 0.52,
+            "fdv_revenues_90d": 10.91,
             "highlight": true
           },
           {
@@ -1047,9 +1047,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 28800964608.0,
+            "fdv_or_mc": 27097212928.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 5.29,
+            "fdv_revenues_90d": 4.98,
             "highlight": false
           },
           {
@@ -1057,9 +1057,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 13171436544.0,
+            "fdv_or_mc": 12242714624.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.35,
+            "fdv_revenues_90d": 4.04,
             "highlight": false
           },
           {
@@ -1067,9 +1067,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 58459774976.0,
+            "fdv_or_mc": 59059134464.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 10.11,
+            "fdv_revenues_90d": 10.22,
             "highlight": false
           },
           {
@@ -1077,9 +1077,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 60666097664.0,
+            "fdv_or_mc": 59117252608.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 11.94,
+            "fdv_revenues_90d": 11.63,
             "highlight": false
           },
           {
@@ -1087,9 +1087,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 840925315072.0,
+            "fdv_or_mc": 842093821952.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.41,
+            "fdv_revenues_90d": 4.42,
             "highlight": false
           },
           {
@@ -1097,9 +1097,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 108965814272.0,
+            "fdv_or_mc": 110691057664.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.66,
+            "fdv_revenues_90d": 15.91,
             "highlight": false
           }
         ]
@@ -1112,7 +1112,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-24T00:30:13.978303+00:00"
+      "generated_at": "2026-11-25T00:30:07.354144+00:00"
     },
     {
       "protocol": "Ethena",
@@ -1130,34 +1130,34 @@
         "updated_at": "2026-05-08"
       },
       "adoption": {
-        "tvl": 5183348016.19261,
-        "tvl_change_3m_pct": 18.760768856394595
+        "tvl": 5199377828.62457,
+        "tvl_change_3m_pct": 15.886090797956909
       },
       "tokenomics": {
-        "market_cap": 1373405831,
-        "fdv": 1526006479,
-        "mc_fdv": 0.8999999999344694,
+        "market_cap": 1314522797,
+        "fdv": 1460580885,
+        "mc_fdv": 0.9000000003423295,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 237992671.22,
-        "fees_1y": 229990370.04,
-        "revenues_90d_arr": 741434.31,
-        "revenues_1y": 2058038.72
+        "fees_90d_arr": 238064381.55,
+        "fees_1y": 230008128.04,
+        "revenues_90d_arr": 752307.26,
+        "revenues_1y": 2060795.72
       },
       "valuation": {
-        "fdv_fees_90d": 6.38,
-        "fdv_revenues_90d": 2046.51,
+        "fdv_fees_90d": 6.18,
+        "fdv_revenues_90d": 1957.14,
         "peer_table": [
           {
             "name": "Ethena",
             "type": "Protocol",
-            "fees_90d_arr": 237992671.22,
-            "revenues_90d_arr": 741434.31,
-            "fdv_or_mc": 1517350344.0,
-            "fdv_fees_90d": 6.38,
-            "fdv_revenues_90d": 2046.51,
+            "fees_90d_arr": 238064381.55,
+            "revenues_90d_arr": 752307.26,
+            "fdv_or_mc": 1472373645.0,
+            "fdv_fees_90d": 6.18,
+            "fdv_revenues_90d": 1957.14,
             "highlight": true
           },
           {
@@ -1165,9 +1165,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 28800964608.0,
+            "fdv_or_mc": 27097212928.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 5.29,
+            "fdv_revenues_90d": 4.98,
             "highlight": false
           },
           {
@@ -1175,9 +1175,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 13171436544.0,
+            "fdv_or_mc": 12242714624.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.35,
+            "fdv_revenues_90d": 4.04,
             "highlight": false
           },
           {
@@ -1185,9 +1185,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 58459774976.0,
+            "fdv_or_mc": 59059134464.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 10.11,
+            "fdv_revenues_90d": 10.22,
             "highlight": false
           },
           {
@@ -1195,9 +1195,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 60666097664.0,
+            "fdv_or_mc": 59117252608.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 11.94,
+            "fdv_revenues_90d": 11.63,
             "highlight": false
           },
           {
@@ -1205,9 +1205,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 840925315072.0,
+            "fdv_or_mc": 842093821952.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.41,
+            "fdv_revenues_90d": 4.42,
             "highlight": false
           },
           {
@@ -1215,9 +1215,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 108965814272.0,
+            "fdv_or_mc": 110691057664.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.66,
+            "fdv_revenues_90d": 15.91,
             "highlight": false
           }
         ]
@@ -1230,7 +1230,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-24T00:30:13.978303+00:00"
+      "generated_at": "2026-11-25T00:30:07.354144+00:00"
     },
     {
       "protocol": "Kamino",
@@ -1248,34 +1248,34 @@
         "updated_at": "15-09-2025"
       },
       "adoption": {
-        "tvl": 1175277523.0,
-        "tvl_change_3m_pct": -7.247471787867099
+        "tvl": 1160065777.0,
+        "tvl_change_3m_pct": -8.447977942719175
       },
       "tokenomics": {
-        "market_cap": 142414529,
-        "fdv": 235022375,
-        "mc_fdv": 0.6059615770626094,
+        "market_cap": 136467269,
+        "fdv": 224928125,
+        "mc_fdv": 0.6067150072939967,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 56979789.06,
-        "fees_1y": 60486817.0,
-        "revenues_90d_arr": 7558480.83,
-        "revenues_1y": 8953129.0
+        "fees_90d_arr": 56781253.39,
+        "fees_1y": 60407493.0,
+        "revenues_90d_arr": 7527443.67,
+        "revenues_1y": 8940735.0
       },
       "valuation": {
-        "fdv_fees_90d": 4.11,
-        "fdv_revenues_90d": 30.96,
+        "fdv_fees_90d": 3.99,
+        "fdv_revenues_90d": 30.09,
         "peer_table": [
           {
             "name": "Kamino",
             "type": "Protocol",
-            "fees_90d_arr": 56979789.06,
-            "revenues_90d_arr": 7558480.83,
-            "fdv_or_mc": 234021713.0,
-            "fdv_fees_90d": 4.11,
-            "fdv_revenues_90d": 30.96,
+            "fees_90d_arr": 56781253.39,
+            "revenues_90d_arr": 7527443.67,
+            "fdv_or_mc": 226482852.0,
+            "fdv_fees_90d": 3.99,
+            "fdv_revenues_90d": 30.09,
             "highlight": true
           },
           {
@@ -1283,9 +1283,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 28800964608.0,
+            "fdv_or_mc": 27097212928.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 5.29,
+            "fdv_revenues_90d": 4.98,
             "highlight": false
           },
           {
@@ -1293,9 +1293,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 13171436544.0,
+            "fdv_or_mc": 12242714624.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.35,
+            "fdv_revenues_90d": 4.04,
             "highlight": false
           },
           {
@@ -1303,9 +1303,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 58459774976.0,
+            "fdv_or_mc": 59059134464.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 10.11,
+            "fdv_revenues_90d": 10.22,
             "highlight": false
           },
           {
@@ -1313,9 +1313,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 60666097664.0,
+            "fdv_or_mc": 59117252608.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 11.94,
+            "fdv_revenues_90d": 11.63,
             "highlight": false
           },
           {
@@ -1323,9 +1323,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 840925315072.0,
+            "fdv_or_mc": 842093821952.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.41,
+            "fdv_revenues_90d": 4.42,
             "highlight": false
           },
           {
@@ -1333,9 +1333,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 108965814272.0,
+            "fdv_or_mc": 110691057664.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.66,
+            "fdv_revenues_90d": 15.91,
             "highlight": false
           }
         ]
@@ -1348,7 +1348,7 @@
         "tokenomics": "orange"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-24T00:30:13.978303+00:00"
+      "generated_at": "2026-11-25T00:30:07.354144+00:00"
     },
     {
       "protocol": "Morpho",
@@ -1366,33 +1366,33 @@
         "updated_at": "01-09-2025"
       },
       "adoption": {
-        "tvl": 9641493591.0,
-        "tvl_change_3m_pct": 2.340739110735357
+        "tvl": 9530230708.0,
+        "tvl_change_3m_pct": 0.6726373339185132
       },
       "tokenomics": {
-        "market_cap": 1136418502,
-        "fdv": 1609231274,
-        "mc_fdv": 0.7061871841300047,
+        "market_cap": 1098419499,
+        "fdv": 1555330554,
+        "mc_fdv": 0.7062289724683182,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 325084059.78,
-        "fees_1y": 218364756.58,
+        "fees_90d_arr": 324807461.64,
+        "fees_1y": 218546114.58,
         "revenues_90d_arr": 0.0,
         "revenues_1y": 0.0
       },
       "valuation": {
-        "fdv_fees_90d": 4.93,
+        "fdv_fees_90d": 4.82,
         "fdv_revenues_90d": null,
         "peer_table": [
           {
             "name": "Morpho",
             "type": "Protocol",
-            "fees_90d_arr": 325084059.78,
+            "fees_90d_arr": 324807461.64,
             "revenues_90d_arr": 0.0,
-            "fdv_or_mc": 1602946631.0,
-            "fdv_fees_90d": 4.93,
+            "fdv_or_mc": 1565852347.0,
+            "fdv_fees_90d": 4.82,
             "fdv_revenues_90d": null,
             "highlight": true
           },
@@ -1401,9 +1401,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 28800964608.0,
+            "fdv_or_mc": 27097212928.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 5.29,
+            "fdv_revenues_90d": 4.98,
             "highlight": false
           },
           {
@@ -1411,9 +1411,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 13171436544.0,
+            "fdv_or_mc": 12242714624.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.35,
+            "fdv_revenues_90d": 4.04,
             "highlight": false
           },
           {
@@ -1421,9 +1421,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 58459774976.0,
+            "fdv_or_mc": 59059134464.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 10.11,
+            "fdv_revenues_90d": 10.22,
             "highlight": false
           },
           {
@@ -1431,9 +1431,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 60666097664.0,
+            "fdv_or_mc": 59117252608.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 11.94,
+            "fdv_revenues_90d": 11.63,
             "highlight": false
           },
           {
@@ -1441,9 +1441,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 840925315072.0,
+            "fdv_or_mc": 842093821952.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.41,
+            "fdv_revenues_90d": 4.42,
             "highlight": false
           },
           {
@@ -1451,9 +1451,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 108965814272.0,
+            "fdv_or_mc": 110691057664.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.66,
+            "fdv_revenues_90d": 15.91,
             "highlight": false
           }
         ]
@@ -1466,7 +1466,7 @@
         "tokenomics": "orange"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-24T00:30:13.978303+00:00"
+      "generated_at": "2026-11-25T00:30:07.354144+00:00"
     },
     {
       "protocol": "Euler",
@@ -1484,34 +1484,34 @@
         "updated_at": "01-09-2025"
       },
       "adoption": {
-        "tvl": 232918601.0,
-        "tvl_change_3m_pct": -35.813928001076164
+        "tvl": 230237922.0,
+        "tvl_change_3m_pct": -36.472059833330526
       },
       "tokenomics": {
-        "market_cap": 18712923,
-        "fdv": 21163937,
-        "mc_fdv": 0.8841891279491145,
+        "market_cap": 18015851,
+        "fdv": 20375562,
+        "mc_fdv": 0.8841891575800461,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 9785864.94,
-        "fees_1y": 27760885.0,
-        "revenues_90d_arr": 149940.82,
-        "revenues_1y": 1309946.71
+        "fees_90d_arr": 9550322.33,
+        "fees_1y": 27578097.0,
+        "revenues_90d_arr": 140693.02,
+        "revenues_1y": 1298117.43
       },
       "valuation": {
-        "fdv_fees_90d": 2.16,
-        "fdv_revenues_90d": 141.17,
+        "fdv_fees_90d": 2.15,
+        "fdv_revenues_90d": 145.82,
         "peer_table": [
           {
             "name": "Euler",
             "type": "Protocol",
-            "fees_90d_arr": 9785864.94,
-            "revenues_90d_arr": 149940.82,
-            "fdv_or_mc": 21166471.0,
-            "fdv_fees_90d": 2.16,
-            "fdv_revenues_90d": 141.17,
+            "fees_90d_arr": 9550322.33,
+            "revenues_90d_arr": 140693.02,
+            "fdv_or_mc": 20516017.0,
+            "fdv_fees_90d": 2.15,
+            "fdv_revenues_90d": 145.82,
             "highlight": true
           },
           {
@@ -1519,9 +1519,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 28800964608.0,
+            "fdv_or_mc": 27097212928.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 5.29,
+            "fdv_revenues_90d": 4.98,
             "highlight": false
           },
           {
@@ -1529,9 +1529,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 13171436544.0,
+            "fdv_or_mc": 12242714624.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.35,
+            "fdv_revenues_90d": 4.04,
             "highlight": false
           },
           {
@@ -1539,9 +1539,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 58459774976.0,
+            "fdv_or_mc": 59059134464.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 10.11,
+            "fdv_revenues_90d": 10.22,
             "highlight": false
           },
           {
@@ -1549,9 +1549,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 60666097664.0,
+            "fdv_or_mc": 59117252608.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 11.94,
+            "fdv_revenues_90d": 11.63,
             "highlight": false
           },
           {
@@ -1559,9 +1559,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 840925315072.0,
+            "fdv_or_mc": 842093821952.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.41,
+            "fdv_revenues_90d": 4.42,
             "highlight": false
           },
           {
@@ -1569,9 +1569,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 108965814272.0,
+            "fdv_or_mc": 110691057664.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.66,
+            "fdv_revenues_90d": 15.91,
             "highlight": false
           }
         ]
@@ -1584,7 +1584,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-24T00:30:13.978303+00:00"
+      "generated_at": "2026-11-25T00:30:07.354144+00:00"
     },
     {
       "protocol": "Lido",
@@ -1602,34 +1602,34 @@
         "updated_at": "15-09-2025"
       },
       "adoption": {
-        "tvl": 16665388460.0,
-        "tvl_change_3m_pct": -29.900189723412485
+        "tvl": 16356253496.0,
+        "tvl_change_3m_pct": -30.536026349585832
       },
       "tokenomics": {
-        "market_cap": 196861234,
-        "fdv": 239205617,
-        "mc_fdv": 0.8229791443400762,
+        "market_cap": 186681077,
+        "fdv": 226835732,
+        "mc_fdv": 0.8229791459839316,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 616787106.44,
-        "fees_1y": 572424745.0,
-        "revenues_90d_arr": 34343815.22,
-        "revenues_1y": 31209728.0
+        "fees_90d_arr": 614903057.56,
+        "fees_1y": 571603568.0,
+        "revenues_90d_arr": 34218482.33,
+        "revenues_1y": 31183723.0
       },
       "valuation": {
-        "fdv_fees_90d": 0.39,
-        "fdv_revenues_90d": 6.94,
+        "fdv_fees_90d": 0.37,
+        "fdv_revenues_90d": 6.68,
         "peer_table": [
           {
             "name": "Lido",
             "type": "Protocol",
-            "fees_90d_arr": 616787106.44,
-            "revenues_90d_arr": 34343815.22,
-            "fdv_or_mc": 238483727.0,
-            "fdv_fees_90d": 0.39,
-            "fdv_revenues_90d": 6.94,
+            "fees_90d_arr": 614903057.56,
+            "revenues_90d_arr": 34218482.33,
+            "fdv_or_mc": 228419307.0,
+            "fdv_fees_90d": 0.37,
+            "fdv_revenues_90d": 6.68,
             "highlight": true
           },
           {
@@ -1637,9 +1637,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 28800964608.0,
+            "fdv_or_mc": 27097212928.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 5.29,
+            "fdv_revenues_90d": 4.98,
             "highlight": false
           },
           {
@@ -1647,9 +1647,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 13171436544.0,
+            "fdv_or_mc": 12242714624.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.35,
+            "fdv_revenues_90d": 4.04,
             "highlight": false
           },
           {
@@ -1657,9 +1657,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 58459774976.0,
+            "fdv_or_mc": 59059134464.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 10.11,
+            "fdv_revenues_90d": 10.22,
             "highlight": false
           },
           {
@@ -1667,9 +1667,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 60666097664.0,
+            "fdv_or_mc": 59117252608.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 11.94,
+            "fdv_revenues_90d": 11.63,
             "highlight": false
           },
           {
@@ -1677,9 +1677,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 840925315072.0,
+            "fdv_or_mc": 842093821952.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.41,
+            "fdv_revenues_90d": 4.42,
             "highlight": false
           },
           {
@@ -1687,9 +1687,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 108965814272.0,
+            "fdv_or_mc": 110691057664.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.66,
+            "fdv_revenues_90d": 15.91,
             "highlight": false
           }
         ]
@@ -1702,7 +1702,7 @@
         "tokenomics": "green"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-24T00:30:13.978303+00:00"
+      "generated_at": "2026-11-25T00:30:07.354144+00:00"
     },
     {
       "protocol": "Jito",
@@ -1720,34 +1720,34 @@
         "updated_at": "15-09-2025"
       },
       "adoption": {
-        "tvl": 726412938.16492,
-        "tvl_change_3m_pct": -26.69607438784537
+        "tvl": 706415322.74693,
+        "tvl_change_3m_pct": -30.580914467981923
       },
       "tokenomics": {
-        "market_cap": 130619041,
-        "fdv": 238616569,
-        "mc_fdv": 0.5474013877049754,
+        "market_cap": 125280111,
+        "fdv": 228863694,
+        "mc_fdv": 0.5474005457589093,
         "unlocked_pct": null,
         "unlock_12m_pct": null
       },
       "financials": {
-        "fees_90d_arr": 113286765.5,
-        "fees_1y": 124385124.0,
-        "revenues_90d_arr": 6938212.0,
-        "revenues_1y": 7821616.0
+        "fees_90d_arr": 112124325.67,
+        "fees_1y": 124447657.0,
+        "revenues_90d_arr": 6865224.17,
+        "revenues_1y": 7818871.0
       },
       "valuation": {
-        "fdv_fees_90d": 2.1,
-        "fdv_revenues_90d": 34.29,
+        "fdv_fees_90d": 2.06,
+        "fdv_revenues_90d": 33.64,
         "peer_table": [
           {
             "name": "Jito",
             "type": "Protocol",
-            "fees_90d_arr": 113286765.5,
-            "revenues_90d_arr": 6938212.0,
-            "fdv_or_mc": 237939556.0,
-            "fdv_fees_90d": 2.1,
-            "fdv_revenues_90d": 34.29,
+            "fees_90d_arr": 112124325.67,
+            "revenues_90d_arr": 6865224.17,
+            "fdv_or_mc": 230949445.0,
+            "fdv_fees_90d": 2.06,
+            "fdv_revenues_90d": 33.64,
             "highlight": true
           },
           {
@@ -1755,9 +1755,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 28800964608.0,
+            "fdv_or_mc": 27097212928.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 5.29,
+            "fdv_revenues_90d": 4.98,
             "highlight": false
           },
           {
@@ -1765,9 +1765,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 13171436544.0,
+            "fdv_or_mc": 12242714624.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.35,
+            "fdv_revenues_90d": 4.04,
             "highlight": false
           },
           {
@@ -1775,9 +1775,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 58459774976.0,
+            "fdv_or_mc": 59059134464.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 10.11,
+            "fdv_revenues_90d": 10.22,
             "highlight": false
           },
           {
@@ -1785,9 +1785,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 60666097664.0,
+            "fdv_or_mc": 59117252608.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 11.94,
+            "fdv_revenues_90d": 11.63,
             "highlight": false
           },
           {
@@ -1795,9 +1795,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 840925315072.0,
+            "fdv_or_mc": 842093821952.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 4.41,
+            "fdv_revenues_90d": 4.42,
             "highlight": false
           },
           {
@@ -1805,9 +1805,9 @@
             "type": "Company",
             "fees_90d_arr": null,
             "revenues_90d_arr": null,
-            "fdv_or_mc": 108965814272.0,
+            "fdv_or_mc": 110691057664.0,
             "fdv_fees_90d": null,
-            "fdv_revenues_90d": 15.66,
+            "fdv_revenues_90d": 15.91,
             "highlight": false
           }
         ]
@@ -1820,7 +1820,7 @@
         "tokenomics": "red"
       },
       "conclusion": "Governance structure limits conviction despite the protocol’s strengths.",
-      "generated_at": "2026-11-24T00:30:13.978303+00:00"
+      "generated_at": "2026-11-25T00:30:07.354144+00:00"
     }
   ]
 }
